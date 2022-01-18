@@ -11,8 +11,6 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 * [2. Privacy Papers](#2-privacy-papers)
 * [Contributing](#contributing)
 
-[toc]
-
 ## 1. Security Papers
 
 ### 1.1 Adversarial Attack & Defense
