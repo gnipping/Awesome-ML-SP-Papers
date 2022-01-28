@@ -21,17 +21,17 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks in Machine Learning**. USENIX Security 2020. `Defense of Image Scaling Attack` [[pdf](https://www.usenix.org/system/files/sec20fall_quiring_prepub.pdf)] [[code](https://scaling-attacks.net/)]
 
-1. **HopSkipJumpAttack: A Query-Efficient Decision-Based Attack**. IEEE S&P 2020. `Query-based Black-box Attack`
+1. **HopSkipJumpAttack: A Query-Efficient Decision-Based Attack**. IEEE S&P 2020. `Query-based Black-box Attack` [[pdf](https://arxiv.org/pdf/1904.02144.pdf)] [[code](https://github.com/Jianbo-Lab/HSJA)]
 
-1. **PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking**. USENIX Security 2021. `Adversarial Patch Defense`
+1. **PatchGuard: A Provably Robust Defense against Adversarial Patches via Small Receptive Fields and Masking**. USENIX Security 2021. `Adversarial Patch Defense` [[pdf](https://www.usenix.org/system/files/sec21fall-xiang.pdf)] [[code](https://github.com/inspire-group/PatchGuard)]
 
-1. **Gotta Catch'Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks**. ACM CCS 2020. `Build an trap in model to induce specific adversarial perturbation`
+1. **Gotta Catch'Em All: Using Honeypots to Catch Adversarial Attacks on Neural Networks**. ACM CCS 2020. `Build an trap in model to induce specific adversarial perturbation` [[pdf](https://people.cs.uchicago.edu/~ravenben/publications/pdf/trapdoor-ccs20.pdf)] [[code](https://github.com/Shawn-Shan/trapdoor)]
 
-1. **A Tale of Evil Twins: Adversarial Inputs versus Poisoned Models**. ACM CCS 2020. `Perturbate both input and model`
+1. **A Tale of Evil Twins: Adversarial Inputs versus Poisoned Models**. ACM CCS 2020. `Perturbate both input and model` [[pdf](https://arxiv.org/pdf/1911.01559.pdf)] [[code](https://github.com/alps-lab/imc)]
 
-1. **Feature-Indistinguishable Attack to Circumvent Trapdoor-Enabled Defense**. ACM CCS 2021. `A new attack method can break TeD defense mechanism`
+1. **Feature-Indistinguishable Attack to Circumvent Trapdoor-Enabled Defense**. ACM CCS 2021. `A new attack method can break TeD defense mechanism` [[pdf](https://dl.acm.org/doi/pdf/10.1145/3460120.3485378)] [[code](https://github.innominds.com/CGCL-codes/FeatureIndistinguishableAttack)]
 
-1. **DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks**. ACM CCS 2021. `Provable robustness for patch hiding in object detection`
+1. **DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks**. ACM CCS 2021. `Provable robustness for patch hiding in object detection` [[pdf](https://arxiv.org/pdf/2102.02956.pdf)] [[code](https://github.com/inspire-group/DetectorGuard)]
 
 #### 1.1.2 Text
 
