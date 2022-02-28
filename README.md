@@ -33,73 +33,79 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks**. ACM CCS 2021. `Provable robustness for patch hiding in object detection` [[pdf](https://arxiv.org/pdf/2102.02956.pdf)] [[code](https://github.com/inspire-group/DetectorGuard)]
 
+1. **RamBoAttack: A Robust and Query Efficient Deep Neural Network Decision Exploit**. NDSS 2022. `Query-based black box attack` [[pdf](https://arxiv.org/pdf/2112.05282.pdf)] [[code](https://github.com/RamBoAttack/RamBoAttack.github.io)]
+
+1. **What You See is Not What the Network Infers: Detecting Adversarial Examples Based on Semantic Contradiction**. NDSS 2022. `Generative-based AE detection` [[pdf](https://arxiv.org/pdf/2201.09650.pdf)] [[code](https://github.com/cure-lab/ContraNet)]
+
 #### 1.1.2 Text
 
-1. **TextShield: Robust Text Classification Based on Multimodal Embedding and Neural Machine Translation**. USENIX Security 2020. `Defense in preprossing`
+1. **TextShield: Robust Text Classification Based on Multimodal Embedding and Neural Machine Translation**. USENIX Security 2020. `Defense in preprossing` [[pdf](https://www.usenix.org/system/files/sec20-li-jinfeng.pdf)]
+
+1. **Bad Characters: Imperceptible NLP Attacks**. IEEE S&P 2022. `Use unicode to conduct human imperceptible attack` [[pdf](https://arxiv.org/pdf/2106.09898.pdf)] [[code](https://github.com/nickboucher/imperceptible)]
 
 #### 1.1.3 Audio
 
-1. **WaveGuard: Understanding and Mitigating Audio Adversarial Examples**. USENIX Security 2021. `Defense in preprossing`
+1. **WaveGuard: Understanding and Mitigating Audio Adversarial Examples**. USENIX Security 2021. `Defense in preprossing` [[pdf](https://www.usenix.org/system/files/sec21fall-hussain.pdf)] [[code](https://github.com/shehzeen/waveguard_defense)]
 
-1. **Dompteur: Taming Audio Adversarial Examples**. USENIX Security 2021. `Defense in preprossing. Preprocessing the audio to make the noise human noticeable`
+2. **Dompteur: Taming Audio Adversarial Examples**. USENIX Security 2021. `Defense in preprossing. Preprocessing the audio to make the noise human noticeable` [[pdf](https://www.usenix.org/system/files/sec21-eisenhofer.pdf)] [[code](https://github.com/RUB-SysSec/dompteur)]
 
-1. **Who is Real Bob? Adversarial Attacks on Speaker Recognition Systems**. IEEE S&P 2021. `Attack`
+3. **Who is Real Bob? Adversarial Attacks on Speaker Recognition Systems**. IEEE S&P 2021. `Attack` [[pdf](https://arxiv.org/pdf/1911.01840.pdf)] [[code](https://github.com/FAKEBOB-adversarial-attack/FAKEBOB)]
 
-1. **Hear "No Evil", See "Kenansville": Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems**. IEEE S&P 2021. `Black-box Attack`
+4. **Hear "No Evil", See "Kenansville": Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems**. IEEE S&P 2021. `Black-box Attack` [[pdf](https://arxiv.org/pdf/1910.05262.pdf)]
 
-1. **SoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems**. IEEE S&P 2021. `Survey`
+5. **SoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems**. IEEE S&P 2021. `Survey` [[pdf](https://arxiv.org/pdf/2007.06622.pdf)]
 
-1. **AdvPulse: Universal, Synchronization-free, and Targeted Audio Adversarial Attacks via Subsecond Perturbations**. ACM CCS 2020. `Attack`
+6. **AdvPulse: Universal, Synchronization-free, and Targeted Audio Adversarial Attacks via Subsecond Perturbations**. ACM CCS 2020. `Attack` [[pdf](http://www.winlab.rutgers.edu/~yychen/papers/li2020advpulse.pdf)]
 
-1. **Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information**. ACM CCS 2021. `Black-box Attack. Physical World`
+7. **Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information**. ACM CCS 2021. `Black-box Attack. Physical World` [[pdf](https://arxiv.org/pdf/2110.09714.pdf)]
 
 #### 1.1.4 Video
 
-1. **Universal 3-Dimensional Perturbations for Black-Box Attacks on Video Recognition Systems**. IEEE S&P 2021. `Adversarial attack in video recognition`
+1. **Universal 3-Dimensional Perturbations for Black-Box Attacks on Video Recognition Systems**. IEEE S&P 2022. `Adversarial attack in video recognition` [[pdf](https://arxiv.org/pdf/2107.04284.pdf)]
 
 #### 1.1.5 Graph
 
-1. **A Hard Label Black-box Adversarial Attack Against Graph Neural Networks**. ACM CCS 2021. `Graph Classification`
+1. **A Hard Label Black-box Adversarial Attack Against Graph Neural Networks**. ACM CCS 2021. `Graph Classification` [[pdf](https://arxiv.org/pdf/2108.09513.pdf)]
 
 #### 1.1.6 Software
 
-1. **Intriguing Properties of Adversarial ML Attacks in the Problem Space**. IEEE S&P 2020. `Attack Malware Classification`
+1. **Intriguing Properties of Adversarial ML Attacks in the Problem Space**. IEEE S&P 2020. `Attack Malware Classification` [[pdf](https://arxiv.org/pdf/1911.02142.pdf)]
 
-1. **Structural Attack against Graph Based Android Malware Detection**. IEEE S&P 2020. `Perturbed function call graph`
+2. **Structural Attack against Graph Based Android Malware Detection**. IEEE S&P 2020. `Perturbed function call graph` [[pdf](https://www4.comp.polyu.edu.hk/~csxluo/HRAT.pdf)]
 
 #### 1.1.7 Interpret Method
 
-1. **Interpretable Deep Learning under Fire**. USENIX Security 2020. `Attack both image classification and interpret method`
+1. **Interpretable Deep Learning under Fire**. USENIX Security 2020. `Attack both image classification and interpret method` [[pdf](https://www.usenix.org/system/files/sec20spring_zhang_prepub.pdf)]
 
 #### 1.1.8 Physical World
 
-1. **SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations**. USENIX Security 2021. `Projector light causes misclassification`
+1. **SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations**. USENIX Security 2021. `Projector light causes misclassification` [[pdf](https://www.usenix.org/system/files/sec21fall-lovisotto.pdf)] [[code](https://github.com/ssloxford/short-lived-adversarial-perturbations)]
 
 #### 1.1.9 Reinforcement Learning
 
-1. **Adversarial Policy Training against Deep Reinforcement Learning**. USENIX Security 2021. `Weird behavior to trigger opposite abnormal action. Two-agent competitor game`
+1. **Adversarial Policy Training against Deep Reinforcement Learning**. USENIX Security 2021. `Weird behavior to trigger opposite abnormal action. Two-agent competitor game` [[pdf](https://www.usenix.org/system/files/sec21summer_wu-xian.pdf)] [[code](https://github.com/psuwuxian/rl_attack)]
 
 #### 1.1.10 Robustness
 
-1. **Cost-Aware Robust Tree Ensembles for Security Applications**. USENIX Security 2021. `Propose Cost of feature to certify the model robustness`
+1. **Cost-Aware Robust Tree Ensembles for Security Applications**. USENIX Security 2021. `Propose Cost of feature to certify the model robustness` [[pdf](https://www.usenix.org/system/files/sec21-chen-yizheng.pdf)] [[code](https://github.com/surrealyz/growtrees)]
 
-1. **CADE: Detecting and Explaining Concept Drift Samples for Security Applications**. USENIX Security 2021. `Detect Concept shift`
+1. **CADE: Detecting and Explaining Concept Drift Samples for Security Applications**. USENIX Security 2021. `Detect Concept shift` [[pdf](https://www.usenix.org/system/files/sec21-yang-limin.pdf)] [[code](https://github.com/whyisyoung/CADE)]
 
-1. **Learning Security Classifiers with Verified Global Robustness Properties**. ACM CCS 2021. `Train a classifier with global robustness`
+2. **Learning Security Classifiers with Verified Global Robustness Properties**. ACM CCS 2021. `Train a classifier with global robustness` [[pdf](https://arxiv.org/pdf/2105.11363.pdf)] [[code](https://github.com/surrealyz/verified-global-properties)]
 
-1. **On the Robustness of Domain Constraints**. ACM CCS 2021. `Domain constraints. Input space robustness`
+3. **On the Robustness of Domain Constraints**. ACM CCS 2021. `Domain constraints. Input space robustness` [[pdf](https://arxiv.org/pdf/2105.08619.pdf)]
 
-1. **Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks**. ACM CCS 2021. `Certify robustness in RNN`
+4. **Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks**. ACM CCS 2021. `Certify robustness in RNN` [[pdf](https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf)]
 
-1. **TSS: Transformation-Specific Smoothing for Robustness Certification**. ACM CCS 2021. `Certify robustness about transformation`
+5. **TSS: Transformation-Specific Smoothing for Robustness Certification**. ACM CCS 2021. `Certify robustness about transformation` [[pdf](https://arxiv.org/pdf/2002.12398.pdf)][[code](https://github.com/AI-secure/semantic-randomized-smoothing)]
 
 #### 1.1.11 Network Traffic
 
-1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis`
+1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis` [[pdf](https://www.usenix.org/system/files/sec21fall-nasr.pdf)][[code](https://github.com/SPIN-UMass/BLANKET)]
 
 #### 1.1.12 Wireless Communication System
 
-1. **Robust Adversarial Attacks Against DNN-Based Wireless Communication Systems**. ACM CCS 2021. `Attack`
+1. **Robust Adversarial Attacks Against DNN-Based Wireless Communication Systems**. ACM CCS 2021. `Attack` [[pdf](https://arxiv.org/pdf/2102.00918.pdf)]
 
 ### 1.2 Distributed Machine Learning
 
@@ -108,6 +114,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **Local Model Poisoning Attacks to Byzantine-Robust Federated Learning**. USENIX Security 2020. `Poisoning Attack`
 
 1. **Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses for Federated Learning**. NDSS 2021. `Poisoning Attack`
+
+1. **DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection**. NDSS 2022. `Backdoor defense` [[pdf](https://arxiv.org/pdf/2201.00763.pdf)]
 
 #### 1.2.2 Normal Distributed Learning
 
@@ -136,6 +144,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.3.5 Classification
 
 1. **Subpopulation Data Poisoning Attacks**. ACM CCS 2021. `Poisoning to flip a group of data samples`
+
+1. **Get a Model! Model Hijacking Attack Against Machine Learning Models**. NDSS 2022. `Fusing dataset to hijacking model` [[pdf](https://arxiv.org/pdf/2111.04394.pdf)] [[code](https://github.com/AhmedSalem2/Model-Hijacking)]
 
 ### 1.4 Backdoor
 
@@ -235,6 +245,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **DataLens: Scalable Privacy Preserving Training via Gradient Compression and Aggregation**. ACM CCS 2021. `DP to train an privacy preserving GAN`
 
+2. **Property Inference Attacks Against GANs**. NDSS 2022. `Property Inference Attacks Against GAN`  [[pdf](https://yangzhangalmo.github.io/papers/NDSS22-PIAGAN.pdf)] [[code](https://github.com/Zhou-Junhao/PIA_GAN)]
+
 #### 2.1.2 Membership Inference Attack
 
 1. **Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference**. USENIX Security 2020. `White-box Setting`
@@ -260,6 +272,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **Leakage of Dataset Properties in Multi-Party Machine Learning**. USENIX Security 2021. `Dataset Properties Leakage`
 
 1. **Unleashing the Tiger: Inference Attacks on Split Learning**. ACM CCS 2021. `Split learning. Feature-space hijacking attack`
+
+2. **Local and Central Differential Privacy for Robustness and Privacy in Federated Learning**. NDSS 2022. `DP in federated learning` [[pdf](https://arxiv.org/pdf/2009.03561.pdf)]
 
 #### 2.1.4 Information Leakage in Embedding
 
