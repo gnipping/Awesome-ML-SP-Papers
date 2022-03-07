@@ -111,39 +111,39 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 #### 1.2.1 Federated Learning
 
-1. **Local Model Poisoning Attacks to Byzantine-Robust Federated Learning**. USENIX Security 2020. `Poisoning Attack`
+1. **Local Model Poisoning Attacks to Byzantine-Robust Federated Learning**. USENIX Security 2020. `Poisoning Attack` [[pdf](https://www.usenix.org/system/files/sec20summer_fang_prepub.pdf)]
 
-1. **Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses for Federated Learning**. NDSS 2021. `Poisoning Attack`
+2. **Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses for Federated Learning**. NDSS 2021. `Poisoning Attack` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6C-3_24498_paper.pdf)]
 
-1. **DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection**. NDSS 2022. `Backdoor defense` [[pdf](https://arxiv.org/pdf/2201.00763.pdf)]
+3. **DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection**. NDSS 2022. `Backdoor defense` [[pdf](https://arxiv.org/pdf/2201.00763.pdf)]
 
 #### 1.2.2 Normal Distributed Learning
 
-1. **Justinian's GAAvernor: Robust Distributed Learning with Gradient Aggregation Agent**. USENIX Security 2020. `Defense in Gradient Aggregation. Reinforcement learning`
+1. **Justinian's GAAvernor: Robust Distributed Learning with Gradient Aggregation Agent**. USENIX Security 2020. `Defense in Gradient Aggregation. Reinforcement learning` [[pdf](https://www.usenix.org/system/files/sec20-pan.pdf)]
 
 ### 1.3 Data Poisoning
 
 #### 1.3.1 Hijack Embedding
 
-1. **Humpty Dumpty: Controlling Word Meanings via Corpus Poisoning**. IEEE S&P 2020. `Hijack Word Embedding`
+1. **Humpty Dumpty: Controlling Word Meanings via Corpus Poisoning**. IEEE S&P 2020. `Hijack Word Embedding` [[pdf](https://www.cs.cornell.edu/~shmat/shmat_oak20.pdf)]
 
 #### 1.3.2 Hijack Autocomplete Code
 
-1. **You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion**. USENIX Security 2021. `Hijack Code Autocomplete`
+1. **You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion**. USENIX Security 2021. `Hijack Code Autocomplete` [[pdf](https://www.usenix.org/system/files/sec21-schuster.pdf)]
 
 #### 1.3.3 Semi-Supervised Learning
 
-1. **Poisoning the Unlabeled Dataset of Semi-Supervised Learning**. USENIX Security 2021. `Hijack Code Autocomplete`
+1. **Poisoning the Unlabeled Dataset of Semi-Supervised Learning**. USENIX Security 2021. `Poisoning semi-supervised learning` [[pdf](https://www.usenix.org/system/files/sec21-carlini-poisoning.pdf)]
 
 #### 1.3.4 Recommender Systems
 
-1. **Data Poisoning Attacks to Deep Learning Based Recommender Systems**. NDSS 2021. `The attacker chosen items are recommended as much as possible`
+1. **Data Poisoning Attacks to Deep Learning Based Recommender Systems**. NDSS 2021. `The attacker chosen items are recommended as much as possible` [[pdf](https://arxiv.org/pdf/2101.02644.pdf)]
 
-1. **Reverse Attack: Black-box Attacks on Collaborative Recommendation**. ACM CCS 2021. `Black-box setting. Surrogate model. Collaborative Filtering. Demoting and Promoting`
+1. **Reverse Attack: Black-box Attacks on Collaborative Recommendation**. ACM CCS 2021. `Black-box setting. Surrogate model. Collaborative Filtering. Demoting and Promoting` [[pdf](https://dl.acm.org/doi/abs/10.1145/3460120.3484805)]
 
 #### 1.3.5 Classification
 
-1. **Subpopulation Data Poisoning Attacks**. ACM CCS 2021. `Poisoning to flip a group of data samples`
+1. **Subpopulation Data Poisoning Attacks**. ACM CCS 2021. `Poisoning to flip a group of data samples` [[pdf](https://arxiv.org/pdf/2006.14026.pdf)]
 
 1. **Get a Model! Model Hijacking Attack Against Machine Learning Models**. NDSS 2022. `Fusing dataset to hijacking model` [[pdf](https://arxiv.org/pdf/2111.04394.pdf)] [[code](https://github.com/AhmedSalem2/Model-Hijacking)]
 
@@ -151,83 +151,84 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 #### 1.4.1 Image
 
-1. **Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection**. USENIX Security 2021. `Class-specific Backdoor. Defense by decomposition`
+1. **Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection**. USENIX Security 2021. `Class-specific Backdoor. Defense by decomposition` [[pdf](https://www.usenix.org/system/files/sec21-tang-di.pdf)] 
 
-1. **Double-Cross Attacks: Subverting Active Learning Systems**. USENIX Security 2021. `Active Learning System. Backdoor Attack`
+1. **Double-Cross Attacks: Subverting Active Learning Systems**. USENIX Security 2021. `Active Learning System. Backdoor Attack` [[pdf](https://www.usenix.org/system/files/sec21-vicarte.pdf)] 
 
-1. **Detecting AI Trojans Using Meta Neural Analysis**. IEEE S&P 2021. `Meta Neural Classifier`
+1. **Detecting AI Trojans Using Meta Neural Analysis**. IEEE S&P 2021. `Meta Neural Classifier` [[pdf](https://arxiv.org/pdf/1910.03137.pdf)] [[code](https://github.com/AI-secure/Meta-Nerual-Trojan-Detection)]
 
-1. **BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning**. IEEE S&P 2022. `Backdoor attack in image-text pretrained model`
+1. **BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning**. IEEE S&P 2022. `Backdoor attack in image-text pretrained model` [[pdf](https://arxiv.org/pdf/2108.00352.pdf)] [[code](https://github.com/jjy1994/BadEncoder)]
 
-1. **Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features**. ACM CCS 2020. `Composite backdoor. Image & text tasks`
+1. **Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features**. ACM CCS 2020. `Composite backdoor. Image & text tasks` [[pdf](https://dl.acm.org/doi/10.1145/3372297.3423362)] [[code](https://github.com/TemporaryAcc0unt/composite-attack)]
 
-1. **AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks**. ACM CCS 2021. `Locate neural location and finetuning it`
+2. **AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks**. ACM CCS 2021. `Locate neural location and finetuning it` [[pdf](https://dl.acm.org/doi/pdf/10.1145/3460120.3484818)]
 
 #### 1.4.2 Text
 
-1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger`
+1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger` [[pdf](https://www.usenix.org/system/files/sec21fall-azizi.pdf)] [[code](https://github.com/reza321/T-Miner)]
 
-1. **Hidden Backdoors in Human-Centric Language Models**. ACM CCS 2021. `Novel trigger`
+1. **Hidden Backdoors in Human-Centric Language Models**. ACM CCS 2021. `Novel trigger` [[pdf](https://arxiv.org/pdf/2105.00164.pdf)] [[code](https://github.com/lishaofeng/NLP_Backdoor)]
 
-1. **Backdoor Pre-trained Models Can Transfer to All**. ACM CCS 2021. `Backdoor in pre-trained to poison the down stream task`
+1. **Backdoor Pre-trained Models Can Transfer to All**. ACM CCS 2021. `Backdoor in pre-trained to poison the down stream task` [[pdf](https://arxiv.org/pdf/2111.00197.pdf)] [[code](https://github.com/lishaofeng/NLP_Backdoor)]
 
 #### 1.4.3 Graph
 
-1. **Graph Backdoor**. USENIX Security 2021. `Classification`
+1. **Graph Backdoor**. USENIX Security 2021. `Classification` [[pdf](https://arxiv.org/pdf/2006.11890.pdf)] [[code](https://github.com/HarrialX/GraphBackdoor)]
 
 #### 1.4.4 Software
 
-1. **Explanation-Guided Backdoor Poisoning Attacks Against Malware Classifiers**. USENIX Security 2021. `Explanation Method. Evade Classification`
+1. **Explanation-Guided Backdoor Poisoning Attacks Against Malware Classifiers**. USENIX Security 2021. `Explanation Method. Evade Classification` [[pdf](https://www.usenix.org/system/files/sec21fall-severi.pdf)] [[code](https://github.com/ClonedOne/MalwareBackdoors)]
 
 ### 1.5 ML Library Security
 
 #### 1.5.1 Loss
 
-1. **Blind Backdoors in Deep Learning Models**. USENIX Security 2021. `Loss Manipulation. Backdoor`
+1. **Blind Backdoors in Deep Learning Models**. USENIX Security 2021. `Loss Manipulation. Backdoor` [[pdf](https://www.cs.cornell.edu/~shmat/shmat_usenix21blind.pdf)] [[code](https://github.com/ebagdasa/backdoors101)]
+
 
 ### 1.6 AI4Security
 
 #### 1.6.1 Cyberbullying
 
-1. **Towards Understanding and Detecting Cyberbullying in Real-world Images**. NDSS 2021. `Detect image cyberbully`
+1. **Towards Understanding and Detecting Cyberbullying in Real-world Images**. NDSS 2021. `Detect image cyberbully` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-4_24260_paper.pdf)]
 
 #### 1.6.2 Label Complete
 
-1. **FARE: Enabling Fine-grained Attack Categorization under Low-quality Labeled Data**. NDSS 2021. `Clustering Method to complete the dataset label`
+1. **FARE: Enabling Fine-grained Attack Categorization under Low-quality Labeled Data**. NDSS 2021. `Clustering Method to complete the dataset label` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5C-4_24403_paper.pdf)] [[code](https://github.com/junjieliang672/FARE)]
 
 #### 1.6.3 Advertisement detection
 
-1. **WtaGraph: Web Tracking and Advertising Detection using Graph Neural Networks**. IEEE S&P 2022. `GNN`
+1. **WtaGraph: Web Tracking and Advertising Detection using Graph Neural Networks**. IEEE S&P 2022. `GNN` [[pdf](https://zhiju.me/assets/files/WtaGraph_SP22.pdf)]
 
 #### 1.6.4 CAPTCHA
 
-1. **Text Captcha Is Dead? A Large Scale Deployment and Empirical Studys**. ACM CCS 2020. `Adversarial CAPTCHA`
+1. **Text Captcha Is Dead? A Large Scale Deployment and Empirical Studys**. ACM CCS 2020. `Adversarial CAPTCHA` [[pdf](https://nesa.zju.edu.cn/download/Text%20Captcha%20Is%20Dead%20A%20Large%20Scale%20Deployment%20and%20Empirical%20Study.pdf)]
 
 #### 1.6.5 Code embedding
 
-1. **PalmTree: Learning an Assembly Language Model for Instruction Embedding**. ACM CCS 2021. `Pre-trained model to generate code embedding`
+1. **PalmTree: Learning an Assembly Language Model for Instruction Embedding**. ACM CCS 2021. `Pre-trained model to generate code embedding` [[pdf](https://arxiv.org/pdf/2103.03809.pdf)] [[code](https://github.com/palmtreemodel/PalmTree)]
 
 #### 1.6.6 Survey
 
-1. **Dos and Don'ts of Machine Learning in Computer Security**. USENIX Security 2022. `Survey pitfalls in ML4Security`
+1. **Dos and Don'ts of Machine Learning in Computer Security**. USENIX Security 2022. `Survey pitfalls in ML4Security` [[pdf](https://www.usenix.org/system/files/sec22summer_arp.pdf)]
 
 ### 1.7 AutoML Security
 
 #### 1.7.1 Security Analysis
 
-1. **On the Security Risks of AutoML**. USENIX Security 2022. `Adversarial evasion. Model poisoning. Backdoor. Functionality stealing. Membership Inference`
+1. **On the Security Risks of AutoML**. USENIX Security 2022. `Adversarial evasion. Model poisoning. Backdoor. Functionality stealing. Membership Inference` [[pdf](https://www.usenix.org/system/files/sec22summer_pang.pdf)]
 
 ### 1.8 Hardware Related Security 
 
 #### 1.8.1 Verification
 
-1. **DeepDyve: Dynamic Verification for Deep Neural Networks**. ACM CCS 2020.
+1. **DeepDyve: Dynamic Verification for Deep Neural Networks**. ACM CCS 2020. [[pdf](https://arxiv.org/pdf/2009.09663.pdf)]
 
 ### 1.9 Security Related Interpreting Method
 
 #### 1.9.1 Unsupervised Learning
 
-1. **DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications**. ACM CCS 2021. `Anomaly detection`
+1. **DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications**. ACM CCS 2021. `Anomaly detection`  [[pdf](https://arxiv.org/pdf/2109.11495.pdf)] [[code](https://github.com/dongtsi/DeepAID)]
 
 ## 2. Privacy Papers
 
