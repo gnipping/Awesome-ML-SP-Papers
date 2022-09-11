@@ -37,6 +37,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **What You See is Not What the Network Infers: Detecting Adversarial Examples Based on Semantic Contradiction**. NDSS 2022. `Generative-based AE detection` [[pdf](https://arxiv.org/pdf/2201.09650.pdf)] [[code](https://github.com/cure-lab/ContraNet)]
 
+1. **AutoDA: Automated Decision-based Iterative Adversarial Attacks**. NDSS 2022. `Program Synthesis for Adversarial Attack` [[pdf](https://www.usenix.org/system/files/sec22_slides-fu-qi.pdf)]
+
 #### 1.1.2 Text
 
 1. **TextShield: Robust Text Classification Based on Multimodal Embedding and Neural Machine Translation**. USENIX Security 2020. `Defense in preprossing` [[pdf](https://www.usenix.org/system/files/sec20-li-jinfeng.pdf)]
@@ -85,7 +87,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Adversarial Policy Training against Deep Reinforcement Learning**. USENIX Security 2021. `Weird behavior to trigger opposite abnormal action. Two-agent competitor game` [[pdf](https://www.usenix.org/system/files/sec21summer_wu-xian.pdf)] [[code](https://github.com/psuwuxian/rl_attack)]
 
-#### 1.1.10 Robustness
+#### 1.1.10 Robust Defense
 
 1. **Cost-Aware Robust Tree Ensembles for Security Applications**. USENIX Security 2021. `Propose Cost of feature to certify the model robustness` [[pdf](https://www.usenix.org/system/files/sec21-chen-yizheng.pdf)] [[code](https://github.com/surrealyz/growtrees)]
 
@@ -98,6 +100,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 4. **Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks**. ACM CCS 2021. `Certify robustness in RNN` [[pdf](https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf)]
 
 5. **TSS: Transformation-Specific Smoothing for Robustness Certification**. ACM CCS 2021. `Certify robustness about transformation` [[pdf](https://arxiv.org/pdf/2002.12398.pdf)][[code](https://github.com/AI-secure/semantic-randomized-smoothing)]
+
+6. **Transcend: Detecting Concept Drift in Malware Classification Models**. USENIX Security 2017. `Conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/sec17-jordaney.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
+
+7. **Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift**. IEEE S&P 2022. `New conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/transcending.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
 
 #### 1.1.11 Network Traffic
 
@@ -236,125 +242,125 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 #### 2.1.1 Data Recovery
 
-1. **Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning**. USENIX Security 2020. `Online Learning. Model updates`
+1. **Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning**. USENIX Security 2020. `Online Learning. Model updates` [[pdf](https://www.usenix.org/system/files/sec20summer_salem_prepub.pdf)]
 
-1. **Extracting Training Data from Large Language Models**. USENIX Security 2021. `Membership inference attack. GPT-2`
+1. **Extracting Training Data from Large Language Models**. USENIX Security 2021. `Membership inference attack. GPT-2` [[pdf](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)]
 
-1. **Analyzing Information Leakage of Updates to Natural Language Models**. ACM CCS 2020. `data leakage in model changes`
+1. **Analyzing Information Leakage of Updates to Natural Language Models**. ACM CCS 2020. `data leakage in model changes` [[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/ccs20.pdf)]
 
-1. **TableGAN-MCA: Evaluating Membership Collisions of GAN-Synthesized Tabular Data Releasing**. ACM CCS 2021. `Membership collision in GAN`
+1. **TableGAN-MCA: Evaluating Membership Collisions of GAN-Synthesized Tabular Data Releasing**. ACM CCS 2021. `Membership collision in GAN` [[pdf](https://arxiv.org/pdf/2107.13190.pdf)]
 
-1. **DataLens: Scalable Privacy Preserving Training via Gradient Compression and Aggregation**. ACM CCS 2021. `DP to train an privacy preserving GAN`
+1. **DataLens: Scalable Privacy Preserving Training via Gradient Compression and Aggregation**. ACM CCS 2021. `DP to train an privacy preserving GAN` [[pdf](https://arxiv.org/pdf/2103.11109.pdf)]
 
 2. **Property Inference Attacks Against GANs**. NDSS 2022. `Property Inference Attacks Against GAN`  [[pdf](https://yangzhangalmo.github.io/papers/NDSS22-PIAGAN.pdf)] [[code](https://github.com/Zhou-Junhao/PIA_GAN)]
 
 #### 2.1.2 Membership Inference Attack
 
-1. **Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference**. USENIX Security 2020. `White-box Setting`
+1. **Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference**. USENIX Security 2020. `White-box Setting` [[pdf](https://www.usenix.org/system/files/sec20-leino.pdf)] 
 
-1. **Systematic Evaluation of Privacy Risks of Machine Learning Models**. USENIX Security 2020. `Metric-based Membership inference Attack Method. Define Privacy Risk Score`
+1. **Systematic Evaluation of Privacy Risks of Machine Learning Models**. USENIX Security 2020. `Metric-based Membership inference Attack Method. Define Privacy Risk Score` [[pdf](https://www.usenix.org/system/files/sec21fall-song.pdf)] [[code](https://github.com/inspire-group/membership-inference-evaluation)]
 
-1. **Practical Blind Membership Inference Attack via Differential Comparisons**. NDSS 2021. `Use non-member data to replace shadow model`
+1. **Practical Blind Membership Inference Attack via Differential Comparisons**. NDSS 2021. `Use non-member data to replace shadow model` [[pdf](https://arxiv.org/pdf/2101.01341.pdf)] [[code](https://github.com/hyhmia/BlindMI)]
 
-1. **GAN-Leaks: A Taxonomy of Membership Inference Attacks against Generative Models**. ACM CCS 2020. `Membership inference attack in Generative model. Member has small reconstruction error`
+1. **GAN-Leaks: A Taxonomy of Membership Inference Attacks against Generative Models**. ACM CCS 2020. `Membership inference attack in Generative model. Member has small reconstruction error` [[pdf](https://arxiv.org/pdf/1909.03935.pdf)]
 
-1. **Quantifying and Mitigating Privacy Risks of Contrastive Learning**. ACM CCS 2021. `Membership inference attack. Property inference attack. Contrastive learning in classification task`
+1. **Quantifying and Mitigating Privacy Risks of Contrastive Learning**. ACM CCS 2021. `Membership inference attack. Property inference attack. Contrastive learning in classification task` [[pdf](https://yangzhangalmo.github.io/papers/CCS21-ContrastivePrivacy.pdf)] [[code](https://github.com/xinleihe/ContrastiveLeaks)]
 
-1. **Membership Inference Attacks Against Recommender Systems**. ACM CCS 2021. `Recommender System`
+1. **Membership Inference Attacks Against Recommender Systems**. ACM CCS 2021. `Recommender System` [[pdf](https://yangzhangalmo.github.io/papers/CCS21-RecommenderMIA.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
 
-1. **EncoderMI: Membership Inference against Pre-trained Encoders in Contrastive Learning**. ACM CCS 2021. `Contrastive learning in pre-trained model. Data augmentation has higher similarity`
+1. **EncoderMI: Membership Inference against Pre-trained Encoders in Contrastive Learning**. ACM CCS 2021. `Contrastive learning in pre-trained model. Data augmentation has higher similarity` [[pdf](https://arxiv.org/pdf/2108.11023.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
 
 #### 2.1.3 Information Leakage in Distributed ML System
 
-1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning`
+1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning` [[pdf](https://www.usenix.org/system/files/sec22summer_fu.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
 
-1. **The Value of Collaboration in Convex Machine Learning with Differential Privacy**. IEEE S&P 2020. `DP as Defense`
+1. **The Value of Collaboration in Convex Machine Learning with Differential Privacy**. IEEE S&P 2020. `DP as Defense` [[pdf](https://arxiv.org/pdf/1906.09679.pdf)]
 
-1. **Leakage of Dataset Properties in Multi-Party Machine Learning**. USENIX Security 2021. `Dataset Properties Leakage`
+1. **Leakage of Dataset Properties in Multi-Party Machine Learning**. USENIX Security 2021. `Dataset Properties Leakage` [[pdf](https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf)]
 
-1. **Unleashing the Tiger: Inference Attacks on Split Learning**. ACM CCS 2021. `Split learning. Feature-space hijacking attack`
+1. **Unleashing the Tiger: Inference Attacks on Split Learning**. ACM CCS 2021. `Split learning. Feature-space hijacking attack` [[pdf](https://arxiv.org/pdf/2012.02670.pdf)] [[code](https://github.com/pasquini-dario/SplitNN_FSHA)]
 
 2. **Local and Central Differential Privacy for Robustness and Privacy in Federated Learning**. NDSS 2022. `DP in federated learning` [[pdf](https://arxiv.org/pdf/2009.03561.pdf)]
 
 #### 2.1.4 Information Leakage in Embedding
 
-1. **Privacy Risks of General-Purpose Language Models**. IEEE S&P 2020. `Pretrained Language Model`
+1. **Privacy Risks of General-Purpose Language Models**. IEEE S&P 2020. `Pretrained Language Model` [[pdf](https://nesa.zju.edu.cn/download/Privacy%20Risks%20of%20General-Purpose%20Language%20Models.pdf)]
 
-1. **Information Leakage in Embedding Models**. ACM CCS 2020. `Exact Word Recovery. Attribute inference. Membership inference`
+1. **Information Leakage in Embedding Models**. ACM CCS 2020. `Exact Word Recovery. Attribute inference. Membership inference` [[pdf](https://arxiv.org/pdf/2004.00053.pdf)]
 
-1. **Honest-but-Curious Nets: Sensitive Attributes of Private Inputs Can Be Secretly Coded into the Classifiers' Outputs**. ACM CCS 2021. `Infer privacy information in classification output`
+1. **Honest-but-Curious Nets: Sensitive Attributes of Private Inputs Can Be Secretly Coded into the Classifiers' Outputs**. ACM CCS 2021. `Infer privacy information in classification output` [[pdf](https://arxiv.org/pdf/2105.12049.pdf)] [[code](https://github.com/mmalekzadeh/honest-but-curious-nets)]
 
 #### 2.1.5 Graph Leakage
 
-1. **Stealing Links from Graph Neural Networks**. USENIX Security 2021. `Inference Graph Link`
+1. **Stealing Links from Graph Neural Networks**. USENIX Security 2021. `Inference Graph Link` [[pdf](https://arxiv.org/pdf/2105.12049.pdf)]
 
-1. **Inference Attacks Against Graph Neural Networks**. USENIX Security 2022. `Property inference: number of nodes. Subgraph inference. Graph reconstruction`
+1. **Inference Attacks Against Graph Neural Networks**. USENIX Security 2022. `Property inference: number of nodes. Subgraph inference. Graph reconstruction` [[pdf](https://www.usenix.org/system/files/sec22summer_zhang-zhikun.pdf)] [[code](https://github.com/Zhangzhk0819/GNN-Embedding-Leaks)]
 
-1. **LinkTeller: Recovering Private Edges from Graph Neural Networks via Influence Analysis**. IEEE S&P 2022. `Use node connection influence to infer graph edges`
+1. **LinkTeller: Recovering Private Edges from Graph Neural Networks via Influence Analysis**. IEEE S&P 2022. `Use node connection influence to infer graph edges` [[pdf](https://arxiv.org/pdf/2108.06504.pdf)]
 
-1. **Locally Private Graph Neural Networks**. IEEE S&P 2022. `LDP as defense for node privacy`
+1. **Locally Private Graph Neural Networks**. IEEE S&P 2022. `LDP as defense for node privacy` [[pdf](https://arxiv.org/pdf/2006.05535.pdf)] [[code](https://github.com/sisaman/LPGNN)]
 
 #### 2.1.6 Unlearning
 
-1. **Machine Unlearning**. IEEE S&P 2020. `Shard and isolate the training dataset`
+1. **Machine Unlearning**. IEEE S&P 2020. `Shard and isolate the training dataset` [[pdf](https://arxiv.org/pdf/1912.03817.pdf)] [[code](https://github.com/cleverhans-lab/machine-unlearning)]
 
-1. **When Machine Unlearning Jeopardizes Privacy**. ACM CCS 2021. `Membership inference attack in unlearning setting`
+1. **When Machine Unlearning Jeopardizes Privacy**. ACM CCS 2021. `Membership inference attack in unlearning setting` [[pdf](https://arxiv.org/pdf/2005.02205.pdf)] [[code](https://github.com/MinChen00/UnlearningLeaks)]
 
 ### 2.2 Model
 
 #### 2.2.1 Model Extraction
 
-1. **Exploring Connections Between Active Learning and Model Extraction**. USENIX Security 2020. `Active Learning`
+1. **Exploring Connections Between Active Learning and Model Extraction**. USENIX Security 2020. `Active Learning` [[pdf](https://www.usenix.org/system/files/sec20-chandrasekaran.pdf)]
 
-1. **High Accuracy and High Fidelity Extraction of Neural Networks**. USENIX Security 2020. `Fidelity`
+1. **High Accuracy and High Fidelity Extraction of Neural Networks**. USENIX Security 2020. `Fidelity` [[pdf](https://arxiv.org/pdf/1909.01838.pdf)]
 
-1. **DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks**. USENIX Security 2021. `Query Data Selection Method to reduce the query`
+1. **DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks**. USENIX Security 2021. `Query Data Selection Method to reduce the query` [[pdf](https://www.usenix.org/system/files/sec21-he-yingzhe.pdf)]
 
-1. **Entangled Watermarks as a Defense against Model Extraction**. USENIX Security 2021. `Backdoor as watermark against model extraction`
+1. **Entangled Watermarks as a Defense against Model Extraction**. USENIX Security 2021. `Backdoor as watermark against model extraction` [[pdf](https://www.usenix.org/system/files/sec21fall-jia.pdf)]
 
-1. **CloudLeak: Large-Scale Deep Learning Models Stealing Through Adversarial Examples**. NDSS 2020. `Adversarial Example to strengthen model stealing`
+1. **CloudLeak: Large-Scale Deep Learning Models Stealing Through Adversarial Examples**. NDSS 2020. `Adversarial Example to strengthen model stealing` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24178.pdf)]
 
 #### 2.2.2 Watermarking Model Outputs
 
-1. **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding**. IEEE S&P 2021. `Encode secret message into LM`
+1. **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding**. IEEE S&P 2021. `Encode secret message into LM` [[pdf](https://arxiv.org/pdf/2009.03015.pdf)]
 
 #### 2.2.3 Model Owenership
 
-1. **Proof-of-Learning: Definitions and Practice**. IEEE S&P 2021. `Proof the ownership of model parameters`
+1. **Proof-of-Learning: Definitions and Practice**. IEEE S&P 2021. `Proof the ownership of model parameters` [[pdf](https://arxiv.org/pdf/2103.05633.pdf)]
 
-1. **SoK: How Robust is Image Classification Deep Neural Network Watermarking?**. IEEE S&P 2022. `Survey of DNN watermarking`
+1. **SoK: How Robust is Image Classification Deep Neural Network Watermarking?**. IEEE S&P 2022. `Survey of DNN watermarking` [[pdf](https://arxiv.org/pdf/2108.04974.pdf)]
 
-1. **Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models**. IEEE S&P 2022. `Calculate model similarity by generating test examples`
+1. **Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models**. IEEE S&P 2022. `Calculate model similarity by generating test examples` [[pdf](https://nesa.zju.edu.cn/download/cjl_pdf_sp22.pdf)] [[code](https://github.com/Testing4AI/DeepJudge)]
 
 ### 2.3 User Related Privacy
 
 #### 2.3.1 Image
 
-1. **Fawkes: Protecting Privacy against Unauthorized Deep Learning Models**. USENIX Security 2022. `Protect Face Privacy`
+1. **Fawkes: Protecting Privacy against Unauthorized Deep Learning Models**. USENIX Security 2022. `Protect Face Privacy` [[pdf](https://people.cs.uchicago.edu/~ravenben/publications/pdf/fawkes-usenix20.pdf)] [[code](https://github.com/Shawn-Shan/fawkes)]
 
-2. **Automatically Detecting Bystanders in Photos to Reduce Privacy Risks**. IEEE S&P 2020. `Detecting bystanders`
+2. **Automatically Detecting Bystanders in Photos to Reduce Privacy Risks**. IEEE S&P 2020. `Detecting bystanders` [[pdf](http://vision.soic.indiana.edu/papers/bystander2020oakland.pdf)]
 
 ### 2.4 MPC ML Protocols
 
 #### 2.4.1 3PC
 
-1. **SWIFT: Super-fast and Robust Privacy-Preserving Machine Learning**. USENIX Security 2021.
+1. **SWIFT: Super-fast and Robust Privacy-Preserving Machine Learning**. USENIX Security 2021. [[pdf](https://arxiv.org/pdf/2005.10296.pdf)]
 
-1. **BLAZE: Blazing Fast Privacy-Preserving Machine Learning**. NDSS 2020.
+1. **BLAZE: Blazing Fast Privacy-Preserving Machine Learning**. NDSS 2020. [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24202-paper.pdf)]
 
 #### 2.4.2 4PC
 
-1. **Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning**. NDSS 2020.
+1. **Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning**. NDSS 2020. [[pdf](https://arxiv.org/pdf/1912.02631.pdf)]
 
 #### 2.4.3 SMPC
 
-1. **Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning**. USENIX Security 2021.
+1. **Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning**. USENIX Security 2021. [[pdf](https://www.usenix.org/system/files/sec21-zheng.pdf)] [[code](https://github.com/mc2-project/cerebro)]
 
 ### 2.5 Platform
 
 #### 2.5.1 Inference Attack Measurement
 
-1. **ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models**. USENIX Security 2022. `Membership inference attack. Model inversion. Attribute inference. Model stealing`
+1. **ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models**. USENIX Security 2022. `Membership inference attack. Model inversion. Attribute inference. Model stealing` [[pdf](https://www.usenix.org/system/files/sec22summer_liu-yugeng.pdf)] [[code](https://www.usenix.org/system/files/sec22summer_liu-yugeng.pdf)]
 
 ## Contributing
 
