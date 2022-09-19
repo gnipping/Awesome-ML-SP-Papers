@@ -71,6 +71,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 #### 1.1.6 Software
 
+1. **Evading Classifiers by Morphing in the Dark**. ACM CCS 2017. `Morpher and search to generate adversarial PDF` [[pdf](https://arxiv.org/pdf/1705.07535.pdf)]
+
 1. **Misleading Authorship Attribution of Source Code using Adversarial Learning**. USENIX Security 2019. `Adversarial attack in source code, MCST` [[pdf](https://arxiv.org/pdf/1905.12386.pdf)] [[code](http://www.tu-braunschweig.de/sec/research/code/imitator)]
 
 1. **Intriguing Properties of Adversarial ML Attacks in the Problem Space**. IEEE S&P 2020. `Attack Malware Classification` [[pdf](https://arxiv.org/pdf/1911.02142.pdf)]
