@@ -111,6 +111,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 7. **Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift**. IEEE S&P 2022. `New conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/transcending.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
 
+8. **Transferring Adversarial Robustness Through Robust Representation Matching**. USENIX Security 2022. `Robust Transfer Learning` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
+
 #### 1.1.11 Network Traffic
 
 1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis` [[pdf](https://www.usenix.org/system/files/sec21fall-nasr.pdf)][[code](https://github.com/SPIN-UMass/BLANKET)]
@@ -128,6 +130,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 2. **Manipulating the Byzantine: Optimizing Model Poisoning Attacks and Defenses for Federated Learning**. NDSS 2021. `Poisoning Attack` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6C-3_24498_paper.pdf)]
 
 3. **DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection**. NDSS 2022. `Backdoor defense` [[pdf](https://arxiv.org/pdf/2201.00763.pdf)]
+
+3. **FLAME: Taming Backdoors in Federated Learning**. USENIX Security 2022. `Backdoor defense` [[pdf](https://www.usenix.org/system/files/sec22-nguyen.pdf)]
 
 #### 1.2.2 Normal Distributed Learning
 
@@ -159,6 +163,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Get a Model! Model Hijacking Attack Against Machine Learning Models**. NDSS 2022. `Fusing dataset to hijacking model` [[pdf](https://arxiv.org/pdf/2111.04394.pdf)] [[code](https://github.com/AhmedSalem2/Model-Hijacking)]
 
+
+#### 1.3.6 Constractive Learning
+
+1. **PoisonedEncoder: Poisoning the Unlabeled Pre-training Data in Contrastive Learning**. USENIX Security 2022. `Poison attack in constractive learning` [[pdf](https://www.usenix.org/system/files/sec22-liu-hongbin.pdf)]
+
+#### 1.3.7 Defense
+
+1. **Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks**. USENIX Security 2022. `Identify poisioned subset by clustering and purning benign set` [[pdf](https://www.usenix.org/system/files/sec22-shan.pdf)]
+
 ### 1.4 Backdoor
 
 #### 1.4.1 Image
@@ -182,6 +195,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **Hidden Backdoors in Human-Centric Language Models**. ACM CCS 2021. `Novel trigger` [[pdf](https://arxiv.org/pdf/2105.00164.pdf)] [[code](https://github.com/lishaofeng/NLP_Backdoor)]
 
 1. **Backdoor Pre-trained Models Can Transfer to All**. ACM CCS 2021. `Backdoor in pre-trained to poison the down stream task` [[pdf](https://arxiv.org/pdf/2111.00197.pdf)] [[code](https://github.com/lishaofeng/NLP_Backdoor)]
+
+2. **Hidden Trigger Backdoor Attack on NLP Models via Linguistic Style Manipulation**. USENIX Security 2022. `Backdoor via linguistic style manipulation` [[pdf](https://www.usenix.org/system/files/sec22-pan-hidden.pdf)]
 
 #### 1.4.3 Graph
 
@@ -220,7 +235,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **PalmTree: Learning an Assembly Language Model for Instruction Embedding**. ACM CCS 2021. `Pre-trained model to generate code embedding` [[pdf](https://arxiv.org/pdf/2103.03809.pdf)] [[code](https://github.com/palmtreemodel/PalmTree)]
 
-#### 1.6.6 Survey
+#### 1.6.6 Chatbot
+
+1. **Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots**. ACM CCS 2022. `Measuring Chatbot Textico behavior` [[pdf](https://arxiv.org/pdf/2209.03463.pdf)]
+
+#### 1.6.7 Survey
 
 1. **Dos and Don'ts of Machine Learning in Computer Security**. USENIX Security 2022. `Survey pitfalls in ML4Security` [[pdf](https://www.usenix.org/system/files/sec22summer_arp.pdf)]
 
@@ -241,6 +260,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.9.1 Unsupervised Learning
 
 1. **DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications**. ACM CCS 2021. `Anomaly detection`  [[pdf](https://arxiv.org/pdf/2109.11495.pdf)] [[code](https://github.com/dongtsi/DeepAID)]
+
+### 1.10 Deepfake
+
+#### 1.10.1 Deepfake Detection
+
+1. **Who Are You (I Really Wanna Know)? Detecting Audio DeepFakes Through Vocal Tract Reconstruction**. USENIX Security 2022. `deepfake detection using vocal tract reconstruction`  [[pdf](https://www.usenix.org/system/files/sec22fall_blue.pdf)]
 
 ## 2. Privacy Papers
 
@@ -276,6 +301,16 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **EncoderMI: Membership Inference against Pre-trained Encoders in Contrastive Learning**. ACM CCS 2021. `Contrastive learning in pre-trained model. Data augmentation has higher similarity` [[pdf](https://arxiv.org/pdf/2108.11023.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
 
+2. **Auditing Membership Leakages of Multi-Exit Networks**. ACM CCS 2022. `Membership inference attack in multi-exit networks` [[pdf](https://arxiv.org/pdf/2208.11180.pdf)]
+
+3. **Membership Inference Attacks by Exploiting Loss Trajectory**. ACM CCS 2022. `Membership inference attack, knowledge distillation` [[pdf](https://arxiv.org/pdf/2208.14933.pdf)]
+
+4. **On the Privacy Risks of Cell-Based NAS Architectures**. ACM CCS 2022. `Membership inference attack in NAS` [[pdf](https://arxiv.org/pdf/2209.01688.pdf)]
+
+5. **Membership Inference Attacks and Defenses in Neural Network Pruning**. USENIX Security 2022. `Membership inference attack in Neural Network Pruning` [[pdf](https://www.usenix.org/system/files/sec22-yuan-xiaoyong.pdf)]
+
+6. **Mitigating Membership Inference Attacks by Self-Distillation Through a Novel Ensemble Architecture**. USENIX Security 2022. `Membership inference defense by ensemble` [[pdf](https://www.usenix.org/system/files/sec22-yuan-xiaoyong.pdf)]
+
 #### 2.1.3 Information Leakage in Distributed ML System
 
 1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning` [[pdf](https://www.usenix.org/system/files/sec22summer_fu.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
@@ -306,11 +341,17 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Locally Private Graph Neural Networks**. IEEE S&P 2022. `LDP as defense for node privacy` [[pdf](https://arxiv.org/pdf/2006.05535.pdf)] [[code](https://github.com/sisaman/LPGNN)]
 
+2. **Finding MNEMON: Reviving Memories of Node Embeddings**. ACM CCS 2022. `Graph recovery attack through node embedding` [[pdf](https://arxiv.org/pdf/2204.06963.pdf)]
+
 #### 2.1.6 Unlearning
 
 1. **Machine Unlearning**. IEEE S&P 2020. `Shard and isolate the training dataset` [[pdf](https://arxiv.org/pdf/1912.03817.pdf)] [[code](https://github.com/cleverhans-lab/machine-unlearning)]
 
 1. **When Machine Unlearning Jeopardizes Privacy**. ACM CCS 2021. `Membership inference attack in unlearning setting` [[pdf](https://arxiv.org/pdf/2005.02205.pdf)] [[code](https://github.com/MinChen00/UnlearningLeaks)]
+
+1. **Graph Unlearning**. ACM CCS 2022. `Graph Unlearning` [[pdf](https://arxiv.org/pdf/2103.14991.pdf)] [[code](https://github.com/MinChen00/Graph-Unlearning)]
+
+2. **On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning**. ACM CCS 2022. `Auditable Unlearning` [[pdf](https://www.usenix.org/system/files/sec22fall_thudi.pdf)]
 
 ### 2.2 Model
 
@@ -318,13 +359,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Exploring Connections Between Active Learning and Model Extraction**. USENIX Security 2020. `Active Learning` [[pdf](https://www.usenix.org/system/files/sec20-chandrasekaran.pdf)]
 
-1. **High Accuracy and High Fidelity Extraction of Neural Networks**. USENIX Security 2020. `Fidelity` [[pdf](https://arxiv.org/pdf/1909.01838.pdf)]
+2. **High Accuracy and High Fidelity Extraction of Neural Networks**. USENIX Security 2020. `Fidelity` [[pdf](https://arxiv.org/pdf/1909.01838.pdf)]
 
-1. **DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks**. USENIX Security 2021. `Query Data Selection Method to reduce the query` [[pdf](https://www.usenix.org/system/files/sec21-he-yingzhe.pdf)]
+3. **DRMI: A Dataset Reduction Technology based on Mutual Information for Black-box Attacks**. USENIX Security 2021. `Query Data Selection Method to reduce the query` [[pdf](https://www.usenix.org/system/files/sec21-he-yingzhe.pdf)]
 
-1. **Entangled Watermarks as a Defense against Model Extraction**. USENIX Security 2021. `Backdoor as watermark against model extraction` [[pdf](https://www.usenix.org/system/files/sec21fall-jia.pdf)]
+4. **Entangled Watermarks as a Defense against Model Extraction**. USENIX Security 2021. `Backdoor as watermark against model extraction` [[pdf](https://www.usenix.org/system/files/sec21fall-jia.pdf)]
 
-1. **CloudLeak: Large-Scale Deep Learning Models Stealing Through Adversarial Examples**. NDSS 2020. `Adversarial Example to strengthen model stealing` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24178.pdf)]
+5. **CloudLeak: Large-Scale Deep Learning Models Stealing Through Adversarial Examples**. NDSS 2020. `Adversarial Example to strengthen model stealing` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24178.pdf)]
+
+6. **Teacher Model Fingerprinting Attacks Against Transfer Learning**. USENIX Securiy 2022. `Teacher model fingerprinting` [[pdf](https://www.usenix.org/system/files/sec22-chen-yufei.pdf)]
 
 #### 2.2.2 Watermarking Model Outputs
 
@@ -337,6 +380,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **SoK: How Robust is Image Classification Deep Neural Network Watermarking?**. IEEE S&P 2022. `Survey of DNN watermarking` [[pdf](https://arxiv.org/pdf/2108.04974.pdf)]
 
 1. **Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models**. IEEE S&P 2022. `Calculate model similarity by generating test examples` [[pdf](https://nesa.zju.edu.cn/download/cjl_pdf_sp22.pdf)] [[code](https://github.com/Testing4AI/DeepJudge)]
+
+2. **SSLGuard: AWatermarking Scheme for Self-supervised Learning Pre-trained Encoders**. ACM CCS 2022. `Watermarking in encoder` [[pdf](https://arxiv.org/pdf/2201.11692.pdf)]
 
 ### 2.3 User Related Privacy
 
