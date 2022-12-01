@@ -34,7 +34,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.3.4 Recommender Systems](#134-recommender-systems)
       - [1.3.5 Classification](#135-classification)
       - [1.3.6 Constractive Learning](#136-constractive-learning)
-      - [1.3.7 Defense](#137-defense)
+      - [1.3.7 Privacy](#137-privacy)
+      - [1.3.8 Defense](#138-defense)
     - [1.4 Backdoor](#14-backdoor)
       - [1.4.1 Image](#141-image)
       - [1.4.2 Text](#142-text)
@@ -113,13 +114,19 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 11. **AutoDA: Automated Decision-based Iterative Adversarial Attacks**. USENIX 2022. `Program Synthesis for Adversarial Attack` [[pdf](https://www.usenix.org/system/files/sec22_slides-fu-qi.pdf)]
 
-11. **Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks**. USENIX 2022. `AE Detection using probabilistic fingerprints based on hash of input similarity` [[pdf](https://www.usenix.org/system/files/sec22-li-huiying.pdf)] [[code](https://sandlab.cs.uchicago.edu/blacklight)]
+12. **Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks**. USENIX Security 2022. `AE Detection using probabilistic fingerprints based on hash of input similarity` [[pdf](https://www.usenix.org/system/files/sec22-li-huiying.pdf)] [[code](https://sandlab.cs.uchicago.edu/blacklight)]
+
+13. **Physical Hijacking Attacks against Object Trackers**. ACM CCS 2022. `Adversarial Attacks on Object Trackers` [[pdf](https://dl.acm.org/doi/10.1145/3548606.3559390)] [[code](https://github.com/purseclab/AttrackZone)]
+
+14. **Post-breach Recovery: Protection against White-box Adversarial Examples for Leaked DNN Models**. ACM CCS 2022. `Adversarial Attacks on Object Trackers` [[pdf](https://arxiv.org/pdf/2205.10686.pdf)] 
 
 #### 1.1.2 Text
 
 1. **TextShield: Robust Text Classification Based on Multimodal Embedding and Neural Machine Translation**. USENIX Security 2020. `Defense in preprossing` [[pdf](https://www.usenix.org/system/files/sec20-li-jinfeng.pdf)]
 
-1. **Bad Characters: Imperceptible NLP Attacks**. IEEE S&P 2022. `Use unicode to conduct human imperceptible attack` [[pdf](https://arxiv.org/pdf/2106.09898.pdf)] [[code](https://github.com/nickboucher/imperceptible)]
+2. **Bad Characters: Imperceptible NLP Attacks**. IEEE S&P 2022. `Use unicode to conduct human imperceptible attack` [[pdf](https://arxiv.org/pdf/2106.09898.pdf)] [[code](https://github.com/nickboucher/imperceptible)]
+
+3. **Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models**. ACM CCS 2022. `Attack Neural Ranking Models` [[pdf](https://arxiv.org/pdf/2209.06506.pdf)]
 
 #### 1.1.3 Audio
 
@@ -136,6 +143,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 6. **AdvPulse: Universal, Synchronization-free, and Targeted Audio Adversarial Attacks via Subsecond Perturbations**. ACM CCS 2020. `Attack` [[pdf](http://www.winlab.rutgers.edu/~yychen/papers/li2020advpulse.pdf)]
 
 7. **Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information**. ACM CCS 2021. `Black-box Attack. Physical World` [[pdf](https://arxiv.org/pdf/2110.09714.pdf)]
+
+8. **Perception-Aware Attack: Creating Adversarial Music via Reverse-Engineering Human Perception**. ACM CCS 2022. `Adversarial Audio with human-aware noise` [[pdf](https://arxiv.org/pdf/2207.13192.pdf)]
+
+9. **SpecPatch: Human-in-the-Loop Adversarial Audio Spectrogram Patch Attack on Speech Recognition**. ACM CCS 2022. `Adversarial Patch for audio` [[pdf](https://cse.msu.edu/~qyan/paper/SpecPatch_CCS22.pdf)]
 
 #### 1.1.4 Video
 
@@ -163,9 +174,14 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Interpretable Deep Learning under Fire**. USENIX Security 2020. `Attack both image classification and interpret method` [[pdf](https://www.usenix.org/system/files/sec20spring_zhang_prepub.pdf)]
 
+2. **“Is your explanation stable?”: A Robustness Evaluation Framework for Feature Attribution**. ACM CCS 2022. `Hypothesis Testing to increasing the robustness of explaination methods` [[pdf](https://arxiv.org/pdf/2209.01782.pdf)]
+
 #### 1.1.9 Physical World
 
 1. **SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations**. USENIX Security 2021. `Projector light causes misclassification` [[pdf](https://www.usenix.org/system/files/sec21fall-lovisotto.pdf)] [[code](https://github.com/ssloxford/short-lived-adversarial-perturbations)]
+
+2. **Understanding Real-world Threats to Deep Learning Models in Android Apps**. ACM CCS 2022. `Adversarial Attack in real-world models` [[pdf](https://arxiv.org/pdf/2209.09577.pdf)] 
+
 
 #### 1.1.10 Reinforcement Learning
 
@@ -251,7 +267,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **PoisonedEncoder: Poisoning the Unlabeled Pre-training Data in Contrastive Learning**. USENIX Security 2022. `Poison attack in constractive learning` [[pdf](https://www.usenix.org/system/files/sec22-liu-hongbin.pdf)]
 
-#### 1.3.7 Defense
+#### 1.3.7 Privacy
+
+1. **Truth Serum: Poisoning Machine Learning Models to Reveal Their Secrets**. ACM CCS 2022. `Poison attack to reveal sensitive information` [[pdf](https://arxiv.org/pdf/2204.00032.pdf)]
+
+
+#### 1.3.8 Defense
 
 1. **Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks**. USENIX Security 2022. `Identify poisioned subset by clustering and purning benign set` [[pdf](https://www.usenix.org/system/files/sec22-shan.pdf)]
 
@@ -270,6 +291,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features**. ACM CCS 2020. `Composite backdoor. Image & text tasks` [[pdf](https://dl.acm.org/doi/10.1145/3372297.3423362)] [[code](https://github.com/TemporaryAcc0unt/composite-attack)]
 
 2. **AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks**. ACM CCS 2021. `Locate neural location and finetuning it` [[pdf](https://dl.acm.org/doi/pdf/10.1145/3460120.3484818)]
+
+3. **LoneNeuron: a Highly-Effective Feature-Domain Neural Trojan Using Invisible and Polymorphic Watermarks**. ACM CCS 2022. `Backdoor attack by modifying neuros` [[pdf](https://www.ittc.ku.edu/~bluo/download/liu2022ccs.pdf)]
 
 #### 1.4.2 Text
 
@@ -400,6 +423,9 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 14. **Enhanced Membership Inference Attacks against Machine Learning Models**. USENIX Security 2022. `Membership inference attack with hypothesis testing` [[pdf](https://arxiv.org/pdf/2111.09679.pdf)] [[code](https://github.com/privacytrustlab/ml_privacy_meter/tree/master/research/2022_enhanced_mia)]
 
+15. **Membership Inference Attacks and Generalization: A Causal Perspective**. ACM CCS 2022. `Membership inference attack with casual reasoning` [[pdf](https://arxiv.org/pdf/2209.08615.pdf)]
+
+
 #### 2.1.3 Information Leakage in Distributed ML System
 
 1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning` [[pdf](https://www.usenix.org/system/files/sec22summer_fu.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
@@ -434,6 +460,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **Group Property Inference Attacks Against Graph Neural Networks**. ACM CCS 2022. `Group Property inference attack on GNN` [[pdf](https://arxiv.org/pdf/2209.01100.pdf)]
 
+7. **LPGNet: Link Private Graph Networks for Node Classification**. ACM CCS 2022. `DP to build private GNN` [[pdf](https://arxiv.org/pdf/2205.03105.pdf)]
+
 #### 2.1.6 Unlearning
 
 1. **Machine Unlearning**. IEEE S&P 2020. `Shard and isolate the training dataset` [[pdf](https://arxiv.org/pdf/1912.03817.pdf)] [[code](https://github.com/cleverhans-lab/machine-unlearning)]
@@ -451,6 +479,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **Feature Inference Attack on Shapley Values**. ACM CCS 2022. `Attribute Inference Attack using shapley values` [[pdf](https://dl.acm.org/doi/abs/10.1145/3548606.3560573)]
 
+3. **QuerySnout: Automating the Discovery of Attribute Inference Attacks against Query-Based Systems**. ACM CCS 2022. `Attribute Inference detection` [[pdf](https://arxiv.org/pdf/2211.05249.pdf)]
+
 ### 2.2 Model
 
 #### 2.2.1 Model Extraction
@@ -467,6 +497,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **Teacher Model Fingerprinting Attacks Against Transfer Learning**. USENIX Securiy 2022. `Teacher model fingerprinting` [[pdf](https://www.usenix.org/system/files/sec22-chen-yufei.pdf)]
 
+7. **StolenEncoder: Stealing Pre-trained Encoders in Self-supervised Learning**. ACM CCS 2022. `Model Stealing attack in encoder` [[pdf](https://arxiv.org/pdf/2201.05889.pdf)]
+
 #### 2.2.2 Watermarking Model Outputs
 
 1. **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding**. IEEE S&P 2021. `Encode secret message into LM` [[pdf](https://arxiv.org/pdf/2009.03015.pdf)]
@@ -479,7 +511,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models**. IEEE S&P 2022. `Calculate model similarity by generating test examples` [[pdf](https://nesa.zju.edu.cn/download/cjl_pdf_sp22.pdf)] [[code](https://github.com/Testing4AI/DeepJudge)]
 
-2. **SSLGuard: AWatermarking Scheme for Self-supervised Learning Pre-trained Encoders**. ACM CCS 2022. `Watermarking in encoder` [[pdf](https://arxiv.org/pdf/2201.11692.pdf)]
+2. **SSLGuard: A Watermarking Scheme for Self-supervised Learning Pre-trained Encoders**. ACM CCS 2022. `Watermarking in encoder` [[pdf](https://arxiv.org/pdf/2201.11692.pdf)]
 
 ### 2.3 User Related Privacy
 
