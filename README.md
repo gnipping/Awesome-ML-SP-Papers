@@ -280,19 +280,21 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 #### 1.4.1 Image
 
-1. **Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection**. USENIX Security 2021. `Class-specific Backdoor. Defense by decomposition` [[pdf](https://www.usenix.org/system/files/sec21-tang-di.pdf)] 
+1. **Demon in the Variant: Statistical Analysis of DNNs for Robust Backdoor Contamination Detection**. USENIX Security 2021. `Class-specific Backdoor. Defense by decomposition` [[pdf](https://www.usenix.org/system/files/sec21-tang-di.pdf)]
 
-1. **Double-Cross Attacks: Subverting Active Learning Systems**. USENIX Security 2021. `Active Learning System. Backdoor Attack` [[pdf](https://www.usenix.org/system/files/sec21-vicarte.pdf)] 
+2. **Double-Cross Attacks: Subverting Active Learning Systems**. USENIX Security 2021. `Active Learning System. Backdoor Attack` [[pdf](https://www.usenix.org/system/files/sec21-vicarte.pdf)] 
 
-1. **Detecting AI Trojans Using Meta Neural Analysis**. IEEE S&P 2021. `Meta Neural Classifier` [[pdf](https://arxiv.org/pdf/1910.03137.pdf)] [[code](https://github.com/AI-secure/Meta-Nerual-Trojan-Detection)]
+3. **Detecting AI Trojans Using Meta Neural Analysis**. IEEE S&P 2021. `Meta Neural Classifier` [[pdf](https://arxiv.org/pdf/1910.03137.pdf)] [[code](https://github.com/AI-secure/Meta-Nerual-Trojan-Detection)]
 
-1. **BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning**. IEEE S&P 2022. `Backdoor attack in image-text pretrained model` [[pdf](https://arxiv.org/pdf/2108.00352.pdf)] [[code](https://github.com/jjy1994/BadEncoder)]
+4. **BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning**. IEEE S&P 2022. `Backdoor attack in image-text pretrained model` [[pdf](https://arxiv.org/pdf/2108.00352.pdf)] [[code](https://github.com/jjy1994/BadEncoder)]
 
-1. **Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features**. ACM CCS 2020. `Composite backdoor. Image & text tasks` [[pdf](https://dl.acm.org/doi/10.1145/3372297.3423362)] [[code](https://github.com/TemporaryAcc0unt/composite-attack)]
+5. **Composite Backdoor Attack for Deep Neural Network by Mixing Existing Benign Features**. ACM CCS 2020. `Composite backdoor. Image & text tasks` [[pdf](https://dl.acm.org/doi/10.1145/3372297.3423362)] [[code](https://github.com/TemporaryAcc0unt/composite-attack)]
 
-2. **AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks**. ACM CCS 2021. `Locate neural location and finetuning it` [[pdf](https://dl.acm.org/doi/pdf/10.1145/3460120.3484818)]
+6. **AI-Lancet: Locating Error-inducing Neurons to Optimize Neural Networks**. ACM CCS 2021. `Locate neural location and finetuning it` [[pdf](https://dl.acm.org/doi/pdf/10.1145/3460120.3484818)]
 
-3. **LoneNeuron: a Highly-Effective Feature-Domain Neural Trojan Using Invisible and Polymorphic Watermarks**. ACM CCS 2022. `Backdoor attack by modifying neuros` [[pdf](https://www.ittc.ku.edu/~bluo/download/liu2022ccs.pdf)]
+7. **LoneNeuron: a Highly-Effective Feature-Domain Neural Trojan Using Invisible and Polymorphic Watermarks**. ACM CCS 2022. `Backdoor attack by modifying neuros` [[pdf](https://www.ittc.ku.edu/~bluo/download/liu2022ccs.pdf)]
+
+8. **ATTEQ-NN: Attention-based QoE-aware Evasive Backdoor Attacks**. NDSS 2022. `Backdoor attack by attention techniques` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2022-12-paper.pdf)]
 
 #### 1.4.2 Text
 
@@ -385,15 +387,17 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Updates-Leak: Data Set Inference and Reconstruction Attacks in Online Learning**. USENIX Security 2020. `Online Learning. Model updates` [[pdf](https://www.usenix.org/system/files/sec20summer_salem_prepub.pdf)]
 
-1. **Extracting Training Data from Large Language Models**. USENIX Security 2021. `Membership inference attack. GPT-2` [[pdf](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)]
+2. **Extracting Training Data from Large Language Models**. USENIX Security 2021. `Membership inference attack. GPT-2` [[pdf](https://www.usenix.org/system/files/sec21-carlini-extracting.pdf)]
 
-1. **Analyzing Information Leakage of Updates to Natural Language Models**. ACM CCS 2020. `data leakage in model changes` [[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/ccs20.pdf)]
+3. **Analyzing Information Leakage of Updates to Natural Language Models**. ACM CCS 2020. `data leakage in model changes` [[pdf](https://www.microsoft.com/en-us/research/uploads/prod/2020/09/ccs20.pdf)]
 
-1. **TableGAN-MCA: Evaluating Membership Collisions of GAN-Synthesized Tabular Data Releasing**. ACM CCS 2021. `Membership collision in GAN` [[pdf](https://arxiv.org/pdf/2107.13190.pdf)]
+4. **TableGAN-MCA: Evaluating Membership Collisions of GAN-Synthesized Tabular Data Releasing**. ACM CCS 2021. `Membership collision in GAN` [[pdf](https://arxiv.org/pdf/2107.13190.pdf)]
 
-1. **DataLens: Scalable Privacy Preserving Training via Gradient Compression and Aggregation**. ACM CCS 2021. `DP to train an privacy preserving GAN` [[pdf](https://arxiv.org/pdf/2103.11109.pdf)]
+5. **DataLens: Scalable Privacy Preserving Training via Gradient Compression and Aggregation**. ACM CCS 2021. `DP to train an privacy preserving GAN` [[pdf](https://arxiv.org/pdf/2103.11109.pdf)]
 
-2. **Property Inference Attacks Against GANs**. NDSS 2022. `Property Inference Attacks Against GAN`  [[pdf](https://yangzhangalmo.github.io/papers/NDSS22-PIAGAN.pdf)] [[code](https://github.com/Zhou-Junhao/PIA_GAN)]
+6. **Property Inference Attacks Against GANs**. NDSS 2022. `Property Inference Attacks Against GAN`  [[pdf](https://yangzhangalmo.github.io/papers/NDSS22-PIAGAN.pdf)] [[code](https://github.com/Zhou-Junhao/PIA_GAN)]
+
+7. **MIRROR: Model Inversion for Deep Learning Network with High Fidelity**. NDSS 2022. `Model inversion attack using GAN`  [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2022-335-paper.pdf)] [[code](https://model-inversion.github.io/mirror/)]
 
 #### 2.1.2 Membership Inference Attack
 
