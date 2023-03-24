@@ -231,6 +231,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **Eluding Secure Aggregation in Federated Learning via Model Inconsistency**. ACM CCS 2022. `Model inconsistency to break the secure aggregation` [[pdf](https://arxiv.org/pdf/2111.07380.pdf)]
 
+7. **FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information**. IEEE S&P 2023. `Poisoned Model Recovery Algorithm` [[pdf](https://arxiv.org/pdf/2210.10936.pdf)]
 
 #### 1.2.2 Normal Distributed Learning
 
@@ -295,6 +296,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 7. **LoneNeuron: a Highly-Effective Feature-Domain Neural Trojan Using Invisible and Polymorphic Watermarks**. ACM CCS 2022. `Backdoor attack by modifying neuros` [[pdf](https://www.ittc.ku.edu/~bluo/download/liu2022ccs.pdf)]
 
 8. **ATTEQ-NN: Attention-based QoE-aware Evasive Backdoor Attacks**. NDSS 2022. `Backdoor attack by attention techniques` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2022-12-paper.pdf)]
+
+9. **RAB: Provable Robustness Against Backdoor Attacks**. IEEE S&P 2023. `Backdoor Cetrification` [[pdf](https://arxiv.org/pdf/2003.08904.pdf)]
 
 #### 1.4.2 Text
 
