@@ -72,7 +72,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [2.1.7 Attribute Inference Attack](#217-attribute-inference-attack)
     - [2.2 Model](#22-model)
       - [2.2.1 Model Extraction](#221-model-extraction)
-      - [2.2.2 Watermarking Model Outputs](#222-watermarking-model-outputs)
+      - [2.2.2 Model Watermark](#222-model-watermark)
       - [2.2.3 Model Owenership](#223-model-owenership)
     - [2.3 User Related Privacy](#23-user-related-privacy)
       - [2.3.1 Image](#231-image)
@@ -197,7 +197,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 4. **That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency**. USENIX Security 2023. `Robust OD in Autonomous System using spatiotemporal information` [[pdf](https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf)]
 
-5. **You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks**. USENIX Security 2023. `Adversarial attack against Autonomous Vehicles using Laser` [[pdf](https://www.usenix.org/system/files/sec23summer_349-cao-prepub.pdf)] [[demo](https://cpseclab.github.io/youcantseeme/)]
+5. **You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks**. USENIX Security 2023. `Adversarial attack against Autonomous Vehicles using Laser` [[pdf](https://www.usenix.org/system/files/sec23summer_349-cao-prepub.pdf)] [demo](https://cpseclab.github.io/youcantseeme/)]
+
+6. **CAPatch: Physical Adversarial Patch against Image Captioning Systems**. USENIX Security 2023. `Physical Adversarial Patch against the image caption system` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-121-zhang-shibo.pdf)] [[code](https://github.com/USSLab/CAPatch)]
+
+7. **Exorcising "Wraith": Protecting LiDAR-based Object Detector in Automated Driving System from Appearing Attacks**. USENIX Security 2023. `Defend the appearing attack in autonomous system using local objectness predictor` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-190-xiao-qifan.pdf)] [[code](https://github.com/USSLab/CAPatch)]
 
 #### 1.1.10 Reinforcement Learning
 
@@ -217,15 +221,17 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 5. **TSS: Transformation-Specific Smoothing for Robustness Certification**. ACM CCS 2021. `Certify robustness about transformation` [[pdf](https://arxiv.org/pdf/2002.12398.pdf)][[code](https://github.com/AI-secure/semantic-randomized-smoothing)]
 
-6. **Transcend: Detecting Concept Drift in Malware Classification Models**. USENIX Security 2017. `Conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/sec17-jordaney.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
+6. **Transcend: Detecting Concept Drift in Malware Classification Models**. USENIX Security 2017. `Conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/sec17-jordaney.pdf)] [[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
 
 7. **Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift**. IEEE S&P 2022. `New conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/transcending.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
 
 8. **Transferring Adversarial Robustness Through Robust Representation Matching**. USENIX Security 2022. `Robust Transfer Learning` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
 
+9. **DiffSmooth: Certifiably Robust Learning via Diffusion Models and Local Smoothing**. USENIX Security 2023. `Diffusion Model Improve Certified Robustness` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
+
 #### 1.1.12 Network Traffic
 
-1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis` [[pdf](https://www.usenix.org/system/files/sec21fall-nasr.pdf)][[code](https://github.com/SPIN-UMass/BLANKET)]
+1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis` [[pdf](https://www.usenix.org/system/files/sec21fall-nasr.pdf)] [[code](https://github.com/SPIN-UMass/BLANKET)]
 
 #### 1.1.13 Wireless Communication System
 
@@ -248,6 +254,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 6. **Eluding Secure Aggregation in Federated Learning via Model Inconsistency**. ACM CCS 2022. `Model inconsistency to break the secure aggregation` [[pdf](https://arxiv.org/pdf/2111.07380.pdf)]
 
 7. **FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information**. IEEE S&P 2023. `Poisoned Model Recovery Algorithm` [[pdf](https://arxiv.org/pdf/2210.10936.pdf)]
+
+8. **Every Vote Counts: Ranking-Based Training of Federated Learning to Resist Poisoning Attacks**. USENIX Security 2023. `Discrete the model updates and purning the model to defense the poisoning attack` [[pdf](https://arxiv.org/pdf/2110.04350.pdf)] [[code](https://github.com/SPIN-UMass/FRL)]
 
 #### 1.2.2 Normal Distributed Learning
 
@@ -292,6 +300,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.3.8 Defense
 
 1. **Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks**. USENIX Security 2022. `Identify poisioned subset by clustering and purning benign set` [[pdf](https://www.usenix.org/system/files/sec22-shan.pdf)]
+
+2. **Meta-Sift: How to Sift Out a Clean Subset in the Presence of Data Poisoning?**. USENIX Security 2023. `Obtain a clean subset from the poisoned set` [[pdf](https://arxiv.org/pdf/2210.06516.pdf)] [[code](https://github.com/ruoxi-jia-group/Meta-Sift)]
 
 ### 1.4 Backdoor
 
@@ -536,9 +546,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 7. **StolenEncoder: Stealing Pre-trained Encoders in Self-supervised Learning**. ACM CCS 2022. `Model Stealing attack in encoder` [[pdf](https://arxiv.org/pdf/2201.05889.pdf)]
 
-#### 2.2.2 Watermarking Model Outputs
+#### 2.2.2 Model Watermark
 
 1. **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding**. IEEE S&P 2021. `Encode secret message into LM` [[pdf](https://arxiv.org/pdf/2009.03015.pdf)]
+
+2. **Rethinking White-Box Watermarks on Deep Learning Models under Neural Structural Obfuscation**. USENIX Security 2023. `Inject dummy neurons into the model to break the white-box model watermark` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-444-yan-yifan.pdf)]
 
 #### 2.2.3 Model Owenership
 
