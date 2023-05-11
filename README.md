@@ -46,12 +46,13 @@ A curated list of Meachine learning Security & Privacy papers published in secur
     - [1.6 AI4Security](#16-ai4security)
       - [1.6.1 Cyberbullying](#161-cyberbullying)
       - [1.6.2 Label Complete](#162-label-complete)
-      - [1.6.3 Advertisement detection](#163-advertisement-detection)
+      - [1.6.3 Advertisement Detection](#163-advertisement-detection)
       - [1.6.4 CAPTCHA](#164-captcha)
-      - [1.6.5 Code embedding](#165-code-embedding)
+      - [1.6.5 Code Embedding](#165-code-embedding)
       - [1.6.6 Chatbot](#166-chatbot)
-      - [1.6.7 Survey](#167-survey)
-      - [1.6.8 Security Event](#168-security-event)
+      - [1.6.7 Side Channel Attack](#167-side-channel-attack)
+      - [1.6.8 Guidline](#168-guidline)
+      - [1.6.9 Security Event](#169-security-event)
     - [1.7 AutoML Security](#17-automl-security)
       - [1.7.1 Security Analysis](#171-security-analysis)
     - [1.8 Hardware Related Security](#18-hardware-related-security)
@@ -108,17 +109,23 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 8. **DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks**. ACM CCS 2021. `Provable robustness for patch hiding in object detection` [[pdf](https://arxiv.org/pdf/2102.02956.pdf)] [[code](https://github.com/inspire-group/DetectorGuard)]
 
-9.  **RamBoAttack: A Robust and Query Efficient Deep Neural Network Decision Exploit**. NDSS 2022. `Query-based black box attack` [[pdf](https://arxiv.org/pdf/2112.05282.pdf)] [[code](https://github.com/RamBoAttack/RamBoAttack.github.io)]
+9.  **It's Not What It Looks Like: Manipulating Perceptual Hashing based Applications**. ACM CCS 2021. `Adversarial Attack against PHash` [[pdf](https://gangw.cs.illinois.edu/PHashing.pdf)] [[code](https://github.com/gyNancy/phash_public)]
 
-10. **What You See is Not What the Network Infers: Detecting Adversarial Examples Based on Semantic Contradiction**. NDSS 2022. `Generative-based AE detection` [[pdf](https://arxiv.org/pdf/2201.09650.pdf)] [[code](https://github.com/cure-lab/ContraNet)]
+10. **RamBoAttack: A Robust and Query Efficient Deep Neural Network Decision Exploit**. NDSS 2022. `Query-based black box attack` [[pdf](https://arxiv.org/pdf/2112.05282.pdf)] [[code](https://github.com/RamBoAttack/RamBoAttack.github.io)]
 
-11. **AutoDA: Automated Decision-based Iterative Adversarial Attacks**. USENIX 2022. `Program Synthesis for Adversarial Attack` [[pdf](https://www.usenix.org/system/files/sec22_slides-fu-qi.pdf)]
+11. **What You See is Not What the Network Infers: Detecting Adversarial Examples Based on Semantic Contradiction**. NDSS 2022. `Generative-based AE detection` [[pdf](https://arxiv.org/pdf/2201.09650.pdf)] [[code](https://github.com/cure-lab/ContraNet)]
 
-12. **Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks**. USENIX Security 2022. `AE Detection using probabilistic fingerprints based on hash of input similarity` [[pdf](https://www.usenix.org/system/files/sec22-li-huiying.pdf)] [[code](https://sandlab.cs.uchicago.edu/blacklight)]
+12. **AutoDA: Automated Decision-based Iterative Adversarial Attacks**. USENIX 2022. `Program Synthesis for Adversarial Attack` [[pdf](https://www.usenix.org/system/files/sec22_slides-fu-qi.pdf)]
 
-13. **Physical Hijacking Attacks against Object Trackers**. ACM CCS 2022. `Adversarial Attacks on Object Trackers` [[pdf](https://dl.acm.org/doi/10.1145/3548606.3559390)] [[code](https://github.com/purseclab/AttrackZone)]
+13. **Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks**. USENIX Security 2022. `AE Detection using probabilistic fingerprints based on hash of input similarity` [[pdf](https://www.usenix.org/system/files/sec22-li-huiying.pdf)] [[code](https://sandlab.cs.uchicago.edu/blacklight)]
 
-14. **Post-breach Recovery: Protection against White-box Adversarial Examples for Leaked DNN Models**. ACM CCS 2022. `Adversarial Attacks on Object Trackers` [[pdf](https://arxiv.org/pdf/2205.10686.pdf)] 
+14. **Physical Hijacking Attacks against Object Trackers**. ACM CCS 2022. `Adversarial Attacks on Object Trackers` [[pdf](https://dl.acm.org/doi/10.1145/3548606.3559390)] [[code](https://github.com/purseclab/AttrackZone)]
+
+15. **Post-breach Recovery: Protection against White-box Adversarial Examples for Leaked DNN Models**. ACM CCS 2022. `Adversarial Attacks on Object Trackers` [[pdf](https://arxiv.org/pdf/2205.10686.pdf)]
+
+16. **Squint Hard Enough: Attacking Perceptual Hashing with Adversarial Machine Learning**. USENIX Security 2023. `Adversarial Attacks against PhotoDNA and PDQ` [[pdf](https://www.usenix.org/system/files/sec23summer_146-prokos-prepub.pdf)]
+
+17. **The Space of Adversarial Strategies**. USENIX Security 2023. `Decompose the Adversarial Attack Components and combine them together` [[pdf](https://www.usenix.org/system/files/sec23summer_256-sheatsley-prepub.pdf)]
 
 #### 1.1.2 Text
 
@@ -160,11 +167,13 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Evading Classifiers by Morphing in the Dark**. ACM CCS 2017. `Morpher and search to generate adversarial PDF` [[pdf](https://arxiv.org/pdf/1705.07535.pdf)]
 
-1. **Misleading Authorship Attribution of Source Code using Adversarial Learning**. USENIX Security 2019. `Adversarial attack in source code, MCST` [[pdf](https://arxiv.org/pdf/1905.12386.pdf)] [[code](http://www.tu-braunschweig.de/sec/research/code/imitator)]
+2. **Misleading Authorship Attribution of Source Code using Adversarial Learning**. USENIX Security 2019. `Adversarial attack in source code, MCST` [[pdf](https://arxiv.org/pdf/1905.12386.pdf)] [[code](http://www.tu-braunschweig.de/sec/research/code/imitator)]
 
-1. **Intriguing Properties of Adversarial ML Attacks in the Problem Space**. IEEE S&P 2020. `Attack Malware Classification` [[pdf](https://arxiv.org/pdf/1911.02142.pdf)]
+3. **Intriguing Properties of Adversarial ML Attacks in the Problem Space**. IEEE S&P 2020. `Attack Malware Classification` [[pdf](https://arxiv.org/pdf/1911.02142.pdf)]
 
-2. **Structural Attack against Graph Based Android Malware Detection**. IEEE S&P 2020. `Perturbed function call graph` [[pdf](https://www4.comp.polyu.edu.hk/~csxluo/HRAT.pdf)]
+4. **Structural Attack against Graph Based Android Malware Detection**. IEEE S&P 2020. `Perturbed function call graph` [[pdf](https://www4.comp.polyu.edu.hk/~csxluo/HRAT.pdf)]
+
+5. **URET: Universal Robustness Evaluation Toolkit (for Evasion)**. USENIX Security 2023. `General Toolbox to select the perdefined perturbations` [[pdf](https://www.usenix.org/system/files/sec23summer_347-eykholt-prepub.pdf)] [[code](https://github.com/IBM/URET)]
 
 #### 1.1.7 Hardware
 
@@ -176,12 +185,19 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **“Is your explanation stable?”: A Robustness Evaluation Framework for Feature Attribution**. ACM CCS 2022. `Hypothesis Testing to increasing the robustness of explaination methods` [[pdf](https://arxiv.org/pdf/2209.01782.pdf)]
 
+3. **AIRS: Explanation for Deep Reinforcement Learning based Security Applications**. USENIX Security 2023. `DRL Interpertation Method to pinpoint the most influence step` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-36-yu-jiahao.pdf)] [[code](https://github.com/sherdencooper/AIRS)]
+
 #### 1.1.9 Physical World
 
 1. **SLAP: Improving Physical Adversarial Examples with Short-Lived Adversarial Perturbations**. USENIX Security 2021. `Projector light causes misclassification` [[pdf](https://www.usenix.org/system/files/sec21fall-lovisotto.pdf)] [[code](https://github.com/ssloxford/short-lived-adversarial-perturbations)]
 
-2. **Understanding Real-world Threats to Deep Learning Models in Android Apps**. ACM CCS 2022. `Adversarial Attack in real-world models` [[pdf](https://arxiv.org/pdf/2209.09577.pdf)] 
+2. **Understanding Real-world Threats to Deep Learning Models in Android Apps**. ACM CCS 2022. `Adversarial Attack in real-world models` [[pdf](https://arxiv.org/pdf/2209.09577.pdf)]
 
+3. **X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection**. USENIX Security 2023. `Adversarial Attack on X-ray Images` [[pdf](https://arxiv.org/pdf/2302.09491.pdf)] [[code](https://github.com/DIG-Beihang/X-adv)]
+
+4. **That Person Moves Like A Car: Misclassification Attack Detection for Autonomous Systems Using Spatiotemporal Consistency**. USENIX Security 2023. `Robust OD in Autonomous System using spatiotemporal information` [[pdf](https://www.usenix.org/system/files/sec23summer_278-man-prepub.pdf)]
+
+5. **You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks**. USENIX Security 2023. `Adversarial attack against Autonomous Vehicles using Laser` [[pdf](https://www.usenix.org/system/files/sec23summer_349-cao-prepub.pdf)] [[demo](https://cpseclab.github.io/youcantseeme/)]
 
 #### 1.1.10 Reinforcement Learning
 
@@ -299,6 +315,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 9. **RAB: Provable Robustness Against Backdoor Attacks**. IEEE S&P 2023. `Backdoor Cetrification` [[pdf](https://arxiv.org/pdf/2003.08904.pdf)]
 
+10. **A Data-free Backdoor Injection Approach in Neural Networks**. USENIX Security 2023. `Data free backdoor injection` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-573-lv.pdf)] [[code](https://github.com/lvpeizhuo/Data-free_Backdoor)]
+
 #### 1.4.2 Text
 
 1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger` [[pdf](https://www.usenix.org/system/files/sec21fall-azizi.pdf)] [[code](https://github.com/reza321/T-Miner)]
@@ -334,7 +352,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **FARE: Enabling Fine-grained Attack Categorization under Low-quality Labeled Data**. NDSS 2021. `Clustering Method to complete the dataset label` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5C-4_24403_paper.pdf)] [[code](https://github.com/junjieliang672/FARE)]
 
-#### 1.6.3 Advertisement detection
+#### 1.6.3 Advertisement Detection
 
 1. **WtaGraph: Web Tracking and Advertising Detection using Graph Neural Networks**. IEEE S&P 2022. `GNN` [[pdf](https://zhiju.me/assets/files/WtaGraph_SP22.pdf)]
 
@@ -342,7 +360,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Text Captcha Is Dead? A Large Scale Deployment and Empirical Studys**. ACM CCS 2020. `Adversarial CAPTCHA` [[pdf](https://nesa.zju.edu.cn/download/Text%20Captcha%20Is%20Dead%20A%20Large%20Scale%20Deployment%20and%20Empirical%20Study.pdf)]
 
-#### 1.6.5 Code embedding
+#### 1.6.5 Code Embedding
 
 1. **PalmTree: Learning an Assembly Language Model for Instruction Embedding**. ACM CCS 2021. `Pre-trained model to generate code embedding` [[pdf](https://arxiv.org/pdf/2103.03809.pdf)] [[code](https://github.com/palmtreemodel/PalmTree)]
 
@@ -350,11 +368,17 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots**. ACM CCS 2022. `Measuring Chatbot Textico behavior` [[pdf](https://arxiv.org/pdf/2209.03463.pdf)]
 
-#### 1.6.7 Survey
+#### 1.6.7 Side Channel Attack
+
+1. **Towards a General Video-based Keystroke Inference Attack**. USENIX Security 2023. `Self Supervised Learning to recover the keybroad input` [[pdf](https://www.usenix.org/system/files/sec23summer_338-yang_zhuolin-prepub.pdf)]
+
+#### 1.6.8 Guidline
 
 1. **Dos and Don'ts of Machine Learning in Computer Security**. USENIX Security 2022. `Survey pitfalls in ML4Security` [[pdf](https://www.usenix.org/system/files/sec22summer_arp.pdf)]
 
-#### 1.6.8 Security Event
+2. **“Security is not my field, I’m a stats guy”: A Qualitative Root Cause Analysis of Barriers to Adversarial Machine Learning Defenses in Industry**. USENIX Security 2023. `Survey AML Application in Industry` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-324-mink.pdf)]
+
+#### 1.6.9 Security Event
 
 1. **CERBERUS: Exploring Federated Prediction of Security Events**. ACM CCS 2022. `Federated Learning to predict security event` [[pdf](https://arxiv.org/pdf/2209.03050.pdf)]
 
@@ -369,6 +393,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.8.1 Verification
 
 1. **DeepDyve: Dynamic Verification for Deep Neural Networks**. ACM CCS 2020. [[pdf](https://arxiv.org/pdf/2009.09663.pdf)]
+
+2. **NeuroPots: Realtime Proactive Defense against Bit-Flip Attacks in Neural Networks**. USENIX Security 2023. `Honey Pot to trap the bitflip attacks` [[pdf](https://www.usenix.org/system/files/sec23summer_334-liu_qi-prepub.pdf)]
+
+3. **Aegis: Mitigating Targeted Bit-flip Attacks against Deep Neural Networks**. USENIX Security 2023. `Train multi classifer to defend the BFA` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-246-wang-jialai.pdf)] [[code](https://github.com/vul337/Aegis)]
 
 ### 1.9 Security Related Interpreting Method
 
@@ -437,13 +465,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning` [[pdf](https://www.usenix.org/system/files/sec22summer_fu.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
 
-1. **The Value of Collaboration in Convex Machine Learning with Differential Privacy**. IEEE S&P 2020. `DP as Defense` [[pdf](https://arxiv.org/pdf/1906.09679.pdf)]
+2. **The Value of Collaboration in Convex Machine Learning with Differential Privacy**. IEEE S&P 2020. `DP as Defense` [[pdf](https://arxiv.org/pdf/1906.09679.pdf)]
 
-1. **Leakage of Dataset Properties in Multi-Party Machine Learning**. USENIX Security 2021. `Dataset Properties Leakage` [[pdf](https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf)]
+3. **Leakage of Dataset Properties in Multi-Party Machine Learning**. USENIX Security 2021. `Dataset Properties Leakage` [[pdf](https://www.usenix.org/system/files/sec21-zhang-wanrong.pdf)]
 
-1. **Unleashing the Tiger: Inference Attacks on Split Learning**. ACM CCS 2021. `Split learning. Feature-space hijacking attack` [[pdf](https://arxiv.org/pdf/2012.02670.pdf)] [[code](https://github.com/pasquini-dario/SplitNN_FSHA)]
+4. **Unleashing the Tiger: Inference Attacks on Split Learning**. ACM CCS 2021. `Split learning. Feature-space hijacking attack` [[pdf](https://arxiv.org/pdf/2012.02670.pdf)] [[code](https://github.com/pasquini-dario/SplitNN_FSHA)]
 
-2. **Local and Central Differential Privacy for Robustness and Privacy in Federated Learning**. NDSS 2022. `DP in federated learning` [[pdf](https://arxiv.org/pdf/2009.03561.pdf)]
+5. **Local and Central Differential Privacy for Robustness and Privacy in Federated Learning**. NDSS 2022. `DP in federated learning` [[pdf](https://arxiv.org/pdf/2009.03561.pdf)]
+
+6. **Gradient Obfuscation Gives a False Sense of Security in Federated Learning**. USENIX Security 2023. `Data Recovery in federated learning` [[pdf](https://www.usenix.org/system/files/sec23summer_372-yue-prepub.pdf)]
 
 #### 2.1.4 Information Leakage in Embedding
 
@@ -528,7 +558,9 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **Automatically Detecting Bystanders in Photos to Reduce Privacy Risks**. IEEE S&P 2020. `Detecting bystanders` [[pdf](http://vision.soic.indiana.edu/papers/bystander2020oakland.pdf)]
 
-2. **Characterizing and Detecting Non-Consensual Photo Sharing on Social Networks**. IEEE S&P 2020. `Detecting Non-Consensual People in a photo` [[pdf](https://dl.acm.org/doi/abs/10.1145/3548606.3560571)]
+3. **Characterizing and Detecting Non-Consensual Photo Sharing on Social Networks**. IEEE S&P 2020. `Detecting Non-Consensual People in a photo` [[pdf](https://dl.acm.org/doi/abs/10.1145/3548606.3560571)]
+
+4. **Fairness Properties of Face Recognition and Obfuscation Systems**. USENIX Security 2023. `Fairness in Face related models` [[pdf](https://www.usenix.org/conference/usenixsecurity23/presentation/rosenberg)] [[code](https://github.com/wi-pi/fairness_face_obfuscation)]
 
 ### 2.4 MPC ML Protocols
 
