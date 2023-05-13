@@ -24,6 +24,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.1.11 Robust Defense](#1111-robust-defense)
       - [1.1.12 Network Traffic](#1112-network-traffic)
       - [1.1.13 Wireless Communication System](#1113-wireless-communication-system)
+      - [1.1.14 Tabular Data](#1114-tabular-data)
     - [1.2 Distributed Machine Learning](#12-distributed-machine-learning)
       - [1.2.1 Federated Learning](#121-federated-learning)
       - [1.2.2 Normal Distributed Learning](#122-normal-distributed-learning)
@@ -218,23 +219,29 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Cost-Aware Robust Tree Ensembles for Security Applications**. USENIX Security 2021. `Propose Cost of feature to certify the model robustness` [[pdf](https://www.usenix.org/system/files/sec21-chen-yizheng.pdf)] [[code](https://github.com/surrealyz/growtrees)]
 
-1. **CADE: Detecting and Explaining Concept Drift Samples for Security Applications**. USENIX Security 2021. `Detect Concept shift` [[pdf](https://www.usenix.org/system/files/sec21-yang-limin.pdf)] [[code](https://github.com/whyisyoung/CADE)]
+2. **CADE: Detecting and Explaining Concept Drift Samples for Security Applications**. USENIX Security 2021. `Detect Concept shift` [[pdf](https://www.usenix.org/system/files/sec21-yang-limin.pdf)] [[code](https://github.com/whyisyoung/CADE)]
 
-2. **Learning Security Classifiers with Verified Global Robustness Properties**. ACM CCS 2021. `Train a classifier with global robustness` [[pdf](https://arxiv.org/pdf/2105.11363.pdf)] [[code](https://github.com/surrealyz/verified-global-properties)]
+3. **Learning Security Classifiers with Verified Global Robustness Properties**. ACM CCS 2021. `Train a classifier with global robustness` [[pdf](https://arxiv.org/pdf/2105.11363.pdf)] [[code](https://github.com/surrealyz/verified-global-properties)]
 
-3. **On the Robustness of Domain Constraints**. ACM CCS 2021. `Domain constraints. Input space robustness` [[pdf](https://arxiv.org/pdf/2105.08619.pdf)]
+4. **On the Robustness of Domain Constraints**. ACM CCS 2021. `Domain constraints. Input space robustness` [[pdf](https://arxiv.org/pdf/2105.08619.pdf)]
 
-4. **Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks**. ACM CCS 2021. `Certify robustness in RNN` [[pdf](https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf)]
+5. **Cert-RNN: Towards Certifying the Robustness of Recurrent Neural Networks**. ACM CCS 2021. `Certify robustness in RNN` [[pdf](https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf)]
 
-5. **TSS: Transformation-Specific Smoothing for Robustness Certification**. ACM CCS 2021. `Certify robustness about transformation` [[pdf](https://arxiv.org/pdf/2002.12398.pdf)][[code](https://github.com/AI-secure/semantic-randomized-smoothing)]
+6. **TSS: Transformation-Specific Smoothing for Robustness Certification**. ACM CCS 2021. `Certify robustness about transformation` [[pdf](https://arxiv.org/pdf/2002.12398.pdf)][[code](https://github.com/AI-secure/semantic-randomized-smoothing)]
 
-6. **Transcend: Detecting Concept Drift in Malware Classification Models**. USENIX Security 2017. `Conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/sec17-jordaney.pdf)] [[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
+7. **Transcend: Detecting Concept Drift in Malware Classification Models**. USENIX Security 2017. `Conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/sec17-jordaney.pdf)] [[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
 
-7. **Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift**. IEEE S&P 2022. `New conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/transcending.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
+8. **Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift**. IEEE S&P 2022. `New conformal evaluators` [[pdf](https://s2lab.cs.ucl.ac.uk/downloads/transcending.pdf)][[code](https://s2lab.cs.ucl.ac.uk/projects/transcend/)]
 
-8. **Transferring Adversarial Robustness Through Robust Representation Matching**. USENIX Security 2022. `Robust Transfer Learning` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
+9.  **Transferring Adversarial Robustness Through Robust Representation Matching**. USENIX Security 2022. `Robust Transfer Learning` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
 
-9. **DiffSmooth: Certifiably Robust Learning via Diffusion Models and Local Smoothing**. USENIX Security 2023. `Diffusion Model Improve Certified Robustness` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
+10. **DiffSmooth: Certifiably Robust Learning via Diffusion Models and Local Smoothing**. USENIX Security 2023. `Diffusion Model Improve Certified Robustness` [[pdf](https://www.usenix.org/system/files/sec22-vaishnavi.pdf)]
+
+12. **Anomaly Detection in the Open World: Normality Shift Detection, Explanation, and Adaptation**. NDSS 2023. `Concept Drift Detection using unsupervised approch` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f830_paper.pdf)] [[code](https://github.com/dongtsi/OWAD)]
+
+13. **BARS: Local Robustness Certification for Deep Learning based Traffic Analysis Systems**. NDSS 2023. `Certified Robustness for Traffic Analysis Systems` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f508_paper.pdf)] [[code](https://github.com/KaiWangGitHub/BARS)]
+
+14. **REaaS: Enabling Adversarially Robust Downstream Classifiers via Robust Encoder as a Service**. NDSS 2023. `Build a certificable EaaS model` [[pdf](https://arxiv.org/pdf/2301.02905.pdf)]
 
 #### 1.1.12 Network Traffic
 
@@ -243,6 +250,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.1.13 Wireless Communication System
 
 1. **Robust Adversarial Attacks Against DNN-Based Wireless Communication Systems**. ACM CCS 2021. `Attack` [[pdf](https://arxiv.org/pdf/2102.00918.pdf)]
+
+#### 1.1.14 Tabular Data
+
+1. **Adversarial Robustness for Tabular Data through Cost and Utility Awareness**. NDSS 2023. `Adversarial Attack & Defense on tabular data` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f924_paper.pdf)]
 
 ### 1.2 Distributed Machine Learning
 
@@ -263,6 +274,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 7. **FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information**. IEEE S&P 2023. `Poisoned Model Recovery Algorithm` [[pdf](https://arxiv.org/pdf/2210.10936.pdf)]
 
 8. **Every Vote Counts: Ranking-Based Training of Federated Learning to Resist Poisoning Attacks**. USENIX Security 2023. `Discrete the model updates and purning the model to defense the poisoning attack` [[pdf](https://arxiv.org/pdf/2110.04350.pdf)] [[code](https://github.com/SPIN-UMass/FRL)]
+
+9.  **Securing Federated Sensitive Topic Classification against Poisoning Attacks**. NDSS 2023. `Robust Aggregation against the poisoning attack` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s112_paper.pdf)]
 
 #### 1.2.2 Normal Distributed Learning
 
@@ -334,6 +347,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 10. **A Data-free Backdoor Injection Approach in Neural Networks**. USENIX Security 2023. `Data free backdoor injection` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-573-lv.pdf)] [[code](https://github.com/lvpeizhuo/Data-free_Backdoor)]
 
+11. **Backdoor Attacks Against Dataset Distillation**. NDSS 2023. `Backdoor attack against dataset istillation` [[pdf](https://arxiv.org/pdf/2301.01197.pdf)] [[code](https://github.com/liuyugeng/baadd)]
+
+12. **BEAGLE: Forensics of Deep Learning Backdoor Attack for Better Defense**. NDSS 2023. `Backdoor Forensics` [[pdf](https://arxiv.org/pdf/2301.06241.pdf)] [[code](https://github.com/Megum1/BEAGLE)]
+
 #### 1.4.2 Text
 
 1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger` [[pdf](https://www.usenix.org/system/files/sec21fall-azizi.pdf)] [[code](https://github.com/reza321/T-Miner)]
@@ -377,6 +394,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.6.4 CAPTCHA
 
 1. **Text Captcha Is Dead? A Large Scale Deployment and Empirical Studys**. ACM CCS 2020. `Adversarial CAPTCHA` [[pdf](https://nesa.zju.edu.cn/download/Text%20Captcha%20Is%20Dead%20A%20Large%20Scale%20Deployment%20and%20Empirical%20Study.pdf)]
+
+2. **Attacks as Defenses: Designing Robust Audio CAPTCHAs Using Attacks on Automatic Speech Recognition Systems**. NDSS 2023. `Adversarial Audio CAPTCHA` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f243_paper.pdf)] [[demo](https://sites.google.com/view/attacksasdefenses/home)]
 
 #### 1.6.5 Code Embedding
 
@@ -497,6 +516,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **Gradient Obfuscation Gives a False Sense of Security in Federated Learning**. USENIX Security 2023. `Data Recovery in federated learning` [[pdf](https://www.usenix.org/system/files/sec23summer_372-yue-prepub.pdf)]
 
+7. **PPA: Preference Profiling Attack Against Federated Learning**. NDSS 2023. `Preference Leakage in federated learning` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s171_paper.pdf)] [[code](https://github.com/PPAattack/PPAattack)]
+
 #### 2.1.4 Information Leakage in Embedding
 
 1. **Privacy Risks of General-Purpose Language Models**. IEEE S&P 2020. `Pretrained Language Model` [[pdf](https://nesa.zju.edu.cn/download/Privacy%20Risks%20of%20General-Purpose%20Language%20Models.pdf)]
@@ -525,11 +546,13 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Machine Unlearning**. IEEE S&P 2020. `Shard and isolate the training dataset` [[pdf](https://arxiv.org/pdf/1912.03817.pdf)] [[code](https://github.com/cleverhans-lab/machine-unlearning)]
 
-1. **When Machine Unlearning Jeopardizes Privacy**. ACM CCS 2021. `Membership inference attack in unlearning setting` [[pdf](https://arxiv.org/pdf/2005.02205.pdf)] [[code](https://github.com/MinChen00/UnlearningLeaks)]
+2. **When Machine Unlearning Jeopardizes Privacy**. ACM CCS 2021. `Membership inference attack in unlearning setting` [[pdf](https://arxiv.org/pdf/2005.02205.pdf)] [[code](https://github.com/MinChen00/UnlearningLeaks)]
 
-1. **Graph Unlearning**. ACM CCS 2022. `Graph Unlearning` [[pdf](https://arxiv.org/pdf/2103.14991.pdf)] [[code](https://github.com/MinChen00/Graph-Unlearning)]
+3. **Graph Unlearning**. ACM CCS 2022. `Graph Unlearning` [[pdf](https://arxiv.org/pdf/2103.14991.pdf)] [[code](https://github.com/MinChen00/Graph-Unlearning)]
 
-2. **On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning**. ACM CCS 2022. `Auditable Unlearning` [[pdf](https://www.usenix.org/system/files/sec22fall_thudi.pdf)]
+4. **On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning**. ACM CCS 2022. `Auditable Unlearning` [[pdf](https://www.usenix.org/system/files/sec22fall_thudi.pdf)]
+
+5. **Machine Unlearning of Features and Labels**. NDSS 2023. `Influence Function to achieve unlearning` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s87_paper.pdf)] [[code](https://github.com/alewarne/MachineUnlearning)]
 
 
 #### 2.1.7 Attribute Inference Attack
@@ -568,11 +591,13 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Proof-of-Learning: Definitions and Practice**. IEEE S&P 2021. `Proof the ownership of model parameters` [[pdf](https://arxiv.org/pdf/2103.05633.pdf)]
 
-1. **SoK: How Robust is Image Classification Deep Neural Network Watermarking?**. IEEE S&P 2022. `Survey of DNN watermarking` [[pdf](https://arxiv.org/pdf/2108.04974.pdf)]
+2. **SoK: How Robust is Image Classification Deep Neural Network Watermarking?**. IEEE S&P 2022. `Survey of DNN watermarking` [[pdf](https://arxiv.org/pdf/2108.04974.pdf)]
 
-1. **Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models**. IEEE S&P 2022. `Calculate model similarity by generating test examples` [[pdf](https://nesa.zju.edu.cn/download/cjl_pdf_sp22.pdf)] [[code](https://github.com/Testing4AI/DeepJudge)]
+3. **Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models**. IEEE S&P 2022. `Calculate model similarity by generating test examples` [[pdf](https://nesa.zju.edu.cn/download/cjl_pdf_sp22.pdf)] [[code](https://github.com/Testing4AI/DeepJudge)]
 
-2. **SSLGuard: A Watermarking Scheme for Self-supervised Learning Pre-trained Encoders**. ACM CCS 2022. `Watermarking in encoder` [[pdf](https://arxiv.org/pdf/2201.11692.pdf)]
+4. **SSLGuard: A Watermarking Scheme for Self-supervised Learning Pre-trained Encoders**. ACM CCS 2022. `Watermarking in encoder` [[pdf](https://arxiv.org/pdf/2201.11692.pdf)]
+
+5. **RAI2: Responsible Identity Audit Governing the Artificial Intelligence**. NDSS 2023. `Model and Data auditing in AI` [[pdf](https://arxiv.org/pdf/2201.11692.pdf)] [[code](https://github.com/chichidd/RAI2)]
 
 ### 2.3 User Related Privacy
 
