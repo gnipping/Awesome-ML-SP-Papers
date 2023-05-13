@@ -53,6 +53,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.6.7 Side Channel Attack](#167-side-channel-attack)
       - [1.6.8 Guidline](#168-guidline)
       - [1.6.9 Security Event](#169-security-event)
+      - [1.6.10 Vulnerability Discovery](#1610-vulnerability-discovery)
     - [1.7 AutoML Security](#17-automl-security)
       - [1.7.1 Security Analysis](#171-security-analysis)
     - [1.8 Hardware Related Security](#18-hardware-related-security)
@@ -135,6 +136,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 3. **Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models**. ACM CCS 2022. `Attack Neural Ranking Models` [[pdf](https://arxiv.org/pdf/2209.06506.pdf)]
 
+4. **No more Reviewer #2: Subverting Automatic Paper-Reviewer Assignment using Adversarial Learning**. USENIX Security 2023. `Adversarial Attack on Paper Assignment` [[pdf](https://arxiv.org/pdf/2303.14443.pdf)]
+
 #### 1.1.3 Audio
 
 1. **WaveGuard: Understanding and Mitigating Audio Adversarial Examples**. USENIX Security 2021. `Defense in preprossing` [[pdf](https://www.usenix.org/system/files/sec21fall-hussain.pdf)] [[code](https://github.com/shehzeen/waveguard_defense)]
@@ -174,6 +177,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 4. **Structural Attack against Graph Based Android Malware Detection**. IEEE S&P 2020. `Perturbed function call graph` [[pdf](https://www4.comp.polyu.edu.hk/~csxluo/HRAT.pdf)]
 
 5. **URET: Universal Robustness Evaluation Toolkit (for Evasion)**. USENIX Security 2023. `General Toolbox to select the perdefined perturbations` [[pdf](https://www.usenix.org/system/files/sec23summer_347-eykholt-prepub.pdf)] [[code](https://github.com/IBM/URET)]
+
+6. **Adversarial Training for Raw-Binary Malware Classifiers**. USENIX Security 2023. `Adversarial Training for Windows PE malware` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-146-lucas.pdf)]
+
+7. **PELICAN: Exploiting Backdoors of Naturally Trained Deep Learning Models In Binary Code Analysis**. USENIX Security 2023. `Reverse engineering natural backdoor in transformer-based x86 binary code analysis task` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-493-zhang-zhuo.pdf)]
 
 #### 1.1.7 Hardware
 
@@ -351,6 +358,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Blind Backdoors in Deep Learning Models**. USENIX Security 2021. `Loss Manipulation. Backdoor` [[pdf](https://www.cs.cornell.edu/~shmat/shmat_usenix21blind.pdf)] [[code](https://github.com/ebagdasa/backdoors101)]
 
+2. **IvySyn: Automated Vulnerability Discovery in Deep Learning Frameworks**. USENIX Security 2023. `Automatic Bug Discovery in ML libraries` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-125-christou.pdf)]
 
 ### 1.6 AI4Security
 
@@ -391,6 +399,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.6.9 Security Event
 
 1. **CERBERUS: Exploring Federated Prediction of Security Events**. ACM CCS 2022. `Federated Learning to predict security event` [[pdf](https://arxiv.org/pdf/2209.03050.pdf)]
+
+#### 1.6.10 Vulnerability Discovery
+
+1. **VulChecker: Graph-based Vulnerability Localization in Source Code**. USENIX Security 2023. `Detecting Bugs using GCN` [[pdf](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky)] [[code](https://github.com/ymirsky/VulChecker)]
 
 ### 1.7 AutoML Security
 
