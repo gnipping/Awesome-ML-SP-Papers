@@ -183,6 +183,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 7. **PELICAN: Exploiting Backdoors of Naturally Trained Deep Learning Models In Binary Code Analysis**. USENIX Security 2023. `Reverse engineering natural backdoor in transformer-based x86 binary code analysis task` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-493-zhang-zhuo.pdf)]
 
+8. **Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information**. USENIX Security 2023. `Black-box Android Adversarial Malware against the FCG-based ML classifier` [[pdf](https://arxiv.org/pdf/2303.08509.pdf)]
+
 #### 1.1.7 Hardware
 
 1. **ATTRITION: Attacking Static Hardware Trojan Detection Techniques Using Reinforcement Learning**. ACM CCS 2022. `Attack Hardware Trojan Detection` [[pdf](https://arxiv.org/pdf/2208.12897.pdf)]
