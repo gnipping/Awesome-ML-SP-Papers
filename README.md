@@ -245,6 +245,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 14. **REaaS: Enabling Adversarially Robust Downstream Classifiers via Robust Encoder as a Service**. NDSS 2023. `Build a certificable EaaS model` [[pdf](https://arxiv.org/pdf/2301.02905.pdf)]
 
+15. **Continuous Learning for Android Malware Detection**. USENIX Security 2023. `New Continual Learning Paridigram for Malware detection` [[pdf](https://arxiv.org/pdf/2302.04332.pdf)] [[code](https://github.com/wagner-group/active-learning)]
+
 #### 1.1.12 Network Traffic
 
 1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis` [[pdf](https://www.usenix.org/system/files/sec21fall-nasr.pdf)] [[code](https://github.com/SPIN-UMass/BLANKET)]
