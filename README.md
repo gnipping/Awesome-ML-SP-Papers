@@ -42,6 +42,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.4.2 Text](#142-text)
       - [1.4.3 Graph](#143-graph)
       - [1.4.4 Software](#144-software)
+      - [1.4.5 Audio](#145-audio)
     - [1.5 ML Library Security](#15-ml-library-security)
       - [1.5.1 Loss](#151-loss)
     - [1.6 AI4Security](#16-ai4security)
@@ -49,7 +50,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.6.2 Label Complete](#162-label-complete)
       - [1.6.3 Advertisement Detection](#163-advertisement-detection)
       - [1.6.4 CAPTCHA](#164-captcha)
-      - [1.6.5 Code Embedding](#165-code-embedding)
+      - [1.6.5 Code Analysis](#165-code-analysis)
       - [1.6.6 Chatbot](#166-chatbot)
       - [1.6.7 Side Channel Attack](#167-side-channel-attack)
       - [1.6.8 Guidline](#168-guidline)
@@ -95,6 +96,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [2.5.2 Survey](#252-survey)
     - [2.6 Differential Privacy](#26-differential-privacy)
       - [2.6.1 Tree Model](#261-tree-model)
+      - [2.6.2 DP](#262-dp)
+      - [2.6.3 LDP](#263-ldp)
   - [Contributing](#contributing)
   - [Licenses](#licenses)
 
@@ -298,6 +301,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 10. **BayBFed: Bayesian Backdoor Defense for Federated Learning**. IEEE S&P 2023. `Purify the model updates using bayesian` [[pdf](https://arxiv.org/pdf/2301.09508.pdf)]
 
+11. **ADI: Adversarial Dominating Inputs in Vertical Federated Learning Systems**. IEEE S&P 2023. `Poisoning the vertical federated learning system` [[pdf](https://arxiv.org/pdf/2201.02775.pdf)] [[code](https://github.com/Qi-Pang/ADI)]
+
+12. **3DFed: Adaptive and Extensible Framework for Covert Backdoor Attack in Federated Learning**. IEEE S&P 2023. `Convert normal backdoor into the federated learning scenario` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b893/1NrbZhCP5ao)]
+
+
+
 #### 1.2.2 Normal Distributed Learning
 
 1. **Justinian's GAAvernor: Robust Distributed Learning with Gradient Aggregation Agent**. USENIX Security 2020. `Defense in Gradient Aggregation. Reinforcement learning` [[pdf](https://www.usenix.org/system/files/sec20-pan.pdf)]
@@ -398,6 +407,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Explanation-Guided Backdoor Poisoning Attacks Against Malware Classifiers**. USENIX Security 2021. `Explanation Method. Evade Classification` [[pdf](https://www.usenix.org/system/files/sec21fall-severi.pdf)] [[code](https://github.com/ClonedOne/MalwareBackdoors)]
 
+#### 1.4.5 Audio
+
+1. **TrojanModel: A Practical Trojan Attack against Automatic Speech Recognition Systems**. IEEE S&P 2023. `Backdoor attack in speech recognition systems` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600a906/1Js0DtfUrKw)]
+
+2. **MagBackdoor: Beware of Your Loudspeaker as Backdoor of Magnetic Attack for Malicious Command Injection**. IEEE S&P 2023. `Backdoor attack in audio using magentic trigget` [[pdf](https://huskyachao.github.io/publication/magbackdoor-oakland23/)]
+
 ### 1.5 ML Library Security
 
 #### 1.5.1 Loss
@@ -426,9 +441,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **Attacks as Defenses: Designing Robust Audio CAPTCHAs Using Attacks on Automatic Speech Recognition Systems**. NDSS 2023. `Adversarial Audio CAPTCHA` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f243_paper.pdf)] [[demo](https://sites.google.com/view/attacksasdefenses/home)]
 
-#### 1.6.5 Code Embedding
+3. **A Generic, Efficient, and Effortless Solver with Self-Supervised Learning for Breaking Text Captchas**. IEEE S&P 2023. `Text CAPTCHA Solver` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b524/1Js0E2VGRhe)]
+
+#### 1.6.5 Code Analysis
 
 1. **PalmTree: Learning an Assembly Language Model for Instruction Embedding**. ACM CCS 2021. `Pre-trained model to generate code embedding` [[pdf](https://arxiv.org/pdf/2103.03809.pdf)] [[code](https://github.com/palmtreemodel/PalmTree)]
+
+2. **CALLEE: Recovering Call Graphs for Binaries with Transfer and Contrastive Learning**. IEEE S&P 2023. `Recovering call graph from binaries using transfer and contrastive learning` [[pdf](https://arxiv.org/pdf/2111.01415.pdf)] [[code](https://github.com/vul337/Callee)]
+
+3. **Examining Zero-Shot Vulnerability Repair with Large Language Models**. IEEE S&P 2023. `Zero-short vulnerability repair using large language model` [[pdf](https://arxiv.org/pdf/2112.02125.pdf)]
 
 #### 1.6.6 Chatbot
 
@@ -446,6 +467,9 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **Dos and Don'ts of Machine Learning in Computer Security**. USENIX Security 2022. `Survey pitfalls in ML4Security` [[pdf](https://www.usenix.org/system/files/sec22summer_arp.pdf)]
 
 2. **“Security is not my field, I’m a stats guy”: A Qualitative Root Cause Analysis of Barriers to Adversarial Machine Learning Defenses in Industry**. USENIX Security 2023. `Survey AML Application in Industry` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-324-mink.pdf)]
+
+3. **Everybody’s Got ML, Tell Me What Else You Have: Practitioners’ Perception of ML-Based Security Tools and Explanations**. IEEE S&P 2023. `Explainable AI in practice` [[pdf](https://gangw.cs.illinois.edu/Security_ML-user.pdf)]
+
 
 #### 1.6.9 Security Event
 
@@ -573,6 +597,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 9.  **RoFL: Robustness of Secure Federated Learning**. IEEE S&P 2023. `Robust Federated Learning Framework using Secuire Aggregation` [[pdf](https://arxiv.org/pdf/2107.03311.pdf)] [[code](https://github.com/pps-lab/rofl-project-code)]
 
+10. **Scalable and Privacy-Preserving Federated Principal Component Analysis**. IEEE S&P 2023. `Privacy preserving feaderated PCA algorithm` [[pdf](https://arxiv.org/pdf/2304.00129.pdf)]
+
 #### 2.1.4 Information Leakage in Embedding
 
 1. **Privacy Risks of General-Purpose Language Models**. IEEE S&P 2020. `Pretrained Language Model` [[pdf](https://nesa.zju.edu.cn/download/Privacy%20Risks%20of%20General-Purpose%20Language%20Models.pdf)]
@@ -694,6 +720,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Cerebro: A Platform for Multi-Party Cryptographic Collaborative Learning**. USENIX Security 2021. [[pdf](https://www.usenix.org/system/files/sec21-zheng.pdf)] [[code](https://github.com/mc2-project/cerebro)]
 
+2. **Private, Efficient, and Accurate: Protecting Models Trained by Multi-party Learning with Differential Privacy**. IEEE S&P 2023. [[pdf](https://arxiv.org/pdf/2208.08662.pdf)] 
+
 #### 2.4.4 Cryptographic NN Computation
 
 1. **SoK: Cryptographic Neural-Network Computation**. IEEE S&P 2023. [[pdf](https://sokcryptonn.github.io/)]
@@ -701,6 +729,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 2.4.5 Secure Aggregation
 
 1. **Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning**. IEEE S&P 2023. [[pdf](https://sokcryptonn.github.io/)] [[code](https://github.com/eniac/flamingo)]
+
+2. **ELSA: Secure Aggregation for Federated Learning with Malicious Actors**. IEEE S&P 2023. [[pdf](https://eprint.iacr.org/2022/1695.pdf)] [[code](https://github.com/ucbsky/elsa)]
 
 ### 2.5 Platform
 
@@ -717,6 +747,14 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 2.6.1 Tree Model
 
 1. **Federated Boosted Decision Trees with Differential Privacy**. ACM CCS 2022. `Federated Learning with Tree Model in DP` [[pdf](http://dimacs.rutgers.edu/~graham/pubs/papers/dpxgboost.pdf)] 
+
+#### 2.6.2 DP
+
+1. **Spectral-DP: Differentially Private Deep Learning through Spectral Perturbation and Filtering**. IEEE S&P 2023. `Spectral DP` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b944/1NrbZkrFZi8)] 
+
+#### 2.6.3 LDP
+
+1. **Locally Differentially Private Frequency Estimation Based on Convolution Framework**. IEEE S&P 2023. [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600c208/1NrbZx7nFkI)]
 
 ## Contributing
 
