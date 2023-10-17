@@ -47,7 +47,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.5.1 Loss](#151-loss)
     - [1.6 AI4Security](#16-ai4security)
       - [1.6.1 Cyberbullying](#161-cyberbullying)
-      - [1.6.2 Label Complete](#162-label-complete)
+      - [1.6.2 Security Applications](#162-security-applications)
       - [1.6.3 Advertisement Detection](#163-advertisement-detection)
       - [1.6.4 CAPTCHA](#164-captcha)
       - [1.6.5 Code Analysis](#165-code-analysis)
@@ -427,9 +427,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Towards Understanding and Detecting Cyberbullying in Real-world Images**. NDSS 2021. `Detect image cyberbully` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_7C-4_24260_paper.pdf)]
 
-#### 1.6.2 Label Complete
+#### 1.6.2 Security Applications
 
 1. **FARE: Enabling Fine-grained Attack Categorization under Low-quality Labeled Data**. NDSS 2021. `Clustering Method to complete the dataset label` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5C-4_24403_paper.pdf)] [[code](https://github.com/junjieliang672/FARE)]
+
+2. **From Grim Reality to Practical Solution: Malware Classification in Real-World Noise**. IEEE S&P 2023. `Noise Learning method for malware detection` [[pdf](https://henrygwb.github.io/publications/sp23.pdf)] [[code](https://github.com/gnipping/morse)]
 
 #### 1.6.3 Advertisement Detection
 
