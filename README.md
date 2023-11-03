@@ -140,6 +140,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 17. **The Space of Adversarial Strategies**. USENIX Security 2023. `Decompose the Adversarial Attack Components and combine them together` [[pdf](https://www.usenix.org/system/files/sec23summer_256-sheatsley-prepub.pdf)]
 
+18. **Stateful Defenses for Machine Learning Models Are Not Yet Secure Against Black-box Attacks**. ACM CCS 2023. `Attack strategy to enhance the query-based attack against the stateful defense` [[pdf](https://arxiv.org/pdf/2303.06280.pdf)] [[code]( [[code](https://github.com/purseclab/AttrackZone)])]
+
 #### 1.1.2 Text
 
 1. **TextShield: Robust Text Classification Based on Multimodal Embedding and Neural Machine Translation**. USENIX Security 2020. `Defense in preprossing` [[pdf](https://www.usenix.org/system/files/sec20-li-jinfeng.pdf)]
