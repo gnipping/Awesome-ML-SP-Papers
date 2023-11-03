@@ -61,7 +61,6 @@ A curated list of Meachine learning Security & Privacy papers published in secur
     - [1.8 Hardware Related Security](#18-hardware-related-security)
       - [1.8.1 Verification](#181-verification)
     - [1.9 Security Related Interpreting Method](#19-security-related-interpreting-method)
-      - [1.9.1 Unsupervised Learning](#191-unsupervised-learning)
     - [1.10 Face Security](#110-face-security)
       - [1.10.1 Deepfake Detection](#1101-deepfake-detection)
       - [1.10.2 Face Impersonation](#1102-face-impersonation)
@@ -198,6 +197,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 7. **PELICAN: Exploiting Backdoors of Naturally Trained Deep Learning Models In Binary Code Analysis**. USENIX Security 2023. `Reverse engineering natural backdoor in transformer-based x86 binary code analysis task` [[pdf](https://www.usenix.org/system/files/sec23fall-prepub-493-zhang-zhuo.pdf)]
 
 8. **Black-box Adversarial Example Attack towards FCG Based Android Malware Detection under Incomplete Feature Information**. USENIX Security 2023. `Black-box Android Adversarial Malware against the FCG-based ML classifier` [[pdf](https://arxiv.org/pdf/2303.08509.pdf)]
+
+9.  **Efficient Query-Based Attack against ML-Based Android Malware Detection under Zero Knowledge Setting**. ACM CCS 2023. `Semantic similar perturbations are more likely to have similar evasion effectiveness` [[pdf](https://arxiv.org/pdf/2309.01866.pdf)] [[code](https://github.com/gnipping/AdvDroidZero-Access-Instructions)]
 
 #### 1.1.7 Hardware
 
@@ -389,6 +390,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 16. **REDEEM MYSELF: Purifying Backdoors in Deep Learning Models using Self Attention Distillation**. IEEE S&P 2023. `Purifying backdoor using model distillation` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600a755/1NrbYbKqcHS)]
 
+17. **NARCISSUS: A Practical Clean-Label Backdoor Attack with Limited Information**. ACM CCS 2023. `Clean label backdoor attack` [[pdf](https://arxiv.org/pdf/2204.05255.pdf)] [[code](https://github.com/ruoxi-jia-group/Narcissus-backdoor-attack)]
+
 #### 1.4.2 Text
 
 1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger` [[pdf](https://www.usenix.org/system/files/sec21fall-azizi.pdf)] [[code](https://github.com/reza321/T-Miner)]
@@ -432,6 +435,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **FARE: Enabling Fine-grained Attack Categorization under Low-quality Labeled Data**. NDSS 2021. `Clustering Method to complete the dataset label` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5C-4_24403_paper.pdf)] [[code](https://github.com/junjieliang672/FARE)]
 
 2. **From Grim Reality to Practical Solution: Malware Classification in Real-World Noise**. IEEE S&P 2023. `Noise Learning method for malware detection` [[pdf](https://henrygwb.github.io/publications/sp23.pdf)] [[code](https://github.com/gnipping/morse)]
+
+3. **Decoding the Secrets of Machine Learning in Windows Malware Classification: A Deep Dive into Datasets, Features, and Model Performance**. ACM CCS 2023. `static features are better than dynamic feature in WindowsPE malware detection` [[pdf](https://arxiv.org/pdf/2307.14657.pdf)]
 
 #### 1.6.3 Advertisement Detection
 
@@ -499,9 +504,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 ### 1.9 Security Related Interpreting Method
 
-#### 1.9.1 Unsupervised Learning
-
 1. **DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications**. ACM CCS 2021. `Anomaly detection`  [[pdf](https://arxiv.org/pdf/2109.11495.pdf)] [[code](https://github.com/dongtsi/DeepAID)]
+
+2. **Good-looking but Lacking Faithfulness: Understanding Local Explanation Methods through Trend-based Testing**. ACM CCS 2023. `Trend-based faithfulness testing`  [[pdf](https://arxiv.org/pdf/2309.05679.pdf)] [[code](https://github.com/JenniferHo97/XAI-TREND-TEST)]
+
+3. **FINER: Enhancing State-of-the-art Classifiers with Feature Attribution to Facilitate Security Analysis**. ACM CCS 2023. `Ensumble explaination for different stakeholder`  [[pdf](https://arxiv.org/pdf/2308.05362.pdf)] [[code](https://github.com/E0HYL/FINER-explain)]
 
 ### 1.10 Face Security
 
