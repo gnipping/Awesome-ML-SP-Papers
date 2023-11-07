@@ -67,6 +67,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.10.3 Face Verification Systems](#1103-face-verification-systems)
     - [1.10 AI Generation Detection](#110-ai-generation-detection)
       - [1.10.1 Text](#1101-text)
+    - [1.11 LLM Security](#111-llm-security)
+      - [1.11.1 Code Generation](#1111-code-generation)
   - [2. Privacy Papers](#2-privacy-papers)
     - [2.1 Training Data](#21-training-data)
       - [2.1.1 Data Recovery](#211-data-recovery)
@@ -533,6 +535,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.10.1 Text
 
 1. **Deepfake Text Detection: Limitations and Opportunities**. IEEE S&P 2023. `Detecting the machine generated text`  [[pdf](https://arxiv.org/pdf/2210.09421.pdf)] [[code](https://github.com/jmpu/DeepfakeTextDetection)]
+
+### 1.11 LLM Security
+
+#### 1.11.1 Code Generation
+
+1. **Large Language Models for Code: Security Hardening and Adversarial Testing**. ACM CCS 2023. `Prefix tuning for secure code generation`  [[pdf](https://arxiv.org/pdf/2302.05319.pdf)] [[code](https://github.com/eth-sri/sven)]
 
 
 ## 2. Privacy Papers
