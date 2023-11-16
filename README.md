@@ -396,6 +396,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 17. **NARCISSUS: A Practical Clean-Label Backdoor Attack with Limited Information**. ACM CCS 2023. `Clean label backdoor attack` [[pdf](https://arxiv.org/pdf/2204.05255.pdf)] [[code](https://github.com/ruoxi-jia-group/Narcissus-backdoor-attack)]
 
+18. **ASSET: Robust Backdoor Data Detection Across a Multiplicity of Deep Learning Paradigms**. USENIX Security 2023. `Backdoor Defense works in Different Learning Paradigms` [[pdf](https://www.usenix.org/system/files/usenixsecurity23-pan.pdf)] [[code](https://github.com/ruoxi-jia-group/ASSET)]
+
 #### 1.4.2 Text
 
 1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger` [[pdf](https://www.usenix.org/system/files/sec21fall-azizi.pdf)] [[code](https://github.com/reza321/T-Miner)]
