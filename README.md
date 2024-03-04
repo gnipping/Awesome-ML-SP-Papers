@@ -79,6 +79,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.11.3 Jailbreaking](#1113-jailbreaking)
       - [1.11.4 Robustness](#1114-robustness)
       - [1.11.5 Generated Text Detection](#1115-generated-text-detection)
+      - [1.11.6 Backdoor Detection](#1116-backdoor-detection)
   - [2. Privacy Papers](#2-privacy-papers)
     - [2.1 Training Data](#21-training-data)
       - [2.1.1 Data Recovery](#211-data-recovery)
@@ -668,6 +669,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **DEMASQ: Unmasking the ChatGPT Wordsmith**. NDSS 2024. `Generated text detection`  [[pdf](https://arxiv.org/pdf/2311.05019.pdf)]
 
+#### 1.11.6 Backdoor Detection
+
+1. **LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors**. NDSS 2024. `Task-agnostic backdoor detection`  [[pdf](https://arxiv.org/pdf/2308.13904.pdf)] [[code](https://github.com/meng-wenlong/LMSanitator)]
+
 ## 2. Privacy Papers
 
 ### 2.1 Training Data
@@ -794,6 +799,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 5. **Machine Unlearning of Features and Labels**. NDSS 2023. `Influence Function to achieve unlearning` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s87_paper.pdf)] [[code](https://github.com/alewarne/MachineUnlearning)]
 
+6. **A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services**. NDSS 2024. `The vulnerabilities in machine unlearning` [[pdf](https://arxiv.org/pdf/2309.08230.pdf)] [[code](https://github.com/TASI-LAB/Over-unlearning)]
 
 #### 2.1.7 Attribute Inference Attack
 
@@ -896,6 +902,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 2. **Private, Efficient, and Accurate: Protecting Models Trained by Multi-party Learning with Differential Privacy**. IEEE S&P 2023. [[pdf](https://arxiv.org/pdf/2208.08662.pdf)]
 
 3. **MPCDiff: Testing and Repairing MPC-Hardened Deep Learning Models**. NDSS 2023. [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-380-paper.pdf)] [[code](https://github.com/Qi-Pang/MPCDiff)]
+
+4. **Pencil: Private and Extensible Collaborative Learning without the Non-Colluding Assumption**. NDSS 2024. [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-512-paper.pdf)] [[code](https://github.com/lightbulb128/Pencil)]
 
 #### 2.4.4 Cryptographic NN Computation
 
