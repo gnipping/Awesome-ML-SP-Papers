@@ -71,8 +71,9 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.10.1 Deepfake Detection](#1101-deepfake-detection)
       - [1.10.2 Face Impersonation](#1102-face-impersonation)
       - [1.10.3 Face Verification Systems](#1103-face-verification-systems)
-    - [1.10 AI Generation Detection](#110-ai-generation-detection)
-      - [1.10.1 Text](#1101-text)
+    - [1.10 AI Generation Security](#110-ai-generation-security)
+      - [1.10.1 Text Generation Detection](#1101-text-generation-detection)
+      - [1.10.2 Deepfake](#1102-deepfake)
     - [1.11 LLM Security](#111-llm-security)
       - [1.11.1 Code Analysis](#1111-code-analysis)
       - [1.11.2 Vision-Language Model](#1112-vision-language-model)
@@ -637,11 +638,16 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Understanding the (In)Security of Cross-side Face Verification Systems in Mobile Apps: A System Perspective**. IEEE S&P 2023. `Measurement study of the security risks of cross-side face verification systems.`  [[pdf](https://yinzhicao.org/xfvschecker/XFVSChecker.pdf)]
 
-### 1.10 AI Generation Detection
+### 1.10 AI Generation Security
 
-#### 1.10.1 Text
+#### 1.10.1 Text Generation Detection
 
 1. **Deepfake Text Detection: Limitations and Opportunities**. IEEE S&P 2023. `Detecting the machine generated text`  [[pdf](https://arxiv.org/pdf/2210.09421.pdf)] [[code](https://github.com/jmpu/DeepfakeTextDetection)]
+
+#### 1.10.2 Deepfake
+
+1. **SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets**. USENIX Security 2024. `Issues in deepfake media dataset`  [[pdf](https://www.usenix.org/system/files/usenixsecurity24-layton.pdf)] [[website](https://sites.google.com/view/thegoodthebadandtheunbalanced)]
+
 
 ### 1.11 LLM Security
 
