@@ -847,6 +847,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 8. **D-DAE: Defense-Penetrating Model Extraction Attacks**. IEEE S&P 2023. `Meta classifier to classify the defense and generator model to reduce the noise` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600a432/1He7YbsiH4c)]
 
+9.  **SoK: Neural Network Extraction Through Physical Side Channels**. USENIX Security 2024. `Physical Side Channel-based model extraction` [[pdf](https://www.usenix.org/system/files/usenixsecurity24-horvath.pdf)]
+
+10. **SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice**. USENIX Security 2024. `on device model extraction` [[pdf](https://www.usenix.org/system/files/usenixsecurity24-nayan.pdf)]
+
 #### 2.2.2 Model Watermark
 
 1. **Adversarial Watermarking Transformer: Towards Tracing Text Provenance with Data Hiding**. IEEE S&P 2021. `Encode secret message into LM` [[pdf](https://arxiv.org/pdf/2009.03015.pdf)]
