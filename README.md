@@ -190,25 +190,31 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **Dompteur: Taming Audio Adversarial Examples**. USENIX Security 2021. `Defense in preprossing. Preprocessing the audio to make the noise human noticeable` [[pdf](https://www.usenix.org/system/files/sec21-eisenhofer.pdf)] [[code](https://github.com/RUB-SysSec/dompteur)]
 
-3. **Who is Real Bob? Adversarial Attacks on Speaker Recognition Systems**. IEEE S&P 2021. `Attack` [[pdf](https://arxiv.org/pdf/1911.01840.pdf)] [[code](https://github.com/FAKEBOB-adversarial-attack/FAKEBOB)]
+3. **EarArray: Defending against DolphinAttack via Acoustic Attenuation**. NDSS 2021. `Defense` [[pdf](https://www.ndss-symposium.org/ndss-paper/eararray-defending-against-dolphinattack-via-acoustic-attenuation/)]
 
-4. **Hear "No Evil", See "Kenansville": Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems**. IEEE S&P 2021. `Black-box Attack` [[pdf](https://arxiv.org/pdf/1910.05262.pdf)]
+4. **Who is Real Bob? Adversarial Attacks on Speaker Recognition Systems**. IEEE S&P 2021. `Attack` [[pdf](https://arxiv.org/pdf/1911.01840.pdf)] [[code](https://github.com/FAKEBOB-adversarial-attack/FAKEBOB)]
 
-5. **SoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems**. IEEE S&P 2021. `Survey` [[pdf](https://arxiv.org/pdf/2007.06622.pdf)]
+5. **Hear "No Evil", See "Kenansville": Efficient and Transferable Black-Box Attacks on Speech Recognition and Voice Identification Systems**. IEEE S&P 2021. `Black-box Attack` [[pdf](https://arxiv.org/pdf/1910.05262.pdf)]
 
-6. **AdvPulse: Universal, Synchronization-free, and Targeted Audio Adversarial Attacks via Subsecond Perturbations**. ACM CCS 2020. `Attack` [[pdf](http://www.winlab.rutgers.edu/~yychen/papers/li2020advpulse.pdf)]
+6. **SoK: The Faults in our ASRs: An Overview of Attacks against Automatic Speech Recognition and Speaker Identification Systems**. IEEE S&P 2021. `Survey` [[pdf](https://arxiv.org/pdf/2007.06622.pdf)]
 
-7. **Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information**. ACM CCS 2021. `Black-box Attack. Physical World` [[pdf](https://arxiv.org/pdf/2110.09714.pdf)]
+7. **AdvPulse: Universal, Synchronization-free, and Targeted Audio Adversarial Attacks via Subsecond Perturbations**. ACM CCS 2020. `Attack` [[pdf](http://www.winlab.rutgers.edu/~yychen/papers/li2020advpulse.pdf)]
 
-8. **Perception-Aware Attack: Creating Adversarial Music via Reverse-Engineering Human Perception**. ACM CCS 2022. `Adversarial Audio with human-aware noise` [[pdf](https://arxiv.org/pdf/2207.13192.pdf)]
+8. **Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information**. ACM CCS 2021. `Black-box Attack. Physical World` [[pdf](https://arxiv.org/pdf/2110.09714.pdf)]
 
-9. **SpecPatch: Human-in-the-Loop Adversarial Audio Spectrogram Patch Attack on Speech Recognition**. ACM CCS 2022. `Adversarial Patch for audio` [[pdf](https://cse.msu.edu/~qyan/paper/SpecPatch_CCS22.pdf)]
+9. **Perception-Aware Attack: Creating Adversarial Music via Reverse-Engineering Human Perception**. ACM CCS 2022. `Adversarial Audio with human-aware noise` [[pdf](https://arxiv.org/pdf/2207.13192.pdf)]
 
-10. **SpecPatch: Human-in-the-Loop Adversarial Audio Spectrogram Patch Attack on Speech Recognition**. IEEE S&P 2024. `Common features of adversarial audio examples` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a111/1Ub23jYBBHa)]
+10. **SpecPatch: Human-in-the-Loop Adversarial Audio Spectrogram Patch Attack on Speech Recognition**. ACM CCS 2022. `Adversarial Patch for audio` [[pdf](https://cse.msu.edu/~qyan/paper/SpecPatch_CCS22.pdf)]
 
-11. **ALIF: Low-Cost Adversarial Audio Attacks on Black-Box Speech Platforms using Linguistic Features**. IEEE S&P 2024. `Black-box adverarial audio attack` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a056/1RjEav0Daa4)] [[code](https://github.com/TASER2023/TASER)]
+11. **Learning Normality is Enough: A Software-based Mitigation against Inaudible Voice Attacks**. USENIX Security 2023. `Unsupervised learning-based defense` [[pdf](https://www.usenix.org/conference/usenixsecurity23/presentation/li-xinfeng)]
 
-12. **Parrot-Trained Adversarial Examples: Pushing the Practicality of Black-Box Audio Attacks against Speaker Recognition Models**. NDSS 2024. `Black-box adverarial audio attack using parrot` [[pdf](https://arxiv.org/pdf/2311.07780.pdf)]
+12. **Understanding and Benchmarking the Commonality of Adversarial Examples**. IEEE S&P 2024. `Common features of adversarial audio examples` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a111/1Ub23jYBBHa)]
+
+13. **ALIF: Low-Cost Adversarial Audio Attacks on Black-Box Speech Platforms using Linguistic Features**. IEEE S&P 2024. `Black-box adverarial audio attack` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a056/1RjEav0Daa4)] [[code](https://github.com/TASER2023/TASER)]
+
+14. **Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time**. NDSS 2024. `Compeletely inaudible adversarial attack` [[pdf](https://arxiv.org/pdf/2308.01040)] [[code](https://github.com/LetterLiGo/Inaudible-Adversarial-Perturbation-Vrifle)]
+
+15. **Parrot-Trained Adversarial Examples: Pushing the Practicality of Black-Box Audio Attacks against Speaker Recognition Models**. NDSS 2024. `Black-box adverarial audio attack using parrot` [[pdf](https://arxiv.org/pdf/2311.07780.pdf)]
 
 #### 1.1.4 Video
 
@@ -544,6 +550,9 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 12. **Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic**. NDSS 2024. `Training ML-based traffic detection using low-quality data` [[pdf](https://arxiv.org/pdf/2309.04798.pdf)] [[code](https://github.com/XXnormal/RAPIER)]
 
+13. **SafeEar: Content Privacy-Preserving Audio Deepfake Detection**. ACM CCS 2024. `Speech content privacy-preserving deepfake detection`  [[pdf](https://arxiv.org/pdf/2409.09272)] [[website](https://safeearweb.github.io/Project/)] [[code](https://github.com/LetterLiGo/SafeEar)] [[dataset](https://zenodo.org/records/11229569)]
+
+
 #### 1.6.3 Advertisement Detection
 
 1. **WtaGraph: Web Tracking and Advertising Detection using Graph Neural Networks**. IEEE S&P 2022. `GNN` [[pdf](https://zhiju.me/assets/files/WtaGraph_SP22.pdf)]
@@ -563,6 +572,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 2. **CALLEE: Recovering Call Graphs for Binaries with Transfer and Contrastive Learning**. IEEE S&P 2023. `Recovering call graph from binaries using transfer and contrastive learning` [[pdf](https://arxiv.org/pdf/2111.01415.pdf)] [[code](https://github.com/vul337/Callee)]
 
 3. **Examining Zero-Shot Vulnerability Repair with Large Language Models**. IEEE S&P 2023. `Zero-short vulnerability repair using large language model` [[pdf](https://arxiv.org/pdf/2112.02125.pdf)]
+
+4. **Raconteur: A Knowledgeable, Insightful, and Portable LLM-Powered Shell Command Explainer**. NDSS 2025. `LLM-powered malicious code analysis` [[pdf](https://arxiv.org/pdf/2409.02074)] [[website](https://raconteur-ndss.github.io/)]
 
 #### 1.6.6 Chatbot
 
@@ -648,6 +659,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets**. USENIX Security 2024. `Issues in deepfake media dataset`  [[pdf](https://www.usenix.org/system/files/usenixsecurity24-layton.pdf)] [[website](https://sites.google.com/view/thegoodthebadandtheunbalanced)]
 
+2. **SafeEar: Content Privacy-Preserving Audio Deepfake Detection**. ACM CCS 2024. `Speech content privacy-preserving deepfake detection`  [[pdf](https://arxiv.org/pdf/2409.09272)] [[website](https://safeearweb.github.io/Project/)] [[code](https://github.com/LetterLiGo/SafeEar)] [[dataset](https://zenodo.org/records/11229569)]
+   
 
 ### 1.11 LLM Security
 
@@ -657,15 +670,23 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **DeGPT: Optimizing Decompiler Output with LLM**. NDSS 2024. `LLM-enhanced reverse engineering`  [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-401-paper.pdf)] [[code](https://github.com/PeiweiHu/DeGPT)]
 
+3. **Raconteur: A Knowledgeable, Insightful, and Portable LLM-Powered Shell Command Explainer**. NDSS 2025. `LLM-powered malicious code analysis` [[pdf](https://arxiv.org/pdf/2409.02074)] [[website](https://raconteur-ndss.github.io/)]
+
+
 #### 1.11.2 Vision-Language Model
 
 1. **Transferable Multimodal Attack on Vision-Language Pre-training Models**. IEEE S&P 2024. `Transferable adversarial attack on VLM`  [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a102/1Ub239H4xyg)]
 
 2. **SneakyPrompt: Jailbreaking Text-to-image Generative Models**. IEEE S&P 2024. `Jailbreaking text-to-image generative model using reinforcement-learning adversarial NLP methods`  [[pdf](https://arxiv.org/pdf/2305.12082.pdf)] [[code](https://github.com/Yuchen413/text2image_safety)]
+  
+3. **SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models**. ACM CCS 2024. `defending against unsafe content generation in text-to-image models`  [[pdf](https://arxiv.org/pdf/2404.06666)] [[code](https://github.com/LetterLiGo/SafeGen_CCS2024)] [[model](https://huggingface.co/LetterJohn/SafeGen-Pretrained-Weights)]
+
 
 #### 1.11.3 Jailbreaking
 
 1. **MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots**. NDSS 2024. `LLM jailbreaking`  [[pdf](https://arxiv.org/pdf/2307.08715.pdf)]
+
+2. **Legilimens: Practical and Unified Content Moderation for Large Language Model Services**. ACM CCS 2024. `Jailbreaking input/output moderation` [[pdf](https://arxiv.org/pdf/2408.15488)] [[code](https://github.com/lin000001/Legilimens)]
 
 #### 1.11.4 Robustness
 
@@ -706,6 +727,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 10. **Crafter: Facial Feature Crafting against Inversion-based Identity Theft on Deep Models**. NDSS 2024. `Protect model inversion attack`  [[pdf](https://arxiv.org/pdf/2401.07205.pdf)] [[code](https://github.com/ShimingWang98/Facial_Feature_Crafting_against_Inversion_based_Identity_Theft/tree/main)]
 
 11. **Transpose Attack: Stealing Datasets with Bidirectional Training**. NDSS 2024. `Stealing dataset in bidirectional models`  [[pdf](https://arxiv.org/pdf/2311.07389.pdf)] [[code](https://github.com/guyAmit/Transpose-Attack-paper-NDSS24-/tree/main)]
+
+12. **SafeEar: Content Privacy-Preserving Audio Deepfake Detection**. ACM CCS 2024. `Speech content privacy-preserving deepfake detection`  [[pdf](https://arxiv.org/pdf/2409.09272)] [[website](https://safeearweb.github.io/Project/)] [[code](https://github.com/LetterLiGo/SafeEar)] [[dataset](https://zenodo.org/records/11229569)]
 
 #### 2.1.2 Membership Inference Attack
 
