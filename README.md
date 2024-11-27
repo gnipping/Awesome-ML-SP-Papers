@@ -38,6 +38,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.3.7 Privacy](#137-privacy)
       - [1.3.8 Test-Time Poisoning](#138-test-time-poisoning)
       - [1.3.9 Defense](#139-defense)
+      - [1.3.10 Defense](#1310-defense)
     - [1.4 Backdoor](#14-backdoor)
       - [1.4.1 Image](#141-image)
       - [1.4.2 Text](#142-text)
@@ -79,8 +80,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.11.2 Vision-Language Model](#1112-vision-language-model)
       - [1.11.3 Jailbreaking](#1113-jailbreaking)
       - [1.11.4 Robustness](#1114-robustness)
-      - [1.11.5 Generated Text Detection](#1115-generated-text-detection)
+      - [1.11.5 Generated Concent Detection](#1115-generated-concent-detection)
       - [1.11.6 Backdoor Detection](#1116-backdoor-detection)
+      - [1.11.7 Bias](#1117-bias)
+      - [1.11.8 Prompt Injection](#1118-prompt-injection)
   - [2. Privacy Papers](#2-privacy-papers)
     - [2.1 Training Data](#21-training-data)
       - [2.1.1 Data Recovery](#211-data-recovery)
@@ -113,6 +116,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [2.6.1 Tree Model](#261-tree-model)
       - [2.6.2 DP](#262-dp)
       - [2.6.3 LDP](#263-ldp)
+    - [2.7 LLM Privacy](#27-llm-privacy)
+      - [2.7.1 Prompt Privacy](#271-prompt-privacy)
   - [Contributing](#contributing)
   - [Licenses](#licenses)
 
@@ -156,23 +161,27 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 17. **The Space of Adversarial Strategies**. USENIX Security 2023. `Decompose the Adversarial Attack Components and combine them together` [[pdf](https://www.usenix.org/system/files/sec23summer_256-sheatsley-prepub.pdf)]
 
-18. **Stateful Defenses for Machine Learning Models Are Not Yet Secure Against Black-box Attacks**. ACM CCS 2023. `Attack strategy to enhance the query-based attack against the stateful defense` [[pdf](https://arxiv.org/pdf/2303.06280.pdf)] [[code](https://github.com/purseclab/AttrackZone)])]
+18. **Stateful Defenses for Machine Learning Models Are Not Yet Secure Against Black-box Attacks**. ACM CCS 2023. `Attack strategy to enhance the query-based attack against the stateful defense` [[pdf](https://arxiv.org/pdf/2303.06280.pdf)] [[code](https://github.com/purseclab/AttrackZone)]
 
 19. **BounceAttack: A Query-Efficient Decision-based Adversarial Attack by Bouncing into the Wild**. IEEE S&P 2024. `Query-based hard label attack` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a068/1RjEaEvldVS)]
 
-20. **Sabre: Cutting through Adversarial Noise with Adaptive Spectral Filtering and Input Reconstruction**. IEEE S&P 2024. `Filter-based adversarial perturbation defense` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a076/1RjEaLx3uAU)] [[code](https://github.com/Mobile-Intelligence-Lab/SABRE)])]
+20. **Sabre: Cutting through Adversarial Noise with Adaptive Spectral Filtering and Input Reconstruction**. IEEE S&P 2024. `Filter-based adversarial perturbation defense` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a076/1RjEaLx3uAU)] [[code](https://github.com/Mobile-Intelligence-Lab/SABRE)]
 
-21. **Sabre: Cutting through Adversarial Noise with Adaptive Spectral Filtering and Input Reconstruction**. IEEE S&P 2024. `Adversarial attack against face recognization system` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a161/1Ub24A2RzHi)] [[code](https://github.com/Cryptology-Algorithm-Lab/Scores_Tell_Everything_about_Bob)])]
+21. **Sabre: Cutting through Adversarial Noise with Adaptive Spectral Filtering and Input Reconstruction**. IEEE S&P 2024. `Adversarial attack against face recognization system` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a161/1Ub24A2RzHi)] [[code](https://github.com/Cryptology-Algorithm-Lab/Scores_Tell_Everything_about_Bob)]
 
-22. **Why Does Little Robustness Help? A Further Step Towards Understanding Adversarial Transferability**. IEEE S&P 2024. `Exploring the transferability of adversarial examples` [[pdf](https://arxiv.org/pdf/2307.07873.pdf)] [[code](https://github.com/CGCL-codes/TransferAttackSurrogates)])]
+22. **Why Does Little Robustness Help? A Further Step Towards Understanding Adversarial Transferability**. IEEE S&P 2024. `Exploring the transferability of adversarial examples` [[pdf](https://arxiv.org/pdf/2307.07873.pdf)] [[code](https://github.com/CGCL-codes/TransferAttackSurrogates)]
 
 23. **Group-based Robustness: A General Framework for Customized Robustness in the Real World**. NDSS 2024. `New metrics to measure adversarial examples` [[pdf](https://arxiv.org/pdf/2306.16614.pdf)]
 
-24. **DorPatch: Distributed and Occlusion-Robust Adversarial Patch to Evade Certifiable Defenses**. NDSS 2024. `Adversarial path against certified robustness` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-920-paper.pdf)] [[code](https://github.com/CGCL-codes/DorPatch)])]
+24. **DorPatch: Distributed and Occlusion-Robust Adversarial Patch to Evade Certifiable Defenses**. NDSS 2024. `Adversarial path against certified robustness` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-920-paper.pdf)] [[code](https://github.com/CGCL-codes/DorPatch)]
 
 25. **UniID: Spoofing Face Authentication System by Universal Identity**. NDSS 2024. `Face apoofing attack` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-1036-paper.pdf)]
 
-26. **Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack**. NDSS 2024. `Enhancing transferability of adversarial examples` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-164-paper.pdf)] [[code](https://github.com/DreamyRainforest/Class_Activation_Mapping_Ensemble_Attack)])]
+26. **Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack**. NDSS 2024. `Enhancing transferability of adversarial examples` [[pdf](https://arxiv.org/pdf/2406.10285)] [[code](https://github.com/DreamyRainforest/Class_Activation_Mapping_Ensemble_Attack)]
+
+27. **I Don't Know You, But I Can Catch You: Real-Time Defense against Diverse Adversarial Patches for Object Detectors**. CCS 2024. `Adversarial Patch Detection` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-164-paper.pdf)] [[demo](https://sites.google.com/view/nutnet)]
+
+28. **Certifiable Black-Box Attacks with Randomized Adversarial Examples: Breaking Defenses with Provable Confidence**. CCS 2024. `Certified black-box attack` [[pdf](https://arxiv.org/pdf/2304.04343)] [[code](https://github.com/datasec-lab/CertifiedAttack)]
 
 #### 1.1.2 Text
 
@@ -215,6 +224,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 14. **Inaudible Adversarial Perturbation: Manipulating the Recognition of User Speech in Real Time**. NDSS 2024. `Compeletely inaudible adversarial attack` [[pdf](https://arxiv.org/pdf/2308.01040)] [[code](https://github.com/LetterLiGo/Inaudible-Adversarial-Perturbation-Vrifle)]
 
 15. **Parrot-Trained Adversarial Examples: Pushing the Practicality of Black-Box Audio Attacks against Speaker Recognition Models**. NDSS 2024. `Black-box adverarial audio attack using parrot` [[pdf](https://arxiv.org/pdf/2311.07780.pdf)]
+
+16. **Zero-Query Adversarial Attack on Black-box Automatic Speech Recognition Systems**. CCS 2024. `Transfer adversarial attack` [[pdf](https://arxiv.org/pdf/2406.19311)]
 
 #### 1.1.4 Video
 
@@ -280,9 +291,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 8. **Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception**. NDSS 2024. `Adversarial attacks on automous vehicles using infrared laser reflections` [[pdf](https://arxiv.org/pdf/2401.03582.pdf)]
 
+9.  **Avara: A Uniform Evaluation System for Perceptibility Analysis Against Adversarial Object Evasion Attacks**. CCS 2024. `Adversarial Object Evasion attack evaluation system` [[pdf](https://drive.google.com/file/d/16qfqZpOED2W3wXmGibdDOIK5ctboend7/view)] [[code](https://sites.google.com/view/avara-artifacts)]
+
+10. **VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice**. CCS 2024. `Adversarial Patch detection in ` [[pdf](hhttps://tianweiz07.github.io/Papers/24-ccs1.pdf)] [[demo](https://sites.google.com/view/visionguard)]
+
 #### 1.1.10 Reinforcement Learning
 
 1. **Adversarial Policy Training against Deep Reinforcement Learning**. USENIX Security 2021. `Weird behavior to trigger opposite abnormal action. Two-agent competitor game` [[pdf](https://www.usenix.org/system/files/sec21summer_wu-xian.pdf)] [[code](https://github.com/psuwuxian/rl_attack)]
+
+2. **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**. CCS 2024. `Adversarial policy against the reinforcement learning system` [[pdf](https://arxiv.org/pdf/2402.03741)] [[code](https://github.com/maoubo/SUB-PLAY)]
 
 #### 1.1.11 Robust Defense
 
@@ -376,6 +393,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 17. **FreqFed: A Frequency Analysis-Based Approach for Mitigating Poisoning Attacks in Federated Learning**. NDSS 2024. `Mitigate poisoning attack in FL using frequency analysis techniques` [[pdf](https://arxiv.org/pdf/2312.04432.pdf)]
 
+18. **Dealing Doubt: Unveiling Threat Models in Gradient Inversion Attacks under Federated Learning – A Survey and Taxonomy**. CCS 2024. `Mitigate poisoning attack in FL using frequency analysis techniques` [[pdf](https://arxiv.org/pdf/2312.04432.pdf)]
+
+19. **Byzantine-Robust Decentralized Federated Learning**. CCS 2024. `Byzantine robust federated learning` [[pdf](https://arxiv.org/pdf/2406.10416)]
+
 #### 1.2.2 Normal Distributed Learning
 
 1. **Justinian's GAAvernor: Robust Distributed Learning with Gradient Aggregation Agent**. USENIX Security 2020. `Defense in Gradient Aggregation. Reinforcement learning` [[pdf](https://www.usenix.org/system/files/sec20-pan.pdf)]
@@ -426,7 +447,9 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks**. USENIX Security 2022. `Identify poisioned subset by clustering and purning benign set` [[pdf](https://www.usenix.org/system/files/sec22-shan.pdf)]
 
-2. **Meta-Sift: How to Sift Out a Clean Subset in the Presence of Data Poisoning?**. USENIX Security 2023. `Obtain a clean subset from the poisoned set` [[pdf](https://arxiv.org/pdf/2210.06516.pdf)] [[code](https://github.com/ruoxi-jia-group/Meta-Sift)]
+2. **Understanding Implosion in Text-to-Image Generative Models**. CCS 2024. `Analytic framework for the poisoning attack against T2I model` [[pdf](https://arxiv.org/pdf/2409.12314)]
+
+#### 1.3.10 Defense
 
 ### 1.4 Backdoor
 
@@ -474,6 +497,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 21. **Distribution Preserving Backdoor Attack in Self-supervised Learning**. IEEE S&P 2024. `Backdoor attack in contrastive learning by improving the distribution` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a029/1RjEa5rjsHK)] [[github](https://github.com/Gwinhen/DRUPE?tab=readme-ov-file)]
 
+22. **BadMerging: Backdoor Attacks Against Model Merging**. CCS 2024. `Backdoor attack in model merging` [[pdf](https://arxiv.org/pdf/2408.07362)] [[github](https://github.com/jzhang538/BadMerging)]
+
 #### 1.4.2 Text
 
 1. **T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification**. USENIX Security 2021. `Backdoor Defense. GAN to recover trigger` [[pdf](https://www.usenix.org/system/files/sec21fall-azizi.pdf)] [[code](https://github.com/reza321/T-Miner)]
@@ -489,6 +514,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 1.4.3 Graph
 
 1. **Graph Backdoor**. USENIX Security 2021. `Classification` [[pdf](https://arxiv.org/pdf/2006.11890.pdf)] [[code](https://github.com/HarrialX/GraphBackdoor)]
+
+2. **Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses**. CCS 2024. `Distributed Backdoor attacks on federated graph learning` [[pdf](https://arxiv.org/pdf/2407.08935)] [[code](https://github.com/Yuxin104/Opt-GDBA)]
 
 #### 1.4.4 Software
 
@@ -655,12 +682,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Deepfake Text Detection: Limitations and Opportunities**. IEEE S&P 2023. `Detecting the machine generated text`  [[pdf](https://arxiv.org/pdf/2210.09421.pdf)] [[code](https://github.com/jmpu/DeepfakeTextDetection)]
 
+2. **MGTBench: Benchmarking Machine-Generated Text Detection**. CCS 2024. `Benchmarking machine generated text detection`  [[pdf](https://arxiv.org/pdf/2303.14822)] [[code](https://github.com/xinleihe/MGTBench)]
+
 #### 1.10.2 Deepfake
 
 1. **SoK: The Good, The Bad, and The Unbalanced: Measuring Structural Limitations of Deepfake Media Datasets**. USENIX Security 2024. `Issues in deepfake media dataset`  [[pdf](https://www.usenix.org/system/files/usenixsecurity24-layton.pdf)] [[website](https://sites.google.com/view/thegoodthebadandtheunbalanced)]
 
 2. **SafeEar: Content Privacy-Preserving Audio Deepfake Detection**. ACM CCS 2024. `Speech content privacy-preserving deepfake detection`  [[pdf](https://arxiv.org/pdf/2409.09272)] [[website](https://safeearweb.github.io/Project/)] [[code](https://github.com/LetterLiGo/SafeEar)] [[dataset](https://zenodo.org/records/11229569)]
-   
+
+3. **"Better Be Computer or I’m Dumb": A Large-Scale Evaluation of Humans as Audio Deepfake Detectors**. ACM CCS 2024. `Huamn in deepfake detection`  [[pdf](https://cise.ufl.edu/~butler/pubs/ccs24-warren-deepfake.pdf)]
 
 ### 1.11 LLM Security
 
@@ -672,6 +702,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 3. **Raconteur: A Knowledgeable, Insightful, and Portable LLM-Powered Shell Command Explainer**. NDSS 2025. `LLM-powered malicious code analysis` [[pdf](https://arxiv.org/pdf/2409.02074)] [[website](https://raconteur-ndss.github.io/)]
 
+4. **PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)**. CCS 2024. `Black-box LLM secure code generation` [[pdf](https://arxiv.org/pdf/2409.12699)] [[code](https://github.com/mahmoudkanazzal/PromSec)]
 
 #### 1.11.2 Vision-Language Model
 
@@ -680,6 +711,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 2. **SneakyPrompt: Jailbreaking Text-to-image Generative Models**. IEEE S&P 2024. `Jailbreaking text-to-image generative model using reinforcement-learning adversarial NLP methods`  [[pdf](https://arxiv.org/pdf/2305.12082.pdf)] [[code](https://github.com/Yuchen413/text2image_safety)]
   
 3. **SafeGen: Mitigating Unsafe Content Generation in Text-to-Image Models**. ACM CCS 2024. `defending against unsafe content generation in text-to-image models`  [[pdf](https://arxiv.org/pdf/2404.06666)] [[code](https://github.com/LetterLiGo/SafeGen_CCS2024)] [[model](https://huggingface.co/LetterJohn/SafeGen-Pretrained-Weights)]
+
+4. **SurrogatePrompt: Bypassing the Safety Filter of Text-to-Image Models via Substitution**. ACM CCS 2024. `Bypassing the safety filter of T2I model` [[pdf](https://arxiv.org/pdf/2309.14122)]
+
+5. **Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies**. ACM CCS 2024. `Content moderating for T2I model` [[pdf](https://arxiv.org/pdf/2408.07728)] [[code](https://github.com/DataSmithLab/Moderator)]
 
 
 #### 1.11.3 Jailbreaking
@@ -692,13 +727,29 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 1. **Improving the Robustness of Transformer-based Large Language Models with Dynamic Attention**. NDSS 2024. `Improving the robustness of LLM by dynamic attention`  [[pdf](https://arxiv.org/pdf/2311.17400.pdf)]
 
-#### 1.11.5 Generated Text Detection
+#### 1.11.5 Generated Concent Detection
 
 1. **DEMASQ: Unmasking the ChatGPT Wordsmith**. NDSS 2024. `Generated text detection`  [[pdf](https://arxiv.org/pdf/2311.05019.pdf)]
+
+2. **Organic or Diffused: Can We Distinguish Human Art from AI-generated Images?**. CCS 2024. `Human arts and the AI-generated image detection`  [[pdf](https://arxiv.org/pdf/2402.03214)]
+
+3. **On the Detectability of ChatGPT Content: Benchmarking, Methodology, and Evaluation through the Lens of Academic Writing**. CCS 2024. `LLM generated concent detection`  [[pdf](https://arxiv.org/pdf/2306.05524v2)]
 
 #### 1.11.6 Backdoor Detection
 
 1. **LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors**. NDSS 2024. `Task-agnostic backdoor detection`  [[pdf](https://arxiv.org/pdf/2308.13904.pdf)] [[code](https://github.com/meng-wenlong/LMSanitator)]
+
+#### 1.11.7 Bias
+
+1. **GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models**. CCS 2024. `Measuring the gender bias in LLMs`  [[pdf](https://arxiv.org/pdf/2408.12494)] [[code](https://github.com/kstanghere/GenderCARE-ccs24)]
+
+2. **A Causal Explainable Guardrails for Large Language Models**. ACM CCS 2024. `Causal inference for debias` [[pdf](https://arxiv.org/pdf/2405.04160)] [[code](https://github.com/lin000001/Legilimens)]
+
+3. **Image-Perfect Imperfections: Safety, Bias, and Authenticity in the Shadow of Text-To-Image Model Evolution**. ACM CCS 2024. `Bias in text-to-image model` [[pdf](https://web3.arxiv.org/pdf/2408.17285)] [[code](https://github.com/lin000001/Legilimens)]
+
+#### 1.11.8 Prompt Injection
+
+1. **Optimization-based Prompt Injection Attack to LLM-as-a-Judge**. CCS 2024. `Prompt injection attack for LLM-as-judge`  [[pdf](https://arxiv.org/pdf/2403.17710)] [[code](https://github.com/TrustAIRLab/T2I_Model_Evolution)]
 
 ## 2. Privacy Papers
 
@@ -729,6 +780,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 11. **Transpose Attack: Stealing Datasets with Bidirectional Training**. NDSS 2024. `Stealing dataset in bidirectional models`  [[pdf](https://arxiv.org/pdf/2311.07389.pdf)] [[code](https://github.com/guyAmit/Transpose-Attack-paper-NDSS24-/tree/main)]
 
 12. **SafeEar: Content Privacy-Preserving Audio Deepfake Detection**. ACM CCS 2024. `Speech content privacy-preserving deepfake detection`  [[pdf](https://arxiv.org/pdf/2409.09272)] [[website](https://safeearweb.github.io/Project/)] [[code](https://github.com/LetterLiGo/SafeEar)] [[dataset](https://zenodo.org/records/11229569)]
+
+13. **Dye4AI: Assuring Data Boundary on Generative AI Services**. ACM CCS 2024. `Dye testing system in LLM`  [[pdf](https://arxiv.org/pdf/2406.14114)]
+
+14. **Evaluations of Machine Learning Privacy Defenses are Misleading**. ACM CCS 2024. `Evaluation DP defense`  [[pdf](https://arxiv.org/pdf/2404.17399)] [[code](https://github.com/ethz-spylab/misleading-privacy-evals?tab=readme-ov-file)]
 
 #### 2.1.2 Membership Inference Attack
 
@@ -764,6 +819,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 17. **Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction**. NDSS 2024. `The defense of membership inference attack` [[pdf](https://arxiv.org/pdf/2307.01610.pdf)] [[code](https://github.com/DependableSystemsLab/MIA_defense_HAMP)]
 
+18. **A General Framework for Data-Use Auditing of ML Models**. CCS 2024. `Membership inference attack for data auditing` [[pdf](https://arxiv.org/pdf/2407.15100)] [[code](https://github.com/zonghaohuang007/ML_data_auditing)]
+
+19. **Membership Inference Attacks Against In-Context Learning**. CCS 2024. `Membership inference attack in in-context learning` [[pdf](https://arxiv.org/pdf/2409.01380)]
+
+20. **Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks**. CCS 2024. `Difficulity Calibration in membership inference attack` [[pdf](https://arxiv.org/pdf/2409.00426)] [[code](https://github.com/T0hsakar1n/Is-Difficulty-Calibration-All-We-Need-Towards-More-Practical-Membership-Inference-Attacks)]
+
 #### 2.1.3 Information Leakage in Distributed ML System
 
 1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning` [[pdf](https://www.usenix.org/system/files/sec22summer_fu.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
@@ -789,6 +850,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 11. **Protecting Label Distribution in Cross-Silo Federated Learning**. IEEE S&P 2024. `Priveacy-preserving SGD to protect label distribution` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a113/1Ub23mqt0hG)]
 
 12. **LOKI: Large-scale Data Reconstruction Attack against Federated Learning through Model Manipulation**. IEEE S&P 2024. `Dataset reconstruction attack in fedearted learning by sending customized convoluational kernel` [[pdf](https://arxiv.org/pdf/2303.12233.pdf)]
+
+13. **Analyzing Inference Privacy Risks Through Gradients In Machine Learning**. CCS 2024. `information leakage through gradients` [[pdf](https://arxiv.org/pdf/2408.16913)]
 
 #### 2.1.4 Information Leakage in Embedding
 
@@ -829,6 +892,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 5. **Machine Unlearning of Features and Labels**. NDSS 2023. `Influence Function to achieve unlearning` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s87_paper.pdf)] [[code](https://github.com/alewarne/MachineUnlearning)]
 
 6. **A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services**. NDSS 2024. `The vulnerabilities in machine unlearning` [[pdf](https://arxiv.org/pdf/2309.08230.pdf)] [[code](https://github.com/TASI-LAB/Over-unlearning)]
+
+7. **ERASER: Machine Unlearning in MLaaS via an Inference Serving-Aware Approach**. CCS 2024. `Machine unlearning as a inferencing-aware approach` [[pdf](https://arxiv.org/pdf/2311.16136)]
 
 #### 2.1.7 Attribute Inference Attack
 
@@ -924,6 +989,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 3. **Bicoptor: Two-round Secure Three-party Non-linear Computation without Preprocessing for Privacy-preserving Machine Learning**. IEEE S&P 2023. [[pdf](https://arxiv.org/pdf/2210.01988.pdf)]
 
+3. **Ents: An Efficient Three-party Training Framework for Decision Trees by Communication Optimization**. CCS 2024. [[pdf](https://arxiv.org/pdf/2406.07948)]
+
 #### 2.4.2 4PC
 
 1. **Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning**. NDSS 2020. [[pdf](https://arxiv.org/pdf/1912.02631.pdf)]
@@ -937,6 +1004,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 3. **MPCDiff: Testing and Repairing MPC-Hardened Deep Learning Models**. NDSS 2023. [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-380-paper.pdf)] [[code](https://github.com/Qi-Pang/MPCDiff)]
 
 4. **Pencil: Private and Extensible Collaborative Learning without the Non-Colluding Assumption**. NDSS 2024. [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-512-paper.pdf)] [[code](https://github.com/lightbulb128/Pencil)]
+
+5. **Securely Training Decision Trees Efficiently**. CCS 2024. [[pdf](https://eprint.iacr.org/2024/1077.pdf)]
+
+6. **CoGNN: Towards Secure and Efficient Collaborative Graph Learning**. CCS 2024. [[pdf](https://eprint.iacr.org/2024/987.pdf)]
 
 #### 2.4.4 Cryptographic NN Computation
 
@@ -983,6 +1054,14 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 #### 2.6.3 LDP
 
 1. **Locally Differentially Private Frequency Estimation Based on Convolution Framework**. IEEE S&P 2023. [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2023/933600c208/1NrbZx7nFkI)]
+
+2. **Data Poisoning Attacks to Locally Differentially Private Frequent Itemset Mining Protocols**. CCS 2024. [[pdf](https://arxiv.org/pdf/2406.19466)]
+
+### 2.7 LLM Privacy
+
+#### 2.7.1 Prompt Privacy
+
+1. **PLeak: Prompt Leaking Attacks against Large Language Model Applications**. CCS 2024. `Stealing system prompts` [[pdf](https://arxiv.org/pdf/2405.06823)] [[code](https://github.com/BHui97/PLeak)]
 
 ## Contributing
 
