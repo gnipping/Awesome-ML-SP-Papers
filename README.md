@@ -38,7 +38,6 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.3.7 Privacy](#137-privacy)
       - [1.3.8 Test-Time Poisoning](#138-test-time-poisoning)
       - [1.3.9 Defense](#139-defense)
-      - [1.3.10 Defense](#1310-defense)
     - [1.4 Backdoor](#14-backdoor)
       - [1.4.1 Image](#141-image)
       - [1.4.2 Text](#142-text)
@@ -80,8 +79,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
       - [1.11.2 Vision-Language Model](#1112-vision-language-model)
       - [1.11.3 Jailbreaking](#1113-jailbreaking)
       - [1.11.4 Robustness](#1114-robustness)
-      - [1.11.5 Generated Concent Detection](#1115-generated-concent-detection)
-      - [1.11.6 Backdoor Detection](#1116-backdoor-detection)
+      - [1.11.5 Generated Concent](#1115-generated-concent)
+      - [1.11.6 Backdoor](#1116-backdoor)
+      - [1.11.7 Agent Security](#1117-agent-security)
+      - [1.11.8 Prompt Injection](#1118-prompt-injection)
+      - [1.11.9 Hallucination](#1119-hallucination)
   - [2. Privacy Papers](#2-privacy-papers)
     - [2.1 Training Data](#21-training-data)
       - [2.1.1 Data Recovery](#211-data-recovery)
@@ -102,6 +104,7 @@ A curated list of Meachine learning Security & Privacy papers published in secur
     - [2.3 LLM Privacy](#23-llm-privacy)
       - [2.3.1 Prompt Privacy](#231-prompt-privacy)
       - [2.3.2 Model Privacy](#232-model-privacy)
+      - [2.3.3 Data Privacy](#233-data-privacy)
     - [2.4 User Related Privacy](#24-user-related-privacy)
       - [2.4.1 Image](#241-image)
     - [2.5 Private ML Protocols](#25-private-ml-protocols)
@@ -178,7 +181,11 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 25. **UniID: Spoofing Face Authentication System by Universal Identity**. NDSS 2024. `Face apoofing attack` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-1036-paper.pdf)]
 
-26. **Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack**. NDSS 2024. `Enhancing transferability of adversarial examples` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-164-paper.pdf)] [[code](https://github.com/DreamyRainforest/Class_Activation_Mapping_Ensemble_Attack)])]
+26. **Enhance Stealthiness and Transferability of Adversarial Attacks with Class Activation Mapping Ensemble Attack**. NDSS 2024. `Enhancing transferability of adversarial examples` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-164-paper.pdf)] [[code](https://github.com/DreamyRainforest/Class_Activation_Mapping_Ensemble_Attack)]
+
+27. **Neural Invisibility Cloak: Concealing Adversary in Images via Compromised AI-driven Image Signal Processing**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhu-wenjun.pdf)]
+
+28. **Self-interpreting Adversarial Images**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-tingwei.pdf)]
 
 #### 1.1.2 Text
 
@@ -219,6 +226,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 13. **ALIF: Low-Cost Adversarial Audio Attacks on Black-Box Speech Platforms using Linguistic Features**. IEEE S&P 2024. `Black-box adverarial audio attack` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a056/1RjEav0Daa4)] [[code](https://github.com/TASER2023/TASER)]
 
 12. **Parrot-Trained Adversarial Examples: Pushing the Practicality of Black-Box Audio Attacks against Speaker Recognition Models**. NDSS 2024. `Black-box adverarial audio attack using parrot` [[pdf](https://arxiv.org/pdf/2311.07780.pdf)]
+
+13. **When Translators Refuse to Translate: A Novel Attack to Speech Translation Systems**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wu-haolin.pdf)]
 
 #### 1.1.4 Video
 
@@ -289,13 +298,19 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 9.  **Avara: A Uniform Evaluation System for Perceptibility Analysis Against Adversarial Object Evasion Attacks**. CCS 2024. `Adversarial Object Evasion attack evaluation system` [[pdf](https://drive.google.com/file/d/16qfqZpOED2W3wXmGibdDOIK5ctboend7/view)] [[code](https://sites.google.com/view/avara-artifacts)]
 
-10. **VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice**. CCS 2024. `Adversarial Patch detection in ` [[pdf](hhttps://tianweiz07.github.io/Papers/24-ccs1.pdf)] [[demo](https://sites.google.com/view/visionguard)]
+10. **VisionGuard: Secure and Robust Visual Perception of Autonomous Vehicles in Practice**. CCS 2024. `Adversarial Patch detection` [[pdf](hhttps://tianweiz07.github.io/Papers/24-ccs1.pdf)] [[demo](https://sites.google.com/view/visionguard)]
+
+11. **Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-kobayashi.pdf)]
+
+12. **From Threat to Trust: Exploiting Attention Mechanisms for Attacks and Defenses in Cooperative Perception**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-chenyi.pdf)]
 
 #### 1.1.10 Reinforcement Learning
 
 1. **Adversarial Policy Training against Deep Reinforcement Learning**. USENIX Security 2021. `Weird behavior to trigger opposite abnormal action. Two-agent competitor game` [[pdf](https://www.usenix.org/system/files/sec21summer_wu-xian.pdf)] [[code](https://github.com/psuwuxian/rl_attack)]
 
 2. **SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems**. CCS 2024. `Adversarial policy against the reinforcement learning system` [[pdf](https://arxiv.org/pdf/2402.03741)] [[code](https://github.com/maoubo/SUB-PLAY)]
+
+3. **CAMP in the Odyssey: Provably Robust Reinforcement Learning with Certified Radius Maximization**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-derui.pdf)]
 
 #### 1.1.11 Robust Defense
 
@@ -334,6 +349,14 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 18. **Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks**. IEEE S&P 2024. `Certified robustness on adversarial text` [[pdf](https://arxiv.org/pdf/2307.16630.pdf)] [[code](https://github.com/Eyr3/TextCRS?tab=readme-ov-file)]
 
 19. **It's Simplex! Disaggregating Measures to Improve Certified Robustness**. IEEE S&P 2024. `Disagreement to improve the certified robustness` [[pdf](https://arxiv.org/pdf/2309.11005.pdf)] [[code](https://github.com/andrew-cullen/ensemble-simplex-certifications)]
+
+20. **SoK: Efficiency Robustness of Dynamic Deep Learning Systems**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-rathnasuriya.pdf)]
+
+21. **AGNNCert: Defending Graph Neural Networks against Arbitrary Perturbations with Deterministic Certification**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-li-jiate.pdf)]
+
+22. **Robustifying ML-powered Network Classifiers with PANTS**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-jin-minhao.pdf)]
+
+23. **CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-yan-jinzhu.pdf)]
 
 #### 1.1.12 Network Traffic
 
@@ -393,6 +416,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 19. **Byzantine-Robust Decentralized Federated Learning**. CCS 2024. `Byzantine robust federated learning` [[pdf](https://arxiv.org/pdf/2406.10416)]
 
+20. **PoiSAFL: Scalable Poisoning Attack Framework to Byzantine-resilient Semi-asynchronous Federated Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-pang-xiaoyi.pdf)]
+
+21. **DeBackdoor: A Deductive Framework for Detecting Backdoor Attacks on Deep Models with Limited Data**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-popovic.pdf)]
+
 #### 1.2.2 Normal Distributed Learning
 
 1. **Justinian's GAAvernor: Robust Distributed Learning with Gradient Aggregation Agent**. USENIX Security 2020. `Defense in Gradient Aggregation. Reinforcement learning` [[pdf](https://www.usenix.org/system/files/sec20-pan.pdf)]
@@ -447,8 +474,6 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **Understanding Implosion in Text-to-Image Generative Models**. CCS 2024. `Analytic framework for the poisoning attack against T2I model` [[pdf](https://arxiv.org/pdf/2409.12314)]
 
-#### 1.3.10 Defense
-
 ### 1.4 Backdoor
 
 #### 1.4.1 Image
@@ -494,6 +519,20 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 20. **MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic**. IEEE S&P 2024. `Backdoor defense using maximum margin statistic in classification layer` [[pdf](https://arxiv.org/pdf/2205.06900.pdf)] [[github](https://github.com/wanghangpsu/MM-BD)]
 
 21. **Distribution Preserving Backdoor Attack in Self-supervised Learning**. IEEE S&P 2024. `Backdoor attack in contrastive learning by improving the distribution` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a029/1RjEa5rjsHK)] [[github](https://github.com/Gwinhen/DRUPE?tab=readme-ov-file)]
+
+22. **Backdooring Bias (B^2) into Stable Diffusion Models**. USENIX Security 2025. `Backdoor attack in stable diffusion model` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-naseh.pdf)]
+
+23. **Watch the Watchers! On the Security Risks of Robustness-Enhancing Diffusion Models**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-li-changjiang.pdf)]
+
+24. **Pretender: Universal Active Defense against Diffusion Finetuning Attacks**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-sun-zekun.pdf)]
+
+25. **Rowhammer-Based Trojan Injection: One Bit Flip Is Sufficient for Backdooring DNNs**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-li-xiang.pdf)]
+
+26. **From Purity to Peril: Backdooring Merged Models From "Harmless" Benign Components**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-lijin.pdf)]
+
+27. **Revisiting Training-Inference Trigger Intensity in Backdoor Attacks**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-lin-chenhao.pdf)]
+
+28. **Persistent Backdoor Attacks in Continual Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-guo-zhen.pdf)]
 
 #### 1.4.2 Text
 
@@ -547,6 +586,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content**. IEEE S&P 2024. `Using LLM for toxic content detection` [[pdf](https://arxiv.org/pdf/2308.05596.pdf)] [[code](https://github.com/xinleihe/toxic-prompt)]
 
+3. **HateBench: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-shen.pdf)] [[code](https://github.com/TrustAIRLab/HateBench)]
+
 #### 1.6.2 Security Applications
 
 1. **FARE: Enabling Fine-grained Attack Categorization under Low-quality Labeled Data**. NDSS 2021. `Clustering Method to complete the dataset label` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/ndss2021_5C-4_24403_paper.pdf)] [[code](https://github.com/junjieliang672/FARE)]
@@ -575,6 +616,13 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 13. **SafeEar: Content Privacy-Preserving Audio Deepfake Detection**. ACM CCS 2024. `Speech content privacy-preserving deepfake detection`  [[pdf](https://arxiv.org/pdf/2409.09272)] [[website](https://safeearweb.github.io/Project/)] [[code](https://github.com/LetterLiGo/SafeEar)] [[dataset](https://zenodo.org/records/11229569)]
 
+14. **USD: NSFW Content Detection for Text-to-Image Models via Scene Graph**. USENIX Security 2025. `NSFWE image detection`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-yuyang.pdf)] 
+
+14. **On the Proactive Generation of Unsafe Images From Text-To-Image Models Using Benign Prompts**. USENIX Security 2025. `NSFWE image defense`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wu-yixin-generation.pdf)]
+
+15. **VoiceWukong: Benchmarking Deepfake Voice Detection**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-yan-ziwei.pdf)]
+
+16. **SafeSpeech: Robust and Universal Voice Protection Against Malicious Speech Synthesis**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-zhisheng.pdf)]
 
 #### 1.6.3 Advertisement Detection
 
@@ -700,6 +748,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 4. **PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)**. CCS 2024. `Black-box LLM secure code generation` [[pdf](https://arxiv.org/pdf/2409.12699)] [[code](https://github.com/mahmoudkanazzal/PromSec)]
 
+5. **We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf)]
+
 #### 1.11.2 Vision-Language Model
 
 1. **Transferable Multimodal Attack on Vision-Language Pre-training Models**. IEEE S&P 2024. `Transferable adversarial attack on VLM`  [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a102/1Ub239H4xyg)]
@@ -712,16 +762,41 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 5. **Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies**. ACM CCS 2024. `Content moderating for T2I model` [[pdf](https://arxiv.org/pdf/2408.07728)] [[code](https://github.com/DataSmithLab/Moderator)]
 
+6. **Bridging the Gap in Vision Language Models in Identifying Unsafe Concepts Across Modalities**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-qu-yiting.pdf)]
+
+7. **Are CAPTCHAs Still Bot-hard? Generalized Visual CAPTCHA Solving with Agentic Vision Language Model**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-teoh.pdf)]
+
+8. **From Meme to Threat: On the Hateful Meme Understanding and Induced Hateful Content Generation in Open-Source Vision Language Models**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ma-yihan.pdf)]
 
 #### 1.11.3 Jailbreaking
 
 1. **MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots**. NDSS 2024. `LLM jailbreaking`  [[pdf](https://arxiv.org/pdf/2307.08715.pdf)]
 
+2. **Mind the Inconspicuous: Revealing the Hidden Weakness in Aligned LLMs' Refusal Boundaries**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-yu-jiahao.pdf)]
+
+3. **Refusal Is Not an Option: Unlearning Safety Alignment of Large Language Models**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-song-minkyoo.pdf)] [[code](https://doi.org/10.5281/zenodo.15628860)]
+
+4. **Activation Approximations Can Incur Safety Vulnerabilities in Aligned LLMs: Comprehensive Analysis and Defense**. USENIX Security 2025. `LLM jailbreaking defense`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-jiawen.pdf)]
+
+5. **Exposing the Guardrails: Reverse-Engineering and Jailbreaking Safety Filters in DALL·E Text-to-Image Pipelines**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-villa.pdf)]
+
+6. **TwinBreak: Jailbreaking LLM Security Alignments based on Twin Prompts**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-krauss.pdf)]
+
+7. **Exploiting Task-Level Vulnerabilities: An Automatic Jailbreak Attack and Defense Benchmarking for LLMs**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-lan.pdf)]
+
+8. **PAPILLON: Efficient and Stealthy Fuzz Testing-Powered Jailbreaks for LLMs**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-gong-xueluan.pdf)]
+
+9.  **Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack**. USENIX Security 2025. `LLM jailbreaking`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-russinovich.pdf)]
+
+10. **SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner**. USENIX Security 2025. `LLM jailbreaking defense` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-xunguang.pdf)]
+
+11. **JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-shenyi.pdf)]
+
 #### 1.11.4 Robustness
 
 1. **Improving the Robustness of Transformer-based Large Language Models with Dynamic Attention**. NDSS 2024. `Improving the robustness of LLM by dynamic attention`  [[pdf](https://arxiv.org/pdf/2311.17400.pdf)]
 
-#### 1.11.5 Generated Concent Detection
+#### 1.11.5 Generated Concent
 
 1. **DEMASQ: Unmasking the ChatGPT Wordsmith**. NDSS 2024. `Generated text detection`  [[pdf](https://arxiv.org/pdf/2311.05019.pdf)]
 
@@ -729,9 +804,43 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 3. **On the Detectability of ChatGPT Content: Benchmarking, Methodology, and Evaluation through the Lens of Academic Writing**. CCS 2024. `LLM generated concent detection`  [[pdf](https://arxiv.org/pdf/2306.05524v2)]
 
-#### 1.11.6 Backdoor Detection
+3. **GradEscape: A Gradient-Based Evader Against AI-Generated Text Detectors**. USENIX Security 2025. `evade LLM generated concent detection`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-meng.pdf)] [[code](https://zenodo.org/records/15807727)]
+
+4. **Data-Free Model-Related Attacks: Unleashing the Potential of Generative AI**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ye-attacks.pdf)] [[code](https://zenodo.org/records/14737003)]
+
+5. **"I Cannot Write This Because It Violates Our Content Policy": Understanding Content Moderation Policies and User Experiences in Generative AI Products**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-gao-lan.pdf)]
+
+6. **Generated Data with Fake Privacy: Hidden Dangers of Fine-tuning Large Language Models on Generated Data**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-akkus.pdf)]
+
+#### 1.11.6 Backdoor
 
 1. **LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors**. NDSS 2024. `Task-agnostic backdoor detection`  [[pdf](https://arxiv.org/pdf/2308.13904.pdf)] [[code](https://github.com/meng-wenlong/LMSanitator)]
+
+2. **EmbedX: Embedding-Based Cross-Trigger Backdoor Attack Against Large Language Models**. USENIX Security 2025. `Backdoor attack in LLM`  [[pdf](https://www.usenix.org/system/files/usenixsecurity25-yan-nan.pdf)]
+
+#### 1.11.7 Agent Security
+
+1. **When LLMs Go Online: The Emerging Threat of Web-Enabled LLMs**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-kim-hanna.pdf)]
+
+2. **Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-based Agents**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-liu-fengyu.pdf)]
+
+3. **TracLLM: A Generic Framework for Attributing Long Context LLMs**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-yanting.pdf)] [[code](https://github.com/Wang-Yanting/TracLLM)]
+
+4. **Unsafe LLM-Based Search: Quantitative Analysis and Mitigation of Safety Risks in AI Web Search**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-luo-zeren.pdf)]
+
+5. **Cloak, Honey, Trap: Proactive Defenses Against LLM Agents**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf)]
+
+6. **Big Help or Big Brother? Auditing Tracking, Profiling, and Personalization in Generative AI Assistants**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-vekaria.pdf)]
+
+#### 1.11.8 Prompt Injection
+
+1. **StruQ: Defending Against Prompt Injection with Structured Queries**. USENIX Security 2025. `Prompt Injection Defense` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-chen-sizhe.pdf)]
+
+2. **Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-shafran.pdf)]
+
+#### 1.11.9 Hallucination
+
+1. **Mirage in the Eyes: Hallucination Attack on Multi-modal Large Language Models with Only Attention Sink**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-yining.pdf)]
 
 ## 2. Privacy Papers
 
@@ -767,6 +876,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 14. **Evaluations of Machine Learning Privacy Defenses are Misleading**. ACM CCS 2024. `Evaluation DP defense`  [[pdf](https://arxiv.org/pdf/2404.17399)] [[code](https://github.com/ethz-spylab/misleading-privacy-evals?tab=readme-ov-file)]
 
+15. **Towards a Re-evaluation of Data Forging Attacks in Practice**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-suliman.pdf)]
+
+16. **SoK: Data Reconstruction Attacks Against Machine Learning Models: Definition, Metrics, and Benchmark**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wen.pdf)]
+
 #### 2.1.2 Membership Inference Attack
 
 1. **Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference**. USENIX Security 2020. `White-box Setting` [[pdf](https://www.usenix.org/system/files/sec20-leino.pdf)]
@@ -801,6 +914,14 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 17. **Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction**. NDSS 2024. `The defense of membership inference attack` [[pdf](https://arxiv.org/pdf/2307.01610.pdf)] [[code](https://github.com/DependableSystemsLab/MIA_defense_HAMP)]
 
+18. **Membership Inference Attacks Against Vision-Language Models**. USENIX Security 2025. `Membership inference attack in vision language model` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-hu-yuke.pdf)]
+
+19. **Towards Label-Only Membership Inference Attack against Pre-trained Large Language Models**. USENIX Security 2025. `Membership inference attack in LLM` [[pdf](https://www.usenix.org/conference/usenixsecurity25/presentation/he-yu)]
+
+20. **Enhanced Label-Only Membership Inference Attacks with Fewer Queries**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-li-hao.pdf)]
+
+21. **SOFT: Selective Data Obfuscation for Protecting LLM Fine-tuning against Membership Inference Attacks**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-kaiyuan.pdf)]
+
 #### 2.1.3 Information Leakage in Distributed ML System
 
 1. **Label Inference Attacks Against Vertical Federated Learning**. USENIX Security 2022. `Label Leakage. Federated Learning` [[pdf](https://www.usenix.org/system/files/sec22summer_fu.pdf)] [[code](https://github.com/minxingzhang/MIARS)]
@@ -828,6 +949,26 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 12. **LOKI: Large-scale Data Reconstruction Attack against Federated Learning through Model Manipulation**. IEEE S&P 2024. `Dataset reconstruction attack in fedearted learning by sending customized convoluational kernel` [[pdf](https://arxiv.org/pdf/2303.12233.pdf)]
 
 13. **Analyzing Inference Privacy Risks Through Gradients In Machine Learning**. CCS 2024. `information leakage through gradients` [[pdf](https://arxiv.org/pdf/2408.16913)]
+
+14. **Boosting Gradient Leakage Attacks: Data Reconstruction in Realistic FL Settings**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-fan-boosting.pdf)]
+
+15. **Refiner: Data Refining against Gradient Leakage Attacks in Federated Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-fan-boosting.pdf)]
+
+16. **Aion: Robust and Efficient Multi-Round Single-Mask Secure Aggregation Against Malicious Participants**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-liu-yizhong.pdf)]
+
+17. **SoK: On Gradient Leakage in Federated Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-du.pdf)]
+
+18. **DP-BREM: Differentially-Private and Byzantine-Robust Federated Learning with Client Momentum**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-gu-xiaolan.pdf)]
+
+19. **SLOTHE : Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-nam-slothe.pdf)]
+
+20. **Sharpness-Aware Initialization: Improving Differentially Private Machine Learning from First Principles**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-zihao.pdf)]
+
+21. **Task-Oriented Training Data Privacy Protection for Cloud-based Model Training**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-zhiqiang.pdf)]
+
+22. **From Risk to Resilience: Towards Assessing and Mitigating the Risk of Data Reconstruction Attacks in Federated Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-xu-xiangrui.pdf)]
+
+23. **SoK: Gradient Inversion Attacks in Federated Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-carletti.pdf)]
 
 #### 2.1.4 Information Leakage in Embedding
 
@@ -873,6 +1014,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 7. **ERASER: Machine Unlearning in MLaaS via an Inference Serving-Aware Approach**. CCS 2024. `Machine unlearning as a inferencing-aware approach` [[pdf](https://arxiv.org/pdf/2311.16136)]
 
+8. **Rectifying Privacy and Efficacy Measurements in Machine Unlearning: A New Inference Attack Perspective**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-naderloui.pdf)]
+
+9.  **Data Duplication: A Novel Multi-Purpose Attack Paradigm in Machine Unlearning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ye-duplication.pdf)]
+
+10. **Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-cheng-long.pdf)]
+
 #### 2.1.7 Attribute Inference Attack
 
 1. **Are Attribute Inference Attacks Just Imputation?**. ACM CCS 2022. `Attribute Inference Attack by identified neuro with data` [[pdf](https://arxiv.org/pdf/2209.01292.pdf)] [[code](https://github.com/bargavj/EvaluatingDPML)]
@@ -880,6 +1027,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 2. **Feature Inference Attack on Shapley Values**. ACM CCS 2022. `Attribute Inference Attack using shapley values` [[pdf](https://dl.acm.org/doi/abs/10.1145/3548606.3560573)]
 
 3. **QuerySnout: Automating the Discovery of Attribute Inference Attacks against Query-Based Systems**. ACM CCS 2022. `Attribute Inference detection` [[pdf](https://arxiv.org/pdf/2211.05249.pdf)]
+
+4. **Disparate Privacy Vulnerability: Targeted Attribute Inference Attacks and Defenses**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-kabir.pdf)]
 
 #### 2.1.7 Property Inference Attack
 
@@ -933,6 +1082,18 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **SoK: Watermarking for AI-Generated Content**. IEEE S&P 2025. [[pdf](https://arxiv.org/pdf/2411.18479)]
 
+7. **Provably Robust Multi-bit Watermarking for AI-generated Text**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-qu-watermarking.pdf)] [[code](https://arxiv.org/pdf/2405.11109)]
+
+8. **AUDIO WATERMARK: Dynamic and Harmless Watermark for Black-box Voice Dataset Copyright Protection**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-guo-hanqing.pdf)]
+
+9.  **AudioMarkNet: Audio Watermarking for Deepfake Speech Detection**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zong.pdf)]
+
+10. **Towards Understanding and Enhancing Security of Proof-of-Training for DNN Model Ownership Verification**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-chang-yijia-verification.pdf)]
+
+11. **LightShed: Defeating Perturbation-based Image Copyright Protections**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-foerster.pdf)]
+
+12. **A Crack in the Bark: Leveraging Public Knowledge to Remove Tree-Ring Watermarks**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-lin-junhua.pdf)]
+
 #### 2.2.3 Model Owenership
 
 1. **Proof-of-Learning: Definitions and Practice**. IEEE S&P 2021. `Proof the ownership of model parameters` [[pdf](https://arxiv.org/pdf/2103.05633.pdf)]
@@ -947,6 +1108,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **ActiveDaemon: Unconscious DNN Dormancy and Waking Up via User-specific Invisible Token**. NDSS 2024. `Protecting DNN models by specific user tokens` [[pdf](https://www.ndss-symposium.org/wp-content/uploads/2024-588-paper.pdf)] [[code](https://github.com/LANCEREN/ActiveDaemon)]
 
+7. **THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-huang-yujin.pdf)]
+
 #### 2.2.4 Model Integrity
 
 1. **PublicCheck: Public Integrity Verification for Services of Run-time Deep Models**. IEEE S&P 2023. `Model verification via crafted query` [[pdf](https://arxiv.org/pdf/2203.10902.pdf)]
@@ -959,9 +1122,35 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 2. **On the Effectiveness of Prompt Stealing Attacks on In-the-Wild Prompts**. IEEE S&P 2025. `Prompt stealing attack` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a392/26hiTFMb8eQ)]
 
+3. **PRSA: Prompt Stealing Attacks against Real-World Prompt Services**. USENIX Security 2025. `Prompt stealing attack` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-yang-yong.pdf)]
+
+4. **Cross-Modal Prompt Inversion: Unifying Threats to Text and Image Generative AI Models**. USENIX Security 2025. `Prompt inversion attack` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ye-inversion.pdf)]
+
+5. **Prompt Obfuscation for Large Language Models**. USENIX Security 2025. `Prompt defense` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-pape.pdf)]
+
 #### 2.3.2 Model Privacy
 
 1. **Codebreaker: Dynamic Extraction Attacks on Code Language Models**. IEEE S&P 2025. `Personal Information Extraction in code llm` [[pdf](https://ieeexplore.ieee.org/document/11023359)]
+
+2. **LLMmap: Fingerprinting for Large Language Models**. USENIX Security 2025. `LLM fingerprinting` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-pasquini.pdf)]
+
+3. **Unlocking the Power of Differentially Private Zeroth-order Optimization for Fine-tuning LLMs**. USENIX Security 2025. `LLM DP` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-bao-ergute.pdf)]
+
+4. **Depth Gives a False Sense of Privacy: LLM Internal States Inversion**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-dong-tian.pdf)]
+
+5. **Evaluating LLM-based Personal Information Extraction and Countermeasures**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-liu-yupei.pdf)]
+
+6. **PrivacyXray: Detecting Privacy Breaches in LLMs through Semantic Consistency and Probability Certainty**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-he-jinwen.pdf)]
+
+#### 2.3.3 Data Privacy
+
+1. **Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic Data Usage in Downstream Applications**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wu-yixin-auditing.pdf)]
+
+2. **Whispering Under the Eaves: Protecting User Privacy Against Commercial and LLM-powered Automatic Speech Recognition Systems**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-jin-weifei.pdf)]
+
+3. **Effective PII Extraction from LLMs through Augmented Few-Shot Learning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-cheng-shuai.pdf)]
+
+4. **Private Investigator: Extracting Personally Identifiable Information from Large Language Models Using Optimized Prompts**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-keum.pdf)]
 
 ### 2.4 User Related Privacy
 
