@@ -358,6 +358,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 23. **CertTA: Certified Robustness Made Practical for Learning-Based Traffic Analysis**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-yan-jinzhu.pdf)]
 
+24. **Sylva: Tailoring Personalized Adversarial Defense in Pre-trained Models via Collaborative Fine-tuning**. ACM CCS 2025. [[pdf](https://arxiv.org/html/2506.05402v1)]
+
 #### 1.1.12 Network Traffic
 
 1. **Defeating DNN-Based Traffic Analysis Systems in Real-Time With Blind Adversarial Perturbations**. USENIX Security 2021. `Adversarial attack to defeat DNN-based traffic analysis` [[pdf](https://www.usenix.org/system/files/sec21fall-nasr.pdf)] [[code](https://github.com/SPIN-UMass/BLANKET)]
@@ -365,6 +367,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 2. **Pryde: A Modular Generalizable Workflow for Uncovering Evasion Attacks Against Stateful Firewall Deployments**. IEEE S&P 2024. `Evasion attack against Firewalls` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a144/1Ub242nYFoY)]
 
 3. **Multi-Instance Adversarial Attack on GNN-Based Malicious Domain Detection**. IEEE S&P 2024. `Adversarial attack on GNN-based malicious domain detection` [[pdf](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a006/1RjE9LaYR0c)] [[code](https://github.com/mahmoudkanazzal/MintA)]
+
+4. **Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning**. ACM CCS 2025. [[pdf](https://ccs25files.zoolab.org/main/ccsfa/TaZ6VzOa/3719027.3744795.pdf)]
 
 #### 1.1.13 Wireless Communication System
 
@@ -624,6 +628,14 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 16. **SafeSpeech: Robust and Universal Voice Protection Against Malicious Speech Synthesis**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-zhisheng.pdf)]
 
+17. **Slot: Provenance-Driven APT Detection through Graph Reinforcement Learning**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2410.17910)]
+
+18. **Combating Concept Drift with Explanatory Detection and Adaptation for Android Malware Classification**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2405.04095)]
+
+19. **MM4flow: A Pre-trained Multi-modal Model for Versatile Network Traffic Analysis**. ACM CCS 2025. [[pdf](https://ccs25files.zoolab.org/main/ccsfa/j43ciqBt/3719027.3744804.pdf)]
+
+20. **Analyzing PDFs like Binaries: Adversarially Robust PDF Malware Analysis via Intermediate Representation and Language Model**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2506.17162)]
+
 #### 1.6.3 Advertisement Detection
 
 1. **WtaGraph: Web Tracking and Advertising Detection using Graph Neural Networks**. IEEE S&P 2022. `GNN` [[pdf](https://zhiju.me/assets/files/WtaGraph_SP22.pdf)]
@@ -727,6 +739,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 1. **Deepfake Text Detection: Limitations and Opportunities**. IEEE S&P 2023. `Detecting the machine generated text`  [[pdf](https://arxiv.org/pdf/2210.09421.pdf)] [[code](https://github.com/jmpu/DeepfakeTextDetection)]
 
 2. **MGTBench: Benchmarking Machine-Generated Text Detection**. CCS 2024. `Benchmarking machine generated text detection`  [[pdf](https://arxiv.org/pdf/2303.14822)] [[code](https://github.com/xinleihe/MGTBench)]
+
+3. **SafeGuider: Robust and Practical Content Safety Control for Text-to-Image Models **. CCS 2025. `Benchmarking machine generated text detection`  [[pdf](https://arxiv.org/pdf/2510.05173)]
 
 #### 1.10.2 Deepfake
 
@@ -832,11 +846,15 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 6. **Big Help or Big Brother? Auditing Tracking, Profiling, and Personalization in Generative AI Assistants**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-vekaria.pdf)]
 
+7. **AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2509.07764)]
+
 #### 1.11.8 Prompt Injection
 
 1. **StruQ: Defending Against Prompt Injection with Structured Queries**. USENIX Security 2025. `Prompt Injection Defense` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-chen-sizhe.pdf)]
 
 2. **Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-shafran.pdf)]
+
+3. **SecAlign: Defending Against Prompt Injection with Preference Optimization**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2410.05451)]
 
 #### 1.11.9 Hallucination
 
@@ -880,6 +898,10 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 
 16. **SoK: Data Reconstruction Attacks Against Machine Learning Models: Definition, Metrics, and Benchmark**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wen.pdf)]
 
+17. **Anonymity Unveiled: A Practical Framework for Auditing Data Use in Deep Learning Models**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2409.06280)]
+
+18. **Poisoning Attacks to Local Differential Privacy for Ranking Estimation**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2506.24033)]
+
 #### 2.1.2 Membership Inference Attack
 
 1. **Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference**. USENIX Security 2020. `White-box Setting` [[pdf](https://www.usenix.org/system/files/sec20-leino.pdf)]
@@ -921,6 +943,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 20. **Enhanced Label-Only Membership Inference Attacks with Fewer Queries**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-li-hao.pdf)]
 
 21. **SOFT: Selective Data Obfuscation for Protecting LLM Fine-tuning against Membership Inference Attacks**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-zhang-kaiyuan.pdf)]
+
+22. **Membership Inference Attacks as Privacy Tools: Reliability, Disparity and Ensemble**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2506.13972)]
 
 #### 2.1.3 Information Leakage in Distributed ML System
 
@@ -1019,6 +1043,12 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 9.  **Data Duplication: A Novel Multi-Purpose Attack Paradigm in Machine Unlearning**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ye-duplication.pdf)]
 
 10. **Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness**. USENIX Security 2025. [[pdf](https://www.usenix.org/system/files/usenixsecurity25-wang-cheng-long.pdf)]
+
+11. **Split Unlearning**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2308.10422)]
+
+12. **Rethinking Machine Unlearning in Image Generation Models**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2506.02761)]
+
+13. **Prototype Surgery: Tailoring Neural Prototypes via Soft Labels for Efficient Machine Unlearning**. ACM CCS 2025. [[pdf](https://ccs25files.zoolab.org/main/ccsfa/sV74FPQe/3719027.3744827.pdf)]
 
 #### 2.1.7 Attribute Inference Attack
 
@@ -1127,6 +1157,8 @@ A curated list of Meachine learning Security & Privacy papers published in secur
 4. **Cross-Modal Prompt Inversion: Unifying Threats to Text and Image Generative AI Models**. USENIX Security 2025. `Prompt inversion attack` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-ye-inversion.pdf)]
 
 5. **Prompt Obfuscation for Large Language Models**. USENIX Security 2025. `Prompt defense` [[pdf](https://www.usenix.org/system/files/usenixsecurity25-pape.pdf)]
+
+6. **Prompt Inference Attack on Distributed Large Language Model Inference Frameworks**. ACM CCS 2025. [[pdf](https://arxiv.org/pdf/2503.09291)]
 
 #### 2.3.2 Model Privacy
 
